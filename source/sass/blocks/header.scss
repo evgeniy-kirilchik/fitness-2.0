@@ -1,0 +1,9 @@
+.hero-block__image {
+  object-fit: cover;
+}
+
+@media screen and (max-width: $vp-768){
+  .hero-block__image {
+    display: none
+  }
+};
