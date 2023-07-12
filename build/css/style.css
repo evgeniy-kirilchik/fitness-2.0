@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Alumni Sans";
   font-style: normal;
@@ -303,6 +304,54 @@ ul {
     background-image: url("../img/main/gym-video-image2x.webp");
   }
 }
+.tabs {
+  font-size: 0;
+}
+
+.tabs > input[type=radio] {
+  display: none;
+}
+
+.tabs > div {
+  display: none;
+  font-size: 16px;
+}
+
+/* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+#tab-btn-1:checked ~ #content-1,
+#tab-btn-2:checked ~ #content-2,
+#tab-btn-3:checked ~ #content-3 {
+  display: block;
+}
+
+.tabs > label {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  padding: 2px 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+.tabs > label {
+  border: none;
+}
+
+.tabs > input[type=radio]:checked + label {
+  background-color: #fff;
+}
+
 /* @mixin hover-focus {
     @media (hover: hover) {
       &:hover:not(.focus-visible) {
