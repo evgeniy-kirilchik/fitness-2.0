@@ -1,0 +1,22 @@
+.page__body {
+  font-family: $base-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: $vp-320;
+  min-height: 100%;
+  margin: 0 auto;
+  color: $base-color;
+  display: flex;
+  flex-direction: column;
+
+  .header,
+  .footer {
+    flex-shrink: 0;
+  }
+
+  main {
+    flex-grow: 1;
+  }
+}
