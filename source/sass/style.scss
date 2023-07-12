@@ -1,23 +1,20 @@
-// Vendor
-// ---------------------------------
-
-@import "vendor/normalize";
 // Swiper 7.4.1
 // @import "vendor/swiper";
 
 // Global
 // ---------------------------------
-
 @import "global/variables";
 @import "global/mixins";
 @import "global/fonts";
 @import "global/global";
 @import "global/utils";
+
 // Blocks
 // ---------------------------------
-
-@import "blocks/page.scss";
-
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/hero-block";
+@import "blocks/gym";
 
 // ---------------------------------
 
