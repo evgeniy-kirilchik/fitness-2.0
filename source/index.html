@@ -11,26 +11,30 @@
   <body class="page__body">
     <header class="header">
       <h1 class="visually-hidden">Сайт фитнес центра</h1>
-      <a class="header__logo" href="#">SUPERGYM</a>
-      <a class="header__tel" href="tel:88005555555">8-800-555-55-55</a>
-      <div class="hero-block">
-        <ul class="hero-block__services-list">
-          <li class="hero-block__services-item">Тренажёрный зал</li>
-          <li class="hero-block__services-item">Групповые занятия</li>
-          <li class="hero-block__services-item">Кардио-зона</li>
-        </ul>
-        <div class="hero-block__title-wrapper">
-          <span class="hero-block__badge">Омск</span>
-          <h2 class="hero-block__title">Фитнес центр</h2>
+      <div class="header__container">
+        <div class="header__wrapper">
+          <a class="header__logo" href="#">SUPERGYM</a>
+          <a class="header__tel" href="tel:88005555555">8-800-555-55-55</a>
         </div>
-        <a class="hero-block__button" href="#">Купить абонемент</a>
+        <div class="hero-block">
+          <ul class="hero-block__services-list">
+            <li class="hero-block__services-item">Тренажёрный зал</li>
+            <li class="hero-block__services-item">Групповые занятия</li>
+            <li class="hero-block__services-item">Кардио-зона</li>
+          </ul>
+          <div class="hero-block__title-wrapper">
+            <span class="hero-block__badge">Омск</span>
+            <h2 class="hero-block__title">Фитнес центр</h2>
+          </div>
+          <a class="hero-block__button" href="#">Купить абонемент</a>
+        </div>
+        <picture>
+          <source type="image/webp" media="(min-width:1200px)" width="550" height="556" srcset="img/header/hero-image1x.webp 1x, img/header/hero-image2x.webp 2x">
+          <source type="image/webp" width="324" height="390" srcset="img/header/hero-image1x.webp 1x, img/header/hero-image2x.webp 2x">
+          <source media="(min-width:1200px)" width="550" height="556" srcset="img/header/hero-image1x.jpg 1x, img/header/hero-image2x.jpg 2x">
+          <img class="hero-block__image" width="324" height="390" src="img/header/hero-image1x.jpg" srcset="img/header/hero-image1x.jpg 1x, img/header/hero-image2x.jpg 2x" alt="Картинка херо блока.">
+        </picture>
       </div>
-      <picture>
-        <source type="image/webp" media="(min-width:1200px)" width="550" height="556" srcset="img/header/hero-image1x.webp 1x, img/header/hero-image2x.webp 2x">
-        <source type="image/webp" width="324" height="390" srcset="img/header/hero-image1x.webp 1x, img/header/hero-image2x.webp 2x">
-        <source media="(min-width:1200px)" width="550" height="556" srcset="img/header/hero-image1x.jpg 1x, img/header/hero-image2x.jpg 2x">
-        <img class="hero-block__image" width="324" height="390" src="img/header/hero-image1x.jpg" srcset="img/header/hero-image1x.jpg 1x, img/header/hero-image2x.jpg 2x" alt="Картинка херо блока.">
-      </picture>
     </header>
     <main class="main">
       <section class="gym">
@@ -163,6 +167,86 @@
           <a class="super-games__button" href="#">заполнить заявку</a>
         </div>
         <div class="super-games__background-image"><span class="visually-hidden">Фоновая картинка</span></div>
+      </section>
+      <section class="trainers">
+        <h2 class="trainers__title">Тренеры</h2>
+        <svg class="trainers__slider-button-prev" width="18" height="34" viewBox="0 0 18 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M17 1L0.999999 17L17 33" stroke="#AFAFAF"/>
+        </svg>
+        <div class="trainers__slider-one">
+          <div class="trainers__slider-one-image"><span class="trainers__slider-one-image-content">Анна Павлова</span></div>
+        </div>
+        <div class="trainers__slider-two">
+          <div class="trainers__slider-two-image"><span class="trainers__slider-two-image-content">Алексей Лавров</span></div>
+        </div>
+        <div class="trainers__slider-three">
+          <div class="trainers__slider-three-wrapper-decoration">
+            <span class="trainers__slider-three-wrapper-decoration-content">Александр Пашков</span>
+            <span class="trainers__slider-three-wrapper-decoration-badge">CrossFit</span>
+            <ul class="trainers__slider-three-wrapper-decoration-list">
+              <li class="trainers__slider-three-wrapper-decoration-item">Certified Level 3 Trainer</li>
+              <li class="trainers__slider-three-wrapper-decoration-item">Победитель чемпионата России по CrossFit</li>
+              <li class="trainers__slider-three-wrapper-decoration-item">Опыт — 6 лет</li>
+            </ul>
+            <div class="trainers__slider-three-image"><span class="trainers__slider-three-image-content">Александр Пашков</span></div>
+          </div>
+        </div>
+        <div class="trainers__slider-four">
+          <div class="trainers__slider-four-image"><span class="trainers__slider-four-image-content">Мария Кетова</span></div>
+        </div>
+        <svg class="trainers__slider-button-next" width="18" height="34" viewBox="0 0 18 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <path d="M1 1L17 17L1 33" stroke="#AFAFAF"/>
+        </svg>
+      </section>
+      <section class="advantages">
+        <h2 class="">Наши преимущества</h2>
+        <div class="advantages__container">
+          <div class="advantages__area">
+            <div class="advantages__area-value-wrapper">
+              <span class="advantages__area-value">900</span>
+              <span class="advantages__area-value-badge">кв/м</span>
+            </div>
+            <div class="advantages__area-key-wrapper">
+              <span class="advantages__area-key-title">Площадь</span>
+              <p class="advantages__area-key-description">Занимайтесь без очередей и толпучки</p>
+            </div>
+          </div>
+          <div class="advantages__simulators">
+            <span class="advantages__simulators-value">100</span>
+            <span class="advantages__simulators-key">Тренажеров</span>
+            <p class="advantages__simulators__description">Современные тренажеры на все группы мышц</p>
+          </div>
+          <div class="advantages__parking">
+            <div class="advantages__parking-value-wrapper">
+              <span class="advantages__parking-value">70</span>
+              <span class="advantages__parking-value-badge">машин</span>
+            </div>
+            <div class="advantages__parking-key-wrapper">
+              <span class="advantages__parking-key-title">Собственная парковка</span>
+              <p class="advantages__parking-key-description">Вы всегда найдете место для своей машины на нашей парковке</p>
+            </div>
+          </div>
+          <div class="advantages__comfort">
+            <div class="advantages__comfort-value-wrapper">
+              <span class="advantages__comfort-value">350</span>
+              <span class="advantages__comfort-value-badge">мест</span>
+            </div>
+            <div class="advantages__comfort-key-wrapper">
+              <span class="advantages__comfort-key-title">Комфорт</span>
+              <p class="advantages__comfort-key-description">Просторные раздевалки, душевые, фен, Wi-Fi, кулеры</p>
+            </div>
+          </div>
+          <div class="advantages__coaching-experience">
+            <div class="advantages__coaching-experience-value-wrapper">
+              <span class="advantages__coaching-experience-value">5+</span>
+              <span class="advantages__coaching-experience-value-badge">лет</span>
+            </div>
+            <div class="advantages__coaching-experience-key-wrapper">
+              <span class="advantages__coaching-experience-key-title">Тренерский опыт</span>
+              <p class="advantages__coaching-experience-key-description">Добивайтесь своих целей быстрее с профессиональным тренером</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   <script src="js/vendor.min.js"></script>
