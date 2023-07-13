@@ -1,0 +1,35 @@
+.super-games__background-image {
+  background-image: url("../img/main/super-games-background-image1x.webp");
+  width: 290px;
+  height: 292px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-resolution: 2dppx){
+  .super-games__background-image {
+    background-image: url("../img/main/super-games-background-image2x.webp");
+  }
+};
+
+@media screen and (max-width: 767px) {
+  .super-games__background-image {
+    background-size: 399px 292px;
+    background-position: -50px;
+  }
+}
+
+@media screen and (min-width: $vp-768) {
+  .super-games__background-image {
+    width: 386px;
+    height: 292px;
+    background-size: 386px auto;
+  }
+}
+
+@media screen and (min-width: $vp-1200) {
+  .super-games__background-image {
+    width: 660px;
+    height: 500px;
+    background-size: 660px auto;
+  }
+}

@@ -342,6 +342,59 @@ ul {
     background-image: url("../img/main/gym-video-image2x.webp");
   }
 }
+@media screen and (min-width: 768px) {
+  .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor1x.webp");
+    width: 289px;
+    height: 345px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor2x.webp");
+    background-size: 289px auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .abonements__decoration-wrapper {
+    width: 321px;
+    height: 384px;
+    background-size: 429px auto;
+  }
+}
+.super-games__background-image {
+  background-image: url("../img/main/super-games-background-image1x.webp");
+  width: 290px;
+  height: 292px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+  .super-games__background-image {
+    background-image: url("../img/main/super-games-background-image2x.webp");
+  }
+}
+@media screen and (max-width: 767px) {
+  .super-games__background-image {
+    background-size: 399px 292px;
+    background-position: -50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .super-games__background-image {
+    width: 386px;
+    height: 292px;
+    background-size: 386px auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .super-games__background-image {
+    width: 660px;
+    height: 500px;
+    background-size: 660px auto;
+  }
+}
 /* @mixin hover-focus {
     @media (hover: hover) {
       &:hover:not(.focus-visible) {

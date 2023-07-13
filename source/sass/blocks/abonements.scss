@@ -1,0 +1,23 @@
+@media screen and (min-width: $vp-768) {
+  .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor1x.webp");
+    width: 289px;
+    height: 345px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-resolution: 2dppx){
+    .abonements__decoration-wrapper {
+      background-image: url("../img/main/abonements-decor2x.webp");
+      background-size: 289px auto;
+    }
+  };
+}
+
+@media screen and (min-width: $vp-1200) {
+  .abonements__decoration-wrapper {
+    width: 321px;
+    height: 384px;
+    background-size: 429px auto;
+  }
+}
