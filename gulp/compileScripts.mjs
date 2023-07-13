@@ -37,4 +37,14 @@ const compileVendorScripts = () =>
       .pipe(concat('vendor.min.js'))
       .pipe(gulp.dest('build/js'));
 
-export {compileMainMinScripts, compileMainScripts, compileVendorScripts};
+const compileTabsScripts = () =>
+  browserify('source/js/tabs-index.js')
+      .transform('babelify', {presets: ['@babel/preset-env']})
+      .bundle()
+      .pipe(vinylSourceStream('tabs-index.js'))
+      .pipe(vinylBuffer())
+      .pipe(uglify())
+      .pipe(concat('tabs-index.min.js'))
+      .pipe(gulp.dest('build/js'));
+
+export {compileMainMinScripts, compileMainScripts, compileVendorScripts, compileTabsScripts};
