@@ -15,6 +15,7 @@
 .hero-block__services-item {
   font-size: 14px;
   line-height: 21px;
+  font-weight: 400;
   color: #ffffff;
   text-align: right;
 }
@@ -43,34 +44,10 @@
   margin-bottom: 35px;
 }
 
-.header__button {
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-  padding: 22px 87px;
-}
-
-.header__button-wrapper {
-  width: 282px;
-  height: 51px;
-  border: 4px solid #ffffff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-
 @media screen and (min-width: $vp-768) {
   .hero-block__badge {
     font-size: 34px;
     line-height: 41px;
-  }
-
-  .header__button {
-    padding: 19px 34px;
   }
 
   .hero-block {
@@ -94,14 +71,6 @@
   .hero-block__services-list {
     bottom: 218px;
   }
-
-  .header__button-wrapper {
-    width: 175px;
-    height: 49px;
-    position: absolute;
-    left: 140px;
-    bottom: 18px;
-  }
 }
 
 @media screen and (min-width: $vp-1200) {
@@ -120,28 +89,6 @@
 
   .hero-block__image {
     margin-top: -47px;
-  }
-
-  .header__button-wrapper:hover {
-    background: #ffffff;
-  }
-
-  .header__button-wrapper:hover .header__button {
-    color: #103aae;
-  }
-
-  .header__button-wrapper:active .header__button {
-    color: $base-color;
-  }
-
-  .header__button {
-    padding: 20px 57px;
-  }
-
-  .header__button-wrapper {
-    width: 222px;
-    left: 186px;
-    bottom: -20px;
   }
 
   .hero-block {
