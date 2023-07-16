@@ -1,4 +1,36 @@
+.abonements {
+  background-color: #f8f9fc;
+}
+
+.abonements__title {
+  text-align: center;
+  font-family: $alumni-sans-font;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 767px) {
+  .abonements {
+    padding-bottom: 1510px;
+    padding-top: 63px;
+  }
+}
+
 @media screen and (min-width: $vp-768) {
+
+  .abonements {
+    width: 678px;
+    margin: 0 auto;
+  }
+
+  .abonements__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
   .abonements__decoration-wrapper {
     background-image: url("../img/main/abonements-decor1x.webp");
     width: 289px;
@@ -15,6 +47,17 @@
 }
 
 @media screen and (min-width: $vp-1200) {
+
+  .abonements {
+    width: 1160px;
+    margin: 0 auto;
+  }
+
+  .abonements__title {
+    font-size: 54px;
+    line-height: 65px;
+  }
+
   .abonements__decoration-wrapper {
     width: 321px;
     height: 384px;
