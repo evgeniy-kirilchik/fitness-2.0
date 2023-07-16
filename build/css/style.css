@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Alumni Sans";
   font-style: normal;
@@ -843,6 +844,28 @@ ul {
   position: relative;
 }
 
+.tabs__element-item--current {
+  border: 7px solid;
+  -o-border-image: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+     border-image: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+  text-align: center;
+  width: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
 .tabs__element-item-title {
   font-size: 22px;
   line-height: 24px;
@@ -888,6 +911,18 @@ ul {
   top: 0;
 }
 
+.tabs__element-list--current::before {
+  content: "1 месяц";
+  color: #102654;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  left: 4px;
+  top: -37px;
+}
+
 .tabs__element-list--current-two::after {
   content: "";
   width: 69px;
@@ -898,6 +933,18 @@ ul {
   top: 0;
 }
 
+.tabs__element-list--current-two::before {
+  content: "6 месяцев";
+  color: #102654;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  left: 99px;
+  top: -37px;
+}
+
 .tabs__element-list--current-three::after {
   content: "";
   width: 81px;
@@ -906,6 +953,18 @@ ul {
   background: #d10a42;
   left: 208px;
   top: 0px;
+}
+
+.tabs__element-list--current-three::before {
+  content: "12 месяцев";
+  color: #102654;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  left: 210px;
+  top: -37px;
 }
 
 .tabs__element-item-price {
@@ -925,6 +984,10 @@ ul {
   padding: 21px 45px;
 }
 
+.tabs__element-item-button--current {
+  color: #ffffff;
+}
+
 .tabs__element-item-button-wrapper {
   width: 198px;
   height: 56px;
@@ -941,6 +1004,11 @@ ul {
           justify-content: center;
   margin-top: 50px;
   margin-bottom: 55px;
+}
+
+.tabs__element-item-button-wrapper--current {
+  background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+  border: none;
 }
 
 @media screen and (max-width: 767px) {
