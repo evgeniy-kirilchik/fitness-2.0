@@ -775,7 +775,6 @@ ul {
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .abonements__decoration-wrapper {
     background-image: url("../img/main/abonements-decor2x.webp");
-    background-size: 289px auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -786,16 +785,24 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .abonements {
-    width: 1160px;
+    width: 1366px;
     margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 690px;
   }
   .abonements__title {
     font-size: 54px;
     line-height: 65px;
   }
   .abonements__decoration-wrapper {
-    width: 321px;
-    height: 384px;
+    width: 265px;
+    height: 400px;
+    background-size: 379px auto;
+    background-position: -19px -6px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -57px;
+    left: 1100px;
   }
 }
 .tabs__controls {
@@ -818,7 +825,7 @@ ul {
   position: absolute;
   background: #787878;
   left: 0;
-  top: 48px;
+  top: 60px;
   opacity: 0.5;
 }
 
@@ -831,7 +838,7 @@ ul {
   line-height: 24px;
   border: none;
   cursor: pointer;
-  padding: 11px 3px 13px 3px;
+  padding: 11px 2px 20px;
   opacity: 0.3;
 }
 
@@ -919,8 +926,8 @@ ul {
   height: 2px;
   position: absolute;
   background: #d10a42;
-  left: 0;
-  top: 0;
+  left: 1px;
+  top: 5px;
 }
 
 .tabs__element-list--current::before {
@@ -931,8 +938,8 @@ ul {
   font-size: 16px;
   line-height: 24px;
   position: absolute;
-  left: 4px;
-  top: -37px;
+  left: 5px;
+  top: -43px;
 }
 
 .tabs__element-list--current-two::after {
@@ -942,7 +949,7 @@ ul {
   position: absolute;
   background: #d10a42;
   left: 97px;
-  top: 0;
+  top: 5px;
 }
 
 .tabs__element-list--current-two::before {
@@ -954,7 +961,7 @@ ul {
   line-height: 24px;
   position: absolute;
   left: 99px;
-  top: -37px;
+  top: -44px;
 }
 
 .tabs__element-list--current-three::after {
@@ -963,8 +970,8 @@ ul {
   height: 2px;
   position: absolute;
   background: #d10a42;
-  left: 208px;
-  top: 0px;
+  left: 209px;
+  top: 5px;
 }
 
 .tabs__element-list--current-three::before {
@@ -975,8 +982,8 @@ ul {
   font-size: 16px;
   line-height: 24px;
   position: absolute;
-  left: 210px;
-  top: -37px;
+  left: 209px;
+  top: -44px;
 }
 
 .tabs__element-item-price {
@@ -1012,6 +1019,7 @@ ul {
           justify-content: center;
   margin-top: 50px;
   margin-bottom: 55px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -1100,35 +1108,35 @@ ul {
   .tabs__element-list--current::after {
     width: 62px;
     left: 56px;
-    top: -3px;
+    top: 2px;
   }
   .tabs__element-list--current::before {
     font-size: 18px;
     line-height: 27px;
-    left: 56px;
-    top: -40px;
+    left: 57px;
+    top: -47px;
   }
   .tabs__element-list--current-two::after {
     width: 84px;
     left: 166px;
-    top: -3px;
+    top: 2px;
   }
   .tabs__element-list--current-two::before {
     font-size: 18px;
     line-height: 27px;
     left: 169px;
-    top: -40px;
+    top: -47px;
   }
   .tabs__element-list--current-three::after {
     width: 88px;
     left: 300px;
-    top: -3px;
+    top: 2px;
   }
   .tabs__element-list--current-three::before {
     font-size: 18px;
     line-height: 27px;
-    left: 300px;
-    top: -40px;
+    left: 298px;
+    top: -47px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1147,6 +1155,10 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
+  .tabs {
+    width: 1160px;
+    margin: 0 auto;
+  }
   .tabs__element-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1159,12 +1171,91 @@ ul {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
+  .tabs__element-item {
+    margin-top: 34px;
+    width: 360px;
+  }
+  .tabs__element-item:hover::after {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 524px;
+    border: 7px solid;
+    -o-border-image: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+       border-image: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+    background: none;
+  }
+  .tabs__element-item:hover .tabs__element-item-button-wrapper {
+    background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+    border: none;
+    width: 205px;
+    height: 63px;
+  }
+  .tabs__element-item:hover .tabs__element-item-button {
+    color: #ffffff;
+  }
+  .tabs__element-item:not(:last-child) {
+    margin-right: 40px;
+  }
+  .tabs__element-item-button:active {
+    opacity: 0.6;
+  }
   .tabs__control {
     font-size: 20px;
     line-height: 30px;
   }
   .tabs__control:not(:last-child) {
-    margin-right: 26px;
+    margin-right: 44px;
+  }
+  .tabs__controls ::before {
+    content: "";
+    width: 341px;
+    left: 410px;
+  }
+  .tabs__element-list--current::after {
+    width: 66px;
+    left: 409px;
+    top: -1px;
+  }
+  .tabs__element-list--current::before {
+    font-size: 20px;
+    line-height: 30px;
+    left: 408px;
+    top: -50px;
+  }
+  .tabs__element-list--current-two::after {
+    width: 87px;
+    left: 522px;
+    top: -1px;
+  }
+  .tabs__element-list--current-two::before {
+    font-size: 20px;
+    line-height: 30px;
+    left: 523px;
+    top: -50px;
+  }
+  .tabs__element-list--current-three::after {
+    width: 92px;
+    left: 658px;
+    top: -1px;
+  }
+  .tabs__element-list--current-three::before {
+    font-size: 20px;
+    line-height: 30px;
+    left: 656px;
+    top: -50px;
+  }
+  .tabs__element-item-decoration-price {
+    left: 90px;
+  }
+  .tabs__element-item-decoration-price--current {
+    left: 43px;
+  }
+  .tabs__element-item-decoration-price--position-left {
+    left: 60px;
+  }
+  .tabs__element-item-decoration-price--current-left {
+    left: 18px;
   }
 }
 .super-games__background-image {
