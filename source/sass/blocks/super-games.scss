@@ -1,8 +1,138 @@
+.super-games {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.super-games__title {
+  font-family: $alumni-sans-font;
+  font-size: 48px;
+  line-height: 46px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.super-games__data-key, .super-games__time-key, .super-games__content-badge {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.super-games__content-badge {
+  text-align: center;
+}
+
+.super-games__data-value, .super-games__time-value {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.super-games__data-value {
+  margin-right: 3px;
+}
+
+.super-games__data-value-object {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.super-games__button {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 13px 56px;
+}
+
+.super-games__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ed0233;
+  padding: 50px 44px 50px 44px;
+}
+
+.super-games__button-wrapper {
+  width: 202px;
+  height: 39px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 23px auto 0;
+}
+
 .super-games__background-image {
   background-image: url("../img/main/super-games-background-image1x.webp");
   width: 290px;
   height: 292px;
   background-repeat: no-repeat;
+}
+
+.super-games__data-value-object-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 2px;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 42px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: -15px;
+    top: -1px;
+  }
+}
+
+.super-games__data-value-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.super-games__data-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.super-games__time-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 56px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+  }
+}
+
+.super-games__title-data-time-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media screen and (min-resolution: 2dppx){
@@ -19,6 +149,17 @@
 }
 
 @media screen and (min-width: $vp-768) {
+
+  .super-games {
+    width: 678px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
   .super-games__background-image {
     width: 386px;
     height: 292px;
@@ -27,9 +168,80 @@
 }
 
 @media screen and (min-width: $vp-1200) {
+  .super-games {
+    width: 1160px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 106px;
+  }
+
   .super-games__background-image {
     width: 660px;
     height: 500px;
     background-size: 660px auto;
+  }
+
+  .super-games__title {
+    font-size: 82px;
+    line-height: 79px;
+  }
+
+  .super-games__data-key, .super-games__time-key, .super-games__content-badge {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .super-games__content-badge {
+    margin-right: 66px;
+  }
+
+  .super-games__data-value, .super-games__time-value {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .super-games__data-value {
+    margin-right: 8px;
+  }
+
+  .super-games__data-value-object {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .super-games__button {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 25px 118px;
+  }
+
+  .super-games__button-wrapper {
+    width: 343px;
+    height: 67px;
+    margin: 23px auto 0;
+  }
+
+  .super-games__data-value-object-wrapper {
+    margin-top: 9px;
+  }
+
+  .super-games__content {
+    padding: 85px 79px 87px 78px;
+  }
+
+  .super-games__data-value-object-wrapper {
+    &::after {
+      width: 64px;
+      left: -27px;
+      top: -5px;
+    }
+  }
+
+  .super-games__time-wrapper {
+    &::after {
+      width: 88px;
+      left: 1px;
+      top: 30px;
+    }
   }
 }
