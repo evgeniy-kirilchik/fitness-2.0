@@ -44,6 +44,18 @@
   position: relative;
 }
 
+.tabs__element-item--current {
+  border: 7px solid;
+  border-image: conic-gradient(from 176deg at 20.70% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+  text-align: center;
+  width: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 .tabs__element-item-title {
   font-size: 22px;
   line-height: 24px;
@@ -91,6 +103,20 @@
   }
 }
 
+.tabs__element-list--current {
+  &::before {
+    content: "1 месяц";
+    color: $base-color;
+    font-family: $base-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 4px;
+    top: -37px;
+  }
+}
+
 .tabs__element-list--current-two {
   &::after {
     content: "";
@@ -103,6 +129,20 @@
   }
 }
 
+.tabs__element-list--current-two {
+  &::before {
+    content: "6 месяцев";
+    color: $base-color;
+    font-family: $base-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 99px;
+    top: -37px;
+  }
+}
+
 .tabs__element-list--current-three {
   &::after {
     content: "";
@@ -112,6 +152,20 @@
     background: #d10a42;
     left: 208px;
     top: 0px;
+  }
+}
+
+.tabs__element-list--current-three {
+  &::before {
+    content: "12 месяцев";
+    color: $base-color;
+    font-family: $base-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    left: 210px;
+    top: -37px;
   }
 }
 
@@ -132,6 +186,10 @@
   padding: 21px 45px;
 }
 
+.tabs__element-item-button--current {
+  color: #ffffff;
+}
+
 .tabs__element-item-button-wrapper {
   width: 198px;
   height: 56px;
@@ -142,6 +200,11 @@
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 55px;
+}
+
+.tabs__element-item-button-wrapper--current {
+  background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+  border: none;
 }
 
 @media screen and (max-width: 767px) {
