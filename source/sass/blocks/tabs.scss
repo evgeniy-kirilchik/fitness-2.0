@@ -230,6 +230,13 @@
 }
 
 @media screen and (min-width: $vp-1200) {
+
+  .tabs__element-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .tabs__control {
     font-size: 20px;
     line-height: 30px;
