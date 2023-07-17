@@ -9,7 +9,7 @@
   line-height: 38px;
   font-weight: 600;
   margin: 0;
-  margin-bottom: 27px;
+  margin-bottom: 16px;
 }
 
 @media screen and (max-width: 767px) {
@@ -22,20 +22,27 @@
 @media screen and (min-width: $vp-768) {
 
   .abonements {
-    width: 678px;
+    width: 768px;
     margin: 0 auto;
+    position: relative;
   }
 
   .abonements__title {
     font-size: 42px;
     line-height: 50px;
+    margin-bottom: 15px;
   }
 
   .abonements__decoration-wrapper {
     background-image: url("../img/main/abonements-decor1x.webp");
-    width: 289px;
+    width: 302px;
     height: 345px;
+    background-size: 344px auto;
+    background-position: -42px -37px;
     background-repeat: no-repeat;
+    position: absolute;
+    bottom: -60px;
+    left: 465px;
   }
 
   @media screen and (min-resolution: 2dppx){
@@ -44,6 +51,13 @@
       background-size: 289px auto;
     }
   };
+}
+
+@media screen and (min-width: $vp-768) and (max-width: 1199px) {
+  .abonements {
+    padding-bottom: 1839px;
+    padding-top: 63px;
+  }
 }
 
 @media screen and (min-width: $vp-1200) {
@@ -61,6 +75,5 @@
   .abonements__decoration-wrapper {
     width: 321px;
     height: 384px;
-    background-size: 429px auto;
   }
 }
