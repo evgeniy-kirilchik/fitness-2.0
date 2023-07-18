@@ -4,7 +4,7 @@
   justify-content: center;
   position: relative;
 
-  ::before {
+  &::before {
     content: "";
     width: 290px;
     height: 2px;
@@ -230,7 +230,7 @@
   }
 
   .tabs__controls {
-    ::before {
+    &::before {
       content: "";
       width: 332px;
       left: 56px;
@@ -394,7 +394,7 @@
       width: 360px;
       height: 524px;
       border: 7px solid;
-      border-image: conic-gradient(from 176deg at 20.70% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
+      border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
       background: none;
     }
 
@@ -402,7 +402,7 @@
       background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
       border: none;
       width: 205px;
-      height: 63px;
+      height: 64px;
     }
 
     &:hover .tabs__element-item-button {
@@ -421,6 +421,10 @@
   .tabs__control {
     font-size: 20px;
     line-height: 30px;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .tabs__control:not(:last-child) {
@@ -428,7 +432,7 @@
   }
 
   .tabs__controls {
-    ::before {
+    &::before {
       content: "";
       width: 341px;
       left: 410px;
