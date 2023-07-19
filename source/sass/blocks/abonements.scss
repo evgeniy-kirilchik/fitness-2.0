@@ -20,11 +20,10 @@
 }
 
 @media screen and (min-width: $vp-768) {
-
-  .abonements {
+  .abonements__container {
+    position: relative;
     width: 768px;
     margin: 0 auto;
-    position: relative;
   }
 
   .abonements__title {
@@ -41,7 +40,7 @@
     background-position: -42px -37px;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -60px;
+    top: 1681px;
     left: 465px;
   }
 
@@ -62,10 +61,12 @@
 @media screen and (min-width: $vp-1200) {
 
   .abonements {
-    width: 1366px;
-    margin: 0 auto;
     padding-top: 120px;
     padding-bottom: 690px;
+  }
+
+  .abonements__container {
+    width: 1160px;
   }
 
   .abonements__title {
@@ -80,7 +81,7 @@
     background-position: -19px -6px;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -57px;
-    left: 1100px;
+    top: 496px;
+    left: 998px;
   }
 }
