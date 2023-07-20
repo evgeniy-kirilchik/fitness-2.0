@@ -7,6 +7,7 @@
     <meta name="description" content="Сайт фитнес центра">
     <title>Fitness 2.0</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </head>
   <body class="page__body">
     <header class="header">
@@ -255,20 +256,20 @@
       </section>
       <section class="trainers">
         <h2 class="trainers__title">Тренеры</h2>
-        <div class="trainers__slider-container">
-          <button class="trainers__slider-button" type="button">
+        <div class="trainers__slider-container swiper">
+          <button class="trainers__slider-button swiper-button-prev" type="button">
             <svg class="trainers__slider-button-prev" width="10" height="19" stroke=currentColor fill="currentColor">
               <use xlink:href="img/sprite/sprite.svg#trainer-slaider-prev"></use>
              </svg>
            </button>
-           <div class="trainers__slaider-wrapper">
-            <div class="trainers__slider trainers__slider-one">
+           <div class="trainers__slaider-wrapper swiper-wrapper">
+            <div class="trainers__slider swiper-slide trainers__slider-one">
               <div class="trainers__slider-one-image"><span class="trainers__slider-one-image-content">Анна Павлова</span></div>
             </div>
-            <div class="trainers__slider trainers__slider-two">
+            <div class="trainers__slider swiper-slide trainers__slider-two">
               <div class="trainers__slider-two-image"><span class="trainers__slider-two-image-content">Алексей Лавров</span></div>
             </div>
-            <div class="trainers__slider trainers__slider-three">
+            <div class="trainers__slider swiper-slide trainers__slider-three">
               <div class="trainers__slider-three-wrapper-decoration">
                 <span class="trainers__slider-three-wrapper-decoration-content">Александр Пашков</span>
                 <span class="trainers__slider-three-wrapper-decoration-badge">CrossFit</span>
@@ -280,11 +281,32 @@
               </div>
              <div class="trainers__slider-three-image"><span class="trainers__slider-three-image-content">Александр Пашков</span></div>
             </div>
-            <div class="trainers__slider trainers__slider-four">
+            <div class="trainers__slider swiper-slide trainers__slider-four">
+              <div class="trainers__slider-four-image"><span class="trainers__slider-four-image-content">Мария Кетова</span></div>
+            </div>
+            <div class="trainers__slider swiper-slide trainers__slider-one">
+              <div class="trainers__slider-one-image"><span class="trainers__slider-one-image-content">Анна Павлова</span></div>
+            </div>
+            <div class="trainers__slider swiper-slide trainers__slider-two">
+              <div class="trainers__slider-two-image"><span class="trainers__slider-two-image-content">Алексей Лавров</span></div>
+            </div>
+            <div class="trainers__slider swiper-slide trainers__slider-three">
+              <div class="trainers__slider-three-wrapper-decoration">
+                <span class="trainers__slider-three-wrapper-decoration-content">Александр Пашков</span>
+                <span class="trainers__slider-three-wrapper-decoration-badge">CrossFit</span>
+                <ul class="trainers__slider-three-wrapper-decoration-list">
+                  <li class="trainers__slider-three-wrapper-decoration-item">Certified Level 3 Trainer</li>
+                  <li class="trainers__slider-three-wrapper-decoration-item trainers__slider-three-wrapper-decoration-item--decoration-top">Победитель чемпионата России по CrossFit</li>
+                  <li class="trainers__slider-three-wrapper-decoration-item">Опыт — 6 лет</li>
+                </ul>
+              </div>
+             <div class="trainers__slider-three-image"><span class="trainers__slider-three-image-content">Александр Пашков</span></div>
+            </div>
+            <div class="trainers__slider swiper-slide trainers__slider-four">
               <div class="trainers__slider-four-image"><span class="trainers__slider-four-image-content">Мария Кетова</span></div>
             </div>
            </div>
-           <button class="trainers__slider-button" type="button">
+           <button class="trainers__slider-button swiper-button-next" type="button">
             <svg class="trainers__slider-button-next" width="10" height="19">
               <use xlink:href="img/sprite/sprite.svg#trainer-slaider-next"></use>
              </svg>
