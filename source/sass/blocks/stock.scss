@@ -1,0 +1,344 @@
+.stock {
+  width: 290px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.stock__title {
+  font-family: $alumni-sans-font;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.stock__year-content-key {
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.stock__year-content-value {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.stock__year-content-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.stock__year-content-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left:56px;
+    top: 17px;
+    width: 79px;
+    height: 1px;
+    background-color: #ffffff;
+  }
+
+  &:hover::before {
+    opacity: 0.7;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.stock__year-content {
+  background-color: #ed0233;
+  padding: 45px 50px 50px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.stock__year-image {
+  background-image: url("../img/main/stock-image-background1x.webp");
+  width: 290px;
+  height: 299px;
+  background-size: 290px 357px;
+  background-repeat: no-repeat;
+}
+
+.stock__month-title,
+.stock__discount-title {
+  font-weight: 700;
+  font-size: 26px;
+  color: #1c3374;
+  margin-bottom: 20px;
+}
+
+.stock__month-description,
+.stock__discount-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1c3374;
+  margin-bottom: 35px;
+}
+
+.stock__month-link,
+.stock__discount-link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1c3374;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.stock__month-link {
+  &::before {
+    content: "";
+    position: absolute;
+    left:65px;
+    top: 17px;
+    width: 68px;
+    height: 1px;
+    background-color: #1c3374;
+  }
+
+  &:hover::before {
+    opacity: 0.7;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.stock__discount-link {
+  &::before {
+    content: "";
+    position: absolute;
+    left:51px;
+    top: 17px;
+    width: 68px;
+    height: 1px;
+    background-color: #1c3374;
+  }
+
+  &:hover::before {
+    opacity: 0.7;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.stock__year {
+  margin-bottom: 30px;
+}
+
+.stock__month,
+.stock__discount {
+  border: 7px solid;
+  border-image: linear-gradient(151deg, #ED0233 0%, #003EB7 100%) 1;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stock__month {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+
+.stock__discount {
+  padding-left: 54px;
+  padding-right: 54px;
+}
+
+@media screen and (min-resolution: 2dppx){
+  .stock__year-image {
+    background-image: url("../img/main/stock-image-background2x.webp");
+  }
+};
+
+@media screen and (min-width: $vp-768) {
+  .stock__title {
+    font-size: 42px;
+    line-height: 50px;
+  }
+
+  .stock {
+    width: 678px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+
+  .stock__year {
+   margin-bottom: 0;
+   display: flex;
+   flex-direction: row;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+  }
+
+  .stock__year-image {
+    background-image: url("../img/main/stock-image-background1x.webp");
+    width: 587px;
+    height: 462px;
+    background-size: 387px 537px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-resolution: 2dppx){
+    .stock__year-image {
+      background-image: url("../img/main/stock-image-background2x.webp");
+    }
+  }
+
+  .stock__year-content {
+    padding: 45px 20px 45px 45px;
+    text-align: left;
+  }
+
+  .stock__year-content-value {
+    margin-bottom: 50px;
+  }
+
+  .stock__year-content-description {
+    margin-bottom: 180px;
+  }
+
+  .stock__year-content-link {
+    &::before {
+      left:-3px;
+    }
+  }
+
+  .stock__month,
+  .stock__discount {
+   text-align: left;
+   padding-top: 28px;
+   padding-bottom: 28px;
+  }
+
+  .stock__month {
+   padding-left: 28px;
+   padding-right: 55px;
+   margin-bottom: 0px;
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 2;
+   grid-row-end: 3;
+  }
+
+  .stock__discount {
+   padding-left: 28px;
+   padding-right: 20px;
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 2;
+   grid-row-end: 3;
+  }
+
+  .stock__container {
+    display: grid;
+    grid-template-columns: 324px 324px;
+    grid-template-rows: 462px 211px;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+  .stock__discount-description {
+    margin-bottom: 61px;
+  }
+
+  .stock__month-description {
+    margin-bottom: 39px;
+  }
+
+  .stock__month-link {
+    &::before {
+      left:-2px;
+    }
+  }
+
+  .stock__discount-link {
+    &::before {
+      left:-2px;
+    }
+  }
+
+}
+
+@media screen and (min-width: $vp-1200) {
+  .stock__title {
+    font-size: 54px;
+    line-height: 65px;
+  }
+
+  .stock {
+    width: 1160px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+  }
+
+  .stock__year-image {
+    background-image: url("../img/main/stock-image-background1x.webp");
+    width: 492px;
+    height: 462px;
+    background-size: 292px 462px;
+    background-repeat: no-repeat;
+  }
+
+  .stock__container {
+    display: grid;
+    grid-template-columns: 560px 560px;
+    grid-template-rows: 211px 211px;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+
+  .stock__month {
+    padding-left: 28px;
+    padding-right: 55px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   }
+
+   .stock__discount {
+    padding-left: 28px;
+    padding-right: 20px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+   }
+
+   .stock__year {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+   }
+}
