@@ -1,0 +1,252 @@
+.faq__container-title  {
+  font-family: $alumni-sans-font;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.faq__tabs-item-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 73px;
+}
+
+.faq {
+  background-color: #f8f9fc;
+  margin-bottom: 63px;
+  padding-top: 70px;
+}
+
+.faq__tabs-item {
+  position: relative;
+  margin-bottom: 40px;
+
+  &::after {
+    content: "";
+    width: 290px;
+    height: 1px;
+    background-color: rgb(28, 51, 116, 0.2);
+    position: absolute;
+    bottom: -18px;
+  }
+}
+
+.faq__tabs-item-toggle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #1c3374;
+  background-color: inherit;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  cursor: pointer;
+}
+
+.faq__container {
+  width: 290px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.faq__tabs-controls {
+  display: grid;
+  grid-template-columns: 141px 141px;
+  grid-template-rows: 44px 44px;
+  column-gap: 8px;
+  row-gap: 8px;
+  margin-bottom: 50px;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 290px;
+    height: 1px;
+    background-color: rgb(28, 51, 116, 0.2);
+    position: absolute;
+    bottom: -30px;
+  }
+}
+
+.faq__tabs-control {
+  width: 141px;
+  height: 44px;
+  font-family: $base-font;
+  font-weight: 400;
+  font-size: 16px;
+  color: $base-color;
+  background: inherit;
+  border: 1px solid rgb(16, 38, 84, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    border: 1px solid #102654;
+  }
+
+  &.is-active {
+    background: linear-gradient(140deg, #ED0233 19%, #003EB7 100%);
+    border: none;
+    color: #ffffff;
+  }
+}
+
+.faq__tabs-control-text {
+  margin: 0;
+}
+
+.faq__tabs-item-description {
+  text-align: left;
+}
+
+@media screen and (min-width: $vp-768)  {
+  .faq__container-title  {
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .faq__container {
+    width: 678px;
+    padding-bottom: 75px;
+  }
+
+  .faq {
+    background-color: #f8f9fc;
+    margin-bottom: 91px;
+    padding-top: 100px;
+  }
+
+  .faq__tabs-item-title {
+    font-size: 24px;
+    line-height: 29px;
+    padding-right: 53px;
+  }
+
+  .faq__tabs-item {
+    position: relative;
+    margin-bottom: 50px;
+
+    &::after {
+      width: 678px;
+      bottom: -25px;
+    }
+  }
+
+  .faq__tabs-item-toggle {
+    width: 42px;
+    height: 42px;
+    top: -4px;
+    right: 0;
+  }
+
+  .faq__tabs-item-toggle-plus {
+    width: 18px;
+    height: 18px;
+  }
+
+  .faq__tabs-controls {
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &::after {
+      width: 678px;
+      bottom: -40px;
+    }
+  }
+
+  .faq__tabs-item-description {
+    text-align: left;
+    padding-right: 181px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .faq__tabs-control {
+    width: 162px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: $vp-1200) {
+  .faq__container-title  {
+    font-size: 54px;
+    margin-bottom: 39px;
+    text-align: left;
+  }
+
+  .faq__container {
+    width: 1160px;
+    padding-bottom: 95px;
+  }
+
+  .faq {
+    background-color: #f8f9fc;
+    margin-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .faq__tabs-item-title {
+    padding-right: 20px;
+  }
+
+  .faq__tabs-item {
+
+    &::after {
+      width: 860px;
+      bottom: -25px;
+    }
+  }
+
+  .faq__tabs-item-toggle {
+    top: -4px;
+  }
+
+  .faq__tabs-controls {
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 10px;
+    column-gap: 0px;
+
+    &::after {
+      width: 860px;
+      top: 0;
+      right: -900px;
+    }
+  }
+
+  .faq__tabs-item-description {
+    text-align: left;
+    padding-right: 181px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .faq__tabs-control {
+    width: 260px;
+  }
+
+  .faq__tabs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .faq__tabs-content {
+    width: 860px;
+    margin-top: 32px;
+    margin-left: 40px;
+  }
+}
