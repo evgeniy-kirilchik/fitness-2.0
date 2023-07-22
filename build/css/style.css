@@ -3988,7 +3988,7 @@ button.swiper-pagination-bullet {
   margin-bottom: 70px;
 }
 
-.reviews__container--position {
+.reviews__container-for-position-toggle {
   position: relative;
   width: 100%;
 }
