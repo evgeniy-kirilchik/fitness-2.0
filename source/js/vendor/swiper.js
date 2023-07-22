@@ -28,4 +28,6 @@ const swiper = new Swiper('.trainers__slider-container', {
     }
   },
 
+  loop:true,
+
 });

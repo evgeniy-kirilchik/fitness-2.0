@@ -1,4 +1,5 @@
 [data-tabs="parent"] {
+  overflow: hidden;
 
   &.no-transition {
     > [data-tabs="control"],

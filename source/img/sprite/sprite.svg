@@ -10,5 +10,8 @@
   <symbol viewBox="0 0 18 34" fill="none" xmlns="http://www.w3.org/2000/svg" id="trainer-slaider-next">
     <path d="M1 1L17 17L1 33" stroke="inherit"/>
   </symbol>
+  <symbol viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" id="faq-plus">
+    <path d="M6 0V6M6 12V6M6 6H12M6 6H0" stroke="#1C3374"/>
+  </symbol>
 </svg>
 

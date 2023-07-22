@@ -1,5 +1,7 @@
 .abonements {
   background-color: #f8f9fc;
+  padding-top: 63px;
+  padding-bottom: 70px;
 }
 
 .abonements__title {
@@ -12,14 +14,13 @@
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: 767px) {
-  .abonements {
-    padding-bottom: 1510px;
-    padding-top: 63px;
-  }
-}
-
 @media screen and (min-width: $vp-768) {
+
+  .abonements {
+    padding-top: 63px;
+    padding-bottom: 100px;
+  }
+
   .abonements__container {
     position: relative;
     width: 768px;
@@ -51,18 +52,11 @@
   };
 }
 
-@media screen and (min-width: $vp-768) and (max-width: 1199px) {
-  .abonements {
-    padding-bottom: 1839px;
-    padding-top: 63px;
-  }
-}
-
 @media screen and (min-width: $vp-1200) {
 
   .abonements {
     padding-top: 120px;
-    padding-bottom: 690px;
+    padding-bottom: 120px;
   }
 
   .abonements__container {
