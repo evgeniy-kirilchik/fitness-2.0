@@ -30,4 +30,29 @@ const swiper = new Swiper('.trainers__slider-container', {
 
   loop:true,
 
+  speed: 500,
+
+});
+
+
+const swiperReviews = new Swiper('.reviews__slider-container', {
+
+  navigation: {
+    nextEl: '.reviews__slider-button--next',
+    prevEl: '.reviews__slider-button--prev',
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      width:226,
+    },
+
+    768: {
+      width:566,
+    },
+  },
+
+  speed: 500,
+
 });
