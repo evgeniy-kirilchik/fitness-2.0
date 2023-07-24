@@ -62,9 +62,9 @@
               </defs>
             </svg>
             <div class="gym__video-player-button-decoration-circle">
-                <svg class="gym__video-player-button-svg" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13 7.5L0.249999 14.8612L0.25 0.138783L13 7.5Z" fill=currentColor/>
-                </svg>
+              <svg class="gym__video-player-button-svg" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 7.5L0.249999 14.8612L0.25 0.138783L13 7.5Z" fill=currentColor/>
+              </svg>
             </div>
            </a>
           </div>
@@ -390,10 +390,10 @@
           <h2 class="faq__container-title">Вопросы и ответы</h2>
           <div class="faq__tabs" data-tabs="parent">
             <div class="faq__tabs-controls" data-tabs="controls">
-              <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Центр</h3></button>
-              <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Абонемент</h3></button>
-              <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Услуги</h3></button>
-              <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Правила</h3></button>
+            <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Центр</h3></button>
+            <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Абонемент</h3></button>
+            <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Услуги</h3></button>
+            <button class="faq__tabs-control" type="button" data-tabs="control"><h3 class="faq__tabs-control-text">Правила</h3></button>
             </div>
             <div class="faq__tabs-content" data-tabs="content">
               <ul class="faq__tabs-list" data-tabs="element">
@@ -562,7 +562,7 @@
         </div>
       </section>
       <section class="reviews">
-        <div class="reviews__container--position">
+        <div class="reviews__container-for-position-toggle">
           <h2 class="reviews__title">Отзывы</h2>
           <button class="reviews__slider-button swiper-button-prev reviews__slider-button--prev" type="button">
             <svg class="reviews__slider-button-prev" width="10" height="19">
@@ -625,7 +625,52 @@
               </div>
             </div>
           </div>
+         </div>
         </div>
+      </section>
+      <section class="free-lesson-contacts">
+        <div class="free-lesson-contacts__container">
+          <div class="free-lesson-contacts__form-container">
+            <form class="free-lesson-contacts__form" action="#" method="get">
+              <fieldset class="free-lesson-contacts__form-group">
+                <legend class="free-lesson-contacts__form-legend"><h2 class="free-lesson-contacts__form-title">Бесплатное занятие</h2></legend>
+                <ul class="free-lesson-contacts__form-list">
+                  <li class="free-lesson-contacts__form-item">
+                   <label class="free-lesson-contacts__form-label">
+                    <input class="free-lesson-contacts__form-input" type="name" placeholder="Имя" name="name">
+                   </label>
+                  </li>
+                  <li class="free-lesson-contacts__form-item">
+                   <label class="free-lesson-contacts__form-label">
+                    <input class="free-lesson-contacts__form-input" type="tel" placeholder="Телефон" name="tel">
+                   </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button class="free-lesson-contacts__form-button" type="submit">Отправить</button>
+            </form>
+          </div>
+          <div class="free-lesson-contacts__contacts">
+            <h2 class="free-lesson-contacts__contacts-title">Контакты</h2>
+            <ul class="free-lesson-contacts__contacts-list">
+              <li class="free-lesson-contacts__contacts-item">
+                <h3 class="free-lesson-contacts__contacts-item-title">Адрес:</h3>
+                <p class="free-lesson-contacts__contacts-item-description">г. Омск, ул. 60 лет Октября, 7</p>
+              </li>
+              <li class="free-lesson-contacts__contacts-item free-lesson-contacts__contacts-item-graphic">
+                <h3 class="free-lesson-contacts__contacts-item-title">График работы:</h3>
+                <p class="free-lesson-contacts__contacts-item-description">Пн-Вс: с 8:00 до 22:00</p>
+              </li>
+              <li class="free-lesson-contacts__contacts-item free-lesson-contacts__contacts-item-telefon">
+                <h3 class="free-lesson-contacts__contacts-item-title">Телефон:</h3>
+                <p class="free-lesson-contacts__contacts-item-description">8-800-555-55-55</p>
+              </li>
+              <li class="free-lesson-contacts__contacts-item">
+                <h3 class="free-lesson-contacts__contacts-item-title">Email:</h3>
+                <p class="free-lesson-contacts__contacts-item-description">omsk@supergym.ru</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
