@@ -2,4 +2,5 @@
 import './vendor/swiper';
 import './vendor/focus-visible-polyfill';
 import './modules/accordeon/index';
+import './modules/tabs/index.js';
 

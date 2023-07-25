@@ -3730,6 +3730,7 @@ button.swiper-pagination-bullet {
 
 .faq__tabs-item-toggle-minus {
   display: none;
+  width: 12px;
 }
 
 .faq__tabs-item.is-active .faq__tabs-item-toggle {
@@ -3904,6 +3905,9 @@ button.swiper-pagination-bullet {
     height: 54px;
     font-weight: 400;
     font-size: 18px;
+  }
+  .faq__tabs-item-toggle-minus {
+    width: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -4302,6 +4306,10 @@ button.swiper-pagination-bullet {
   color: #ffffff;
   border: none;
   width: 290px;
+  outline: none;
+}
+.free-lesson-contacts__form-input:focus {
+  padding-left: 15px;
 }
 
 .free-lesson-contacts__form {
@@ -4318,13 +4326,28 @@ button.swiper-pagination-bullet {
   content: "";
   width: 290px;
   height: 1px;
-  background-color: #74819c;
+  background-color: #ffffff;
+  opacity: 0.5;
   position: absolute;
   bottom: -10px;
   left: 0;
 }
 .free-lesson-contacts__form-item:not(:last-child) {
   margin-bottom: 50px;
+}
+.free-lesson-contacts__form-item:hover::after {
+  opacity: 1;
+}
+.free-lesson-contacts__form-item:focus-within::after {
+  content: "";
+  width: 292px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  background: none;
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  opacity: 1;
 }
 
 .free-lesson-contacts__contacts {
@@ -4365,6 +4388,9 @@ button.swiper-pagination-bullet {
     border: none;
     width: 206px;
   }
+  .free-lesson-contacts__form-input:focus {
+    width: 193px;
+  }
   .free-lesson-contacts__form-item {
     position: relative;
   }
@@ -4380,6 +4406,12 @@ button.swiper-pagination-bullet {
   .free-lesson-contacts__form-item:not(:last-child) {
     margin-bottom: 0px;
     margin-right: 60px;
+  }
+  .free-lesson-contacts__form-item:focus-within::after {
+    content: "";
+    width: 206px;
+    bottom: -10px;
+    left: 0px;
   }
   .free-lesson-contacts__form-button {
     width: 472px;
@@ -4440,6 +4472,61 @@ button.swiper-pagination-bullet {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .free-lesson-contacts__contacts {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 120px;
+    width: 100%;
+    border-top: 1px solid #74819c;
+  }
+  .free-lesson-contacts__form-container {
+    padding-right: 170px;
+    width: 100%;
+  }
+  .free-lesson-contacts__form {
+    margin-left: auto;
+    margin-right: 10px;
+    width: 410px;
+  }
+  .free-lesson-contacts__form-item {
+    position: relative;
+  }
+  .free-lesson-contacts__form-item::after {
+    content: "";
+    width: 185px;
+  }
+  .free-lesson-contacts__form-item:not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 30px;
+  }
+  .free-lesson-contacts__form-item:focus-within::after {
+    content: "";
+    width: 185px;
+  }
+  .free-lesson-contacts__form-input {
+    width: 185px;
+  }
+  .free-lesson-contacts__form-input:focus {
+    width: 172px;
+  }
+  .free-lesson-contacts__form-button {
+    width: 410px;
+  }
+  .free-lesson-contacts__contacts-title {
+    margin-bottom: 43px;
+  }
+  .free-lesson-contacts__contacts-item-title {
+    margin-bottom: 5px;
+  }
+  .free-lesson-contacts__contacts-list {
+    -webkit-column-gap: 120px;
+       -moz-column-gap: 120px;
+            column-gap: 120px;
+    row-gap: 0px;
   }
 }
 /* @mixin hover-focus {

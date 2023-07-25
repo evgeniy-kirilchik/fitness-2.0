@@ -61,7 +61,13 @@
   color: #ffffff;
   border: none;
   width: 290px;
+  outline: none;
+
+  &:focus {
+    padding-left: 15px;
+  }
 }
+
 
 .free-lesson-contacts__form {
   width: 290px;
@@ -77,7 +83,8 @@
     content: "";
     width: 290px;
     height: 1px;
-    background-color: #74819c;
+    background-color: #ffffff;
+    opacity: 0.5;
     position: absolute;
     bottom: -10px;
     left: 0;
@@ -85,6 +92,26 @@
 
   &:not(:last-child) {
     margin-bottom: 50px;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  &:focus-within {
+    &::after {
+      content: "";
+      width: 292px;
+      height: 36px;
+      border: 1px solid #ffffff;
+      background: none;
+      position: absolute;
+      bottom: -10px;
+      left: 0px;
+      opacity: 1;
+    }
   }
 }
 
@@ -126,6 +153,10 @@
     color: #ffffff;
     border: none;
     width: 206px;
+
+    &:focus {
+      width: 193px;
+    }
   }
 
   .free-lesson-contacts__form-item {
@@ -144,6 +175,15 @@
     &:not(:last-child) {
       margin-bottom: 0px;
       margin-right: 60px;
+    }
+
+    &:focus-within {
+      &::after {
+        content: "";
+        width: 206px;
+        bottom: -10px;
+        left: 0px;
+      }
     }
   }
 
@@ -199,5 +239,71 @@
   .free-lesson-contacts__container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+  }
+
+  .free-lesson-contacts__contacts {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 120px;
+    width: calc(100%);
+    border-top: 1px solid #74819c;
+  }
+
+  .free-lesson-contacts__form-container {
+    padding-right: 170px;
+    width: calc(100%);
+  }
+
+  .free-lesson-contacts__form{
+    margin-left: auto;
+    margin-right: 10px;
+    width: 410px;
+  }
+
+  .free-lesson-contacts__form-item {
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 185px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 0px;
+      margin-right: 30px;
+    }
+
+    &:focus-within {
+      &::after {
+        content: "";
+        width: 185px;
+      }
+    }
+  }
+
+  .free-lesson-contacts__form-input {
+    width: 185px;
+
+    &:focus {
+      width: 172px;
+    }
+  }
+
+  .free-lesson-contacts__form-button {
+    width: 410px;
+  }
+
+  .free-lesson-contacts__contacts-title {
+    margin-bottom: 43px;
+  }
+
+  .free-lesson-contacts__contacts-item-title {
+    margin-bottom: 5px;
+  }
+
+  .free-lesson-contacts__contacts-list {
+    column-gap: 120px;
+    row-gap: 0px;
   }
 }
