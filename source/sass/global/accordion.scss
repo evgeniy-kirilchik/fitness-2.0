@@ -1,0 +1,8 @@
+.accordion {
+  //max-width: 500px;
+
+  &__element.is-active > &__button {
+    background-color: $base-color;
+  }
+
+}

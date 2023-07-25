@@ -2,6 +2,7 @@
   width: 226px;
   margin: 0 auto;
   margin-bottom: 70px;
+  position: relative;
 }
 
 .trainers__title {
@@ -130,6 +131,19 @@
   stroke: #102654;
 }
 
+
+.trainers__slider-button--prev {
+  position: absolute;
+  left: -50px;
+  top: 200px;
+}
+
+.trainers__slider-button--next {
+  position: absolute;
+  right: -50px;
+  top: 200px;
+}
+
 .trainers__slider-three-wrapper-decoration {
   background-color: rgba(20, 54, 122, 0.7);
   width: 159px;
@@ -226,6 +240,16 @@
     height: 32px;
   }
 
+  .trainers__slider-button--prev {
+    position: absolute;
+    left: -60px;
+  }
+
+  .trainers__slider-button--next {
+    position: absolute;
+    right: -60px;
+  }
+
   .trainers__slider-button {
     width: 47px;
     height: 47px;
@@ -295,5 +319,17 @@
       stroke: #ffffff;
 }
     }
+  }
+
+  .trainers__slider-button--prev {
+    position: absolute;
+    left: -90px;
+    top: 230px;
+  }
+
+  .trainers__slider-button--next {
+    position: absolute;
+    right: -90px;
+    top: 230px;
   }
 }

@@ -27,6 +27,11 @@
   cursor: pointer;
   padding: 11px 2px 20px;
   opacity: 0.3;
+
+  &.is-active {
+    opacity: 1;
+    pointer-events: none;
+  }
 }
 
 .tabs__control:not(:last-child) {
@@ -42,6 +47,28 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-top: 35px;
+
+  &:hover::after {
+    content: "";
+    position: absolute;
+    width: 272px;
+    height: 432px;
+    border: 7px solid;
+    border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
+    background: none;
+  }
+
+  &:hover .tabs__element-item-button-wrapper {
+    background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+    border: none;
+    width: 205px;
+    height: 64px;
+  }
+
+  &:hover .tabs__element-item-button {
+    color: #ffffff;
+  }
 }
 
 .tabs__element-list-current-wrapper {
@@ -101,20 +128,6 @@
   }
 }
 
-.tabs__element-list--current {
-  &::before {
-    content: "1 месяц";
-    color: $base-color;
-    font-family: $base-font;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    position: absolute;
-    left: 5px;
-    top: -43px;
-  }
-}
-
 .tabs__element-list--current-two {
   &::after {
     content: "";
@@ -127,20 +140,6 @@
   }
 }
 
-.tabs__element-list--current-two {
-  &::before {
-    content: "6 месяцев";
-    color: $base-color;
-    font-family: $base-font;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    position: absolute;
-    left: 99px;
-    top: -44px;
-  }
-}
-
 .tabs__element-list--current-three {
   &::after {
     content: "";
@@ -150,20 +149,6 @@
     background: #d10a42;
     left: 209px;
     top: 5px;
-  }
-}
-
-.tabs__element-list--current-three {
-  &::before {
-    content: "12 месяцев";
-    color: $base-color;
-    font-family: $base-font;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    position: absolute;
-    left: 209px;
-    top: -44px;
   }
 }
 
@@ -197,29 +182,9 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 767px) {
-  .tabs {
-    width: 290px;
-    margin: 0 auto;
-  }
-
-  .tabs__element-item {
-    margin-top: 35px;
-  }
-
-  .tabs__element-list-current-wrapper{
-    border: 7px solid;
-    border-image: conic-gradient(from 176deg at 20.70% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
-  }
-
-  .tabs__element-item-button-wrapper--current {
-    background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
-    border: none;
-  }
-
-  .tabs__element-item-button--current {
-    color: #ffffff;
-  }
+.tabs {
+  width: 290px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: $vp-768) {
@@ -253,6 +218,11 @@
   .tabs__element-item {
     margin-top: 45px;
     width: 442px;
+
+    &:hover::after {
+      width: 429px;
+      height: 517px;
+    }
   }
 
   .tabs__element-item-title {
@@ -311,29 +281,11 @@
     }
   }
 
-  .tabs__element-list--current {
-    &::before {
-      font-size: 18px;
-      line-height: 27px;
-      left: 57px;
-      top: -47px;
-    }
-  }
-
   .tabs__element-list--current-two {
     &::after {
       width: 84px;
       left: 166px;
       top: 2px;
-    }
-  }
-
-  .tabs__element-list--current-two {
-    &::before {
-      font-size: 18px;
-      line-height: 27px;
-      left: 169px;
-      top: -47px;
     }
   }
 
@@ -343,32 +295,6 @@
       left: 300px;
       top: 2px;
     }
-  }
-
-  .tabs__element-list--current-three {
-    &::before {
-      font-size: 18px;
-      line-height: 27px;
-      left: 298px;
-      top: -47px;
-    }
-  }
-}
-
-@media screen and (min-width: $vp-768) and (max-width: 1199px) {
-  .tabs__element-list-current-wrapper{
-    border: 7px solid;
-    border-image: conic-gradient(from 176deg at 20.70% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg) 1;
-    width: 442px;
-  }
-
-  .tabs__element-item-button-wrapper--current {
-    background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
-    border: none;
-  }
-
-  .tabs__element-item-button--current {
-    color: #ffffff;
   }
 }
 
@@ -447,29 +373,11 @@
     }
   }
 
-  .tabs__element-list--current {
-    &::before {
-      font-size: 20px;
-      line-height: 30px;
-      left: 408px;
-      top: -50px;
-    }
-  }
-
   .tabs__element-list--current-two {
     &::after {
       width: 87px;
       left: 522px;
       top: -1px;
-    }
-  }
-
-  .tabs__element-list--current-two {
-    &::before {
-      font-size: 20px;
-      line-height: 30px;
-      left: 523px;
-      top: -50px;
     }
   }
 
@@ -481,28 +389,11 @@
     }
   }
 
-  .tabs__element-list--current-three {
-    &::before {
-      font-size: 20px;
-      line-height: 30px;
-      left: 656px;
-      top: -50px;
-    }
-  }
-
   .tabs__element-item-decoration-price {
     left: 90px;
   }
 
-  .tabs__element-item-decoration-price--current {
-    left: 43px;
-  }
-
   .tabs__element-item-decoration-price--position-left {
     left: 60px;
-  }
-
-  .tabs__element-item-decoration-price--current-left {
-    left: 18px;
   }
 }
