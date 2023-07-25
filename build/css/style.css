@@ -928,10 +928,6 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
-.accordion__element.is-active > .accordion__button {
-  background-color: #102654;
-}
-
 .page__body {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-style: normal;
@@ -4349,6 +4345,22 @@ button.swiper-pagination-bullet {
   left: 0px;
   opacity: 1;
 }
+.free-lesson-contacts__form-item.is-invalid::after {
+  border: 1px solid #ff1553;
+  opacity: 1;
+}
+.free-lesson-contacts__form-item.is-valid::after {
+  border: 1px solid #22b259;
+  opacity: 1;
+}
+.free-lesson-contacts__form-item .input-message {
+  position: absolute;
+  right: 79px;
+  bottom: -38px;
+}
+.free-lesson-contacts__form-item .input-message.is-invalid {
+  color: #ff0000;
+}
 
 .free-lesson-contacts__contacts {
   width: 290px;
@@ -4396,7 +4408,7 @@ button.swiper-pagination-bullet {
   }
   .free-lesson-contacts__form-item::after {
     content: "";
-    width: 206px;
+    width: 200px;
     height: 1px;
     background-color: #74819c;
     position: absolute;
@@ -4412,6 +4424,10 @@ button.swiper-pagination-bullet {
     width: 206px;
     bottom: -10px;
     left: 0px;
+  }
+  .free-lesson-contacts__form-item .input-message {
+    right: -7px;
+    bottom: -37px;
   }
   .free-lesson-contacts__form-button {
     width: 472px;
@@ -4506,6 +4522,10 @@ button.swiper-pagination-bullet {
   .free-lesson-contacts__form-item:focus-within::after {
     content: "";
     width: 185px;
+  }
+  .free-lesson-contacts__form-item .input-message {
+    right: -25px;
+    bottom: -37px;
   }
   .free-lesson-contacts__form-input {
     width: 185px;

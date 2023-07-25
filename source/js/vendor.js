@@ -2,5 +2,6 @@
 import './vendor/swiper';
 import './vendor/focus-visible-polyfill';
 import './modules/accordeon/index';
-import './modules/tabs/index.js';
+import './modules/tabs/index';
+import './modules/form-validate/index';
 

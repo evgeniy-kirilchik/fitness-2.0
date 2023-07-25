@@ -113,6 +113,30 @@
       opacity: 1;
     }
   }
+
+  &.is-invalid {
+    &::after {
+      border: 1px solid #ff1553;
+      opacity: 1;
+    }
+  }
+
+  &.is-valid {
+    &::after {
+      border: 1px solid #22b259;
+      opacity: 1;
+    }
+  }
+
+  .input-message {
+    position: absolute;
+    right: 79px;
+    bottom: -38px;
+
+    &.is-invalid {
+      color: #ff0000;
+    }
+  }
 }
 
 .free-lesson-contacts__contacts {
@@ -164,7 +188,7 @@
 
     &::after {
       content: "";
-      width: 206px;
+      width: 200px;
       height: 1px;
       background-color: #74819c;
       position: absolute;
@@ -184,6 +208,11 @@
         bottom: -10px;
         left: 0px;
       }
+    }
+
+    .input-message {
+      right: -7px;
+      bottom: -37px;
     }
   }
 
@@ -279,6 +308,11 @@
         content: "";
         width: 185px;
       }
+    }
+
+    .input-message {
+      right: -25px;
+      bottom: -37px;
     }
   }
 

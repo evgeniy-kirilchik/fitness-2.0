@@ -648,17 +648,17 @@
       </section>
       <section class="free-lesson-contacts">
         <div class="free-lesson-contacts__container">
-          <div class="free-lesson-contacts__form-container">
-            <form class="free-lesson-contacts__form" action="#" method="get">
+          <div class="free-lesson-contacts__form-container" data-form-validate="data-form-validate" data-callback="base">
+            <form class="free-lesson-contacts__form" action="#" method="post">
               <fieldset class="free-lesson-contacts__form-group">
                 <legend class="free-lesson-contacts__form-legend"><h2 class="free-lesson-contacts__form-title">Бесплатное занятие</h2></legend>
                 <ul class="free-lesson-contacts__form-list">
-                  <li class="free-lesson-contacts__form-item">
+                  <li class="free-lesson-contacts__form-item" data-validate-type="text" data-limitation="name" data-message-base="Поле обязательно к заполнению" data-required="data-required">
                    <label class="free-lesson-contacts__form-label">
                     <input class="free-lesson-contacts__form-input" type="text" placeholder="Имя" name="name">
                    </label>
                   </li>
-                  <li class="free-lesson-contacts__form-item">
+                  <li class="free-lesson-contacts__form-item" data-validate-type="phone" data-on-input-validate="data-on-input-validate" data-message-base="Поле обязательно к заполнению" data-required="data-required">
                    <label class="free-lesson-contacts__form-label">
                     <input class="free-lesson-contacts__form-input" type="tel" placeholder="Телефон" name="tel">
                    </label>
