@@ -24,6 +24,7 @@
 
 .faq__tabs-item-toggle-minus {
   display: none;
+  width: 12px;
 }
 
 .faq__tabs-item {
@@ -194,6 +195,10 @@
     height: 54px;
     font-weight: 400;
     font-size: 18px;
+  }
+
+  .faq__tabs-item-toggle-minus {
+    width: 18px;
   }
 }
 
