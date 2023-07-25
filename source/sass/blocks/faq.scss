@@ -22,6 +22,25 @@
   padding-top: 70px;
 }
 
+.faq__tabs-item-toggle-minus {
+  display: none;
+}
+
+.faq__tabs-item {
+  &.is-active .faq__tabs-item-toggle {
+      background-color: $base-color;
+    }
+
+  &.is-active .faq__tabs-item-toggle-plus {
+    display: none;
+  }
+
+  &.is-active .faq__tabs-item-toggle-minus {
+    display: block;
+  }
+}
+
+
 .faq__tabs-item {
   position: relative;
   margin-bottom: 40px;
@@ -46,6 +65,9 @@
   top: 6px;
   right: 0;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faq__container {
@@ -97,10 +119,6 @@
     border: none;
     color: #ffffff;
   }
-}
-
-.faq__tabs-control-text {
-  margin: 0;
 }
 
 .faq__tabs-item-description {

@@ -13,5 +13,11 @@
   <symbol viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" id="faq-plus">
     <path d="M6 0V6M6 12V6M6 6H12M6 6H0" stroke="#1C3374"/>
   </symbol>
+  <symbol viewBox="0 0 13 15" fill="inherit" xmlns="http://www.w3.org/2000/svg" id="player-button">
+    <path d="M13 7.5L0.249999 14.8612L0.25 0.138783L13 7.5Z" fill="inherit"/>
+  </symbol>
+  <symbol viewBox="0 0 18 2" fill="none" xmlns="http://www.w3.org/2000/svg" id="faq-minus">
+    <path d="M18 1H9H0" stroke="white"/>
+  </symbol>
 </svg>
 
