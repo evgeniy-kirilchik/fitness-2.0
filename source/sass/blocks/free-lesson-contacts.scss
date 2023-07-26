@@ -159,12 +159,15 @@
 
 @media screen and (min-width: $vp-768) {
   .free-lesson-contacts__form-title {
-    font-size: 42px;
+    font-size: 44px;
     font-weight: 700;
+    margin-bottom: 47px;
   }
 
   .free-lesson-contacts__form {
     width: 500px;
+    padding-top: 73px;
+    padding-bottom: 70px;
   }
 
   .free-lesson-contacts__form-list {
@@ -192,13 +195,13 @@
       height: 1px;
       background-color: #74819c;
       position: absolute;
-      bottom: -10px;
+      bottom: -5px;
       left: 2px;
     }
 
     &:not(:last-child) {
       margin-bottom: 0px;
-      margin-right: 60px;
+      margin-right: 54px;
     }
 
     &:focus-within {
@@ -218,15 +221,31 @@
 
   .free-lesson-contacts__form-button {
     width: 472px;
-    margin-top: 40px;
+    margin-top: 34px;
+    font-size: 15px;
   }
 
   .free-lesson-contacts__contacts-title {
-    font-size: 42px;
+    font-size: 45px;
+    margin-bottom: 48px;
   }
 
   .free-lesson-contacts__contacts {
     width: 500px;
+    padding-top: 75px;
+    padding-bottom: 54px;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 129px;
+      height: 1px;
+      background: #74819c;
+      position: absolute;
+      top: 216px;
+      left: 201px;
+      rotate: 90deg;
+    }
   }
 
   .free-lesson-contacts__contacts-list {
@@ -234,7 +253,7 @@
     grid-template-columns: 218px 218px;
     grid-template-rows: 67px 67px;
     column-gap: 96px;
-    row-gap: 35px;
+    row-gap: 16px;
   }
 
   .free-lesson-contacts__contacts-item {

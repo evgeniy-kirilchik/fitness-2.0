@@ -207,7 +207,7 @@
 @media screen and (min-width: $vp-768) {
   .advantages {
     padding-top: 91px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     margin-bottom: 91px;
   }
 
@@ -217,9 +217,9 @@
   }
 
   .advantages__title {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .advantages__area-value-wrapper,
@@ -283,7 +283,7 @@
     margin-bottom: 0;
     width: 442px;
     padding-bottom: 0;
-    padding-top: 45px;
+    padding-top: 37px;
     margin-left: 116px;
   }
 
@@ -292,8 +292,8 @@
     display: grid;
     grid-template-columns: 301px 316px;
     grid-template-rows: 106px 239px 106px;
-    column-gap: 59px;
-    row-gap: 35px;
+    column-gap: 55px;
+    row-gap: 27px;
   }
 
   .advantages__coaching-experience {

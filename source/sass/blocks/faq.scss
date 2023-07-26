@@ -129,19 +129,19 @@
 
 @media screen and (min-width: $vp-768)  {
   .faq__container-title  {
-    font-size: 42px;
-    margin-bottom: 40px;
+    font-size: 45px;
+    margin-bottom: 53px;
   }
 
   .faq__container {
     width: 678px;
-    padding-bottom: 75px;
+    padding-bottom: 73px;
   }
 
   .faq {
     background-color: #f8f9fc;
-    margin-bottom: 91px;
-    padding-top: 100px;
+    margin-bottom: 104px;
+    padding-top: 113px;
   }
 
   .faq__tabs-item-title {
@@ -152,7 +152,7 @@
 
   .faq__tabs-item {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 
     &::after {
       width: 678px;
@@ -173,7 +173,7 @@
   }
 
   .faq__tabs-controls {
-    margin-bottom: 72px;
+    margin-bottom: 69px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -186,9 +186,10 @@
 
   .faq__tabs-item-description {
     text-align: left;
-    padding-right: 181px;
+    padding-right: 160px;
     font-size: 18px;
     line-height: 25px;
+    margin-top: 16px;
   }
 
   .faq__tabs-control {

@@ -23,7 +23,7 @@
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 
 .trainers__slider-one-image,
@@ -209,7 +209,7 @@
   }
 
   .trainers__title {
-    font-size: 42px;
+    font-size: 44px;
     line-height: 50px;
     margin-bottom: 31px;
   }
@@ -230,7 +230,7 @@
   .trainers__slider-three-wrapper-decoration {
     width: 159px;
     height: 177px;
-    padding: 58px 54px 58px 55px;
+    padding: 57px 54px 58px 55px;
   }
 
   .trainers__slider-button-prev,
@@ -241,18 +241,25 @@
 
   .trainers__slider-button--prev {
     position: absolute;
-    left: -60px;
+    left: -71px;
+    top: 205px;
   }
 
   .trainers__slider-button--next {
     position: absolute;
-    right: -60px;
+    right: -71px;
+    top: 205px;
   }
 
   .trainers__slider-button {
     width: 47px;
     height: 47px;
   }
+
+  .trainers__slider-three-wrapper-decoration-content {
+   line-height: 0px;
+  }
+
 }
 
 @media screen and (min-width: $vp-1200) {
