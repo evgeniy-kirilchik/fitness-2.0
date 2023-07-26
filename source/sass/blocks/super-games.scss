@@ -14,7 +14,7 @@
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
-  padding-right: 20px;
+  padding-right: 32px;
 }
 
 .super-games__data-key, .super-games__time-key, .super-games__content-badge {
@@ -22,6 +22,7 @@
   font-size: 12px;
   line-height: 18px;
   color: #ffffff;
+  margin-bottom: -2px;
 }
 
 .super-games__content-badge {
@@ -72,7 +73,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 23px auto 0;
+  margin: 30px auto 0;
 }
 
 .super-games__background-image {
@@ -143,8 +144,8 @@
 
 @media screen and (max-width: 767px) {
   .super-games__background-image {
-    background-size: 399px 292px;
-    background-position: -50px;
+    background-size: 395px 316px;
+    background-position: -44px 6px;
   }
 }
 
