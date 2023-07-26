@@ -15,6 +15,7 @@
   color: #ffffff;
   margin: 0;
   padding-right: 32px;
+  padding-left: 8px;
 }
 
 .super-games__data-key, .super-games__time-key, .super-games__content-badge {
@@ -165,6 +166,10 @@
     width: 386px;
     height: 292px;
     background-size: 386px auto;
+  }
+
+  .super-games__content {
+    padding: 50px 42px 50px 43px;
   }
 }
 

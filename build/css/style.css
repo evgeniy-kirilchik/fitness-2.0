@@ -1044,15 +1044,15 @@ button.swiper-pagination-bullet {
   .header__container {
     width: 678px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 34px;
     position: relative;
   }
   .header__logo {
-    font-size: 24px;
+    font-size: 25px;
     line-height: 29px;
   }
   .header__tel {
-    font-size: 24px;
+    font-size: 25px;
     line-height: 29px;
     font-weight: 700;
   }
@@ -1060,11 +1060,11 @@ button.swiper-pagination-bullet {
     padding: 19px 34px;
   }
   .header__button-wrapper {
-    width: 175px;
-    height: 49px;
+    width: 177px;
+    height: 50px;
     position: absolute;
     left: 140px;
-    bottom: 18px;
+    bottom: 27px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1154,24 +1154,24 @@ button.swiper-pagination-bullet {
 
 @media screen and (min-width: 768px) {
   .hero-block__badge {
-    font-size: 34px;
+    font-size: 29px;
     line-height: 41px;
   }
   .hero-block {
-    margin-top: 25px;
+    margin-top: 19px;
   }
   .hero-block__title {
-    margin: 0 30px 0 1px;
+    margin: 2px 36px 0 1px;
   }
   .hero-block__badge {
-    margin-left: 262px;
+    margin-left: 266px;
   }
   .hero-block__title-wrapper {
     margin-top: 53px;
-    margin-bottom: 195px;
+    margin-bottom: 202px;
   }
   .hero-block__services-list {
-    bottom: 218px;
+    bottom: 223px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1285,18 +1285,17 @@ button.swiper-pagination-bullet {
     padding-right: 35px;
   }
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym1x.webp");
+    background-image: url("../img/main/gym-mobile-1x.webp");
     width: 320px;
     height: 313px;
     background-repeat: no-repeat;
-    background-size: 533px 314px;
-    background-position: -190px;
+    background-size: 320px auto;
     margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym2x.webp");
+    background-image: url("../img/main/gym-mobile-2x.webp");
   }
 }
 @media screen and (max-width: 767px) {
@@ -1341,7 +1340,7 @@ button.swiper-pagination-bullet {
     width: 678px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 190px;
+    margin-bottom: 183px;
   }
   .gym__description {
     width: 678px;
@@ -1349,7 +1348,7 @@ button.swiper-pagination-bullet {
     text-align: center;
   }
   .gym__description-title {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 50px;
     text-align: center;
     margin: 0;
@@ -1361,22 +1360,21 @@ button.swiper-pagination-bullet {
     text-align: center;
     padding-right: 50px;
     padding-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-bottom: 42px;
   }
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym1x.webp");
+    background-image: url("../img/main/gym-tablet-1x.webp");
     width: 678px;
     height: 345px;
-    background-size: 760px;
-    background-position: -90px;
+    background-size: 678px auto;
     z-index: -2;
     position: relative;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym2x.webp");
+    background-image: url("../img/main/gym-tablet-2x.webp");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1385,8 +1383,8 @@ button.swiper-pagination-bullet {
     width: 266px;
     height: 167px;
     background-repeat: no-repeat;
-    background-size: 273px auto;
-    background-position: 0px -6px;
+    background-size: 282px auto;
+    background-position: 2px -18px;
     z-index: -1;
     position: relative;
   }
@@ -1395,8 +1393,8 @@ button.swiper-pagination-bullet {
   .gym__video-wrapper-decoration {
     width: 266px;
     position: absolute;
-    top: -77px;
-    left: 220px;
+    top: -84px;
+    left: 206px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
@@ -1406,18 +1404,18 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .gym__video-player-button-decoration-ring {
-    width: 69px;
-    height: 69px;
-    top: -155px;
-    left: 198px;
+    width: 72px;
+    height: 72px;
+    top: -161px;
+    left: 182px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .gym__video-player-button-decoration-circle {
     width: 52px;
     height: 52px;
-    left: 207px;
-    bottom: 95px;
+    left: 190px;
+    bottom: 100px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1567,7 +1565,7 @@ button.swiper-pagination-bullet {
 
 @media screen and (min-width: 768px) {
   .abonements {
-    padding-top: 63px;
+    padding-top: 102px;
     padding-bottom: 100px;
   }
   .abonements__container {
@@ -1576,26 +1574,25 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
   }
   .abonements__title {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .abonements__decoration-wrapper {
-    background-image: url("../img/main/abonements-decor1x.webp");
-    width: 197px;
-    height: 345px;
-    background-size: 197px auto;
+    background-image: url("../img/main/abonements-tablet1x.webp");
+    width: 343px;
+    height: 366px;
+    background-size: 343px auto;
     background-position: 0px 0px;
     background-repeat: no-repeat;
     position: absolute;
-    top: 1643px;
-    left: 497px;
-    rotate: 150deg;
+    top: 1361px;
+    left: 424px;
   }
 }
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .abonements__decoration-wrapper {
-    background-image: url("../img/main/abonements-decor2x.webp");
+    background-image: url("../img/main/abonements-tablet2x.webp");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1690,7 +1687,7 @@ button.swiper-pagination-bullet {
   content: "";
   position: absolute;
   width: 272px;
-  height: 432px;
+  height: 368px;
   border: 7px solid;
   -o-border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
      border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
@@ -1799,12 +1796,12 @@ button.swiper-pagination-bullet {
 }
 
 .tabs__element-item-button {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 14px;
   font-weight: 700;
   color: #102654;
   text-transform: uppercase;
-  padding: 21px 45px;
+  padding: 19px 41px;
 }
 
 .tabs__element-item-button-wrapper {
@@ -1848,37 +1845,34 @@ button.swiper-pagination-bullet {
   .tabs__control:not(:last-child) {
     margin-right: 48px;
   }
-  .tabs__element-list {
-    padding-top: 5px;
-  }
   .tabs__element-item {
-    margin-top: 45px;
+    margin-top: 38px;
     width: 442px;
   }
   .tabs__element-item:hover::after {
     width: 429px;
-    height: 517px;
+    height: 435px;
   }
   .tabs__element-item-title {
     font-size: 26px;
     line-height: 40px;
-    margin: 68px 0 0;
+    margin: 56px 0 0;
   }
   .tabs__element-item-info {
-    margin-top: 22px;
+    margin-top: 6px;
   }
   .tabs__element-item-price-wrapper {
-    margin-top: 96px;
+    margin-top: 64px;
   }
   .tabs__element-item-button-wrapper {
-    margin-top: 59px;
+    margin-top: 36px;
     margin-bottom: 68px;
   }
   .tabs__element-item-decoration-price {
     font-size: 100px;
     line-height: 150px;
-    top: 195px;
-    left: 132px;
+    top: 135px;
+    left: 120px;
   }
   .tabs__element-item-decoration-price--current {
     left: 122px;
@@ -1900,17 +1894,17 @@ button.swiper-pagination-bullet {
   .tabs__element-list--current::after {
     width: 62px;
     left: 56px;
-    top: 2px;
+    top: -12px;
   }
   .tabs__element-list--current-two::after {
     width: 84px;
     left: 166px;
-    top: 2px;
+    top: -12px;
   }
   .tabs__element-list--current-three::after {
     width: 88px;
     left: 300px;
-    top: 2px;
+    top: -12px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2013,6 +2007,7 @@ button.swiper-pagination-bullet {
   color: #ffffff;
   margin: 0;
   padding-right: 32px;
+  padding-left: 8px;
 }
 
 .super-games__data-key, .super-games__time-key, .super-games__content-badge {
@@ -2213,6 +2208,9 @@ button.swiper-pagination-bullet {
     height: 292px;
     background-size: 386px auto;
   }
+  .super-games__content {
+    padding: 50px 42px 50px 43px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .super-games {
@@ -2300,7 +2298,7 @@ button.swiper-pagination-bullet {
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 
 .trainers__slider-one-image,
@@ -2505,7 +2503,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 100px;
   }
   .trainers__title {
-    font-size: 42px;
+    font-size: 44px;
     line-height: 50px;
     margin-bottom: 31px;
   }
@@ -2523,7 +2521,7 @@ button.swiper-pagination-bullet {
   .trainers__slider-three-wrapper-decoration {
     width: 159px;
     height: 177px;
-    padding: 58px 54px 58px 55px;
+    padding: 57px 54px 58px 55px;
   }
   .trainers__slider-button-prev,
 .trainers__slider-button-next {
@@ -2532,15 +2530,20 @@ button.swiper-pagination-bullet {
   }
   .trainers__slider-button--prev {
     position: absolute;
-    left: -60px;
+    left: -71px;
+    top: 205px;
   }
   .trainers__slider-button--next {
     position: absolute;
-    right: -60px;
+    right: -71px;
+    top: 205px;
   }
   .trainers__slider-button {
     width: 47px;
     height: 47px;
+  }
+  .trainers__slider-three-wrapper-decoration-content {
+    line-height: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2835,7 +2838,7 @@ button.swiper-pagination-bullet {
 @media screen and (min-width: 768px) {
   .advantages {
     padding-top: 91px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     margin-bottom: 91px;
   }
   .advantages__container {
@@ -2843,9 +2846,9 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
   }
   .advantages__title {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .advantages__area-value-wrapper,
 .advantages__parking-value-wrapper,
@@ -2923,7 +2926,7 @@ button.swiper-pagination-bullet {
     margin-bottom: 0;
     width: 442px;
     padding-bottom: 0;
-    padding-top: 45px;
+    padding-top: 37px;
     margin-left: 116px;
   }
   .advantages__wrapper {
@@ -2934,10 +2937,10 @@ button.swiper-pagination-bullet {
     grid-template-columns: 301px 316px;
     -ms-grid-rows: 106px 239px 106px;
     grid-template-rows: 106px 239px 106px;
-    -webkit-column-gap: 59px;
-       -moz-column-gap: 59px;
-            column-gap: 59px;
-    row-gap: 35px;
+    -webkit-column-gap: 55px;
+       -moz-column-gap: 55px;
+            column-gap: 55px;
+    row-gap: 27px;
   }
   .advantages__coaching-experience {
     -ms-grid-column: 2;
@@ -3247,11 +3250,12 @@ button.swiper-pagination-bullet {
     font-weight: 700;
   }
   .footer__nav-list-item--one {
-    margin-right: 62px;
+    margin-right: 69px;
+    margin-top: -2px;
   }
   .footer__container {
     margin-top: 45px;
-    margin-bottom: 44px;
+    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -3403,10 +3407,10 @@ button.swiper-pagination-bullet {
 }
 
 .stock__year-image {
-  background-image: url("../img/main/stock-image-background1x.webp");
+  background-image: url("../img/main/stock-mobile-1x.webp");
   width: 290px;
   height: 299px;
-  background-size: 290px 357px;
+  background-size: 290px auto;
   background-repeat: no-repeat;
 }
 
@@ -3503,7 +3507,7 @@ button.swiper-pagination-bullet {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
   .stock__year-image {
-    background-image: url("../img/main/stock-image-background2x.webp");
+    background-image: url("../img/main/stock-mobile-2x.webp");
   }
 }
 @media screen and (min-width: 768px) {
@@ -3535,35 +3539,38 @@ button.swiper-pagination-bullet {
     grid-row-end: 2;
   }
   .stock__year-image {
-    background-image: url("../img/main/stock-image-background1x.webp");
-    width: 587px;
+    background-image: url("../img/main/stock-tablet1x.webp");
+    width: 581px;
     height: 462px;
-    background-size: 387px 537px;
+    background-size: 399px auto;
     background-repeat: no-repeat;
   }
 }
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .stock__year-image {
-    background-image: url("../img/main/stock-image-background2x.webp");
+    background-image: url("../img/main/stock-tablet2x.webp");
   }
 }
 @media screen and (min-width: 768px) {
   .stock__year-content {
-    padding: 45px 20px 45px 45px;
+    padding: 43px 4px 45px 45px;
     text-align: left;
   }
 }
 @media screen and (min-width: 768px) {
   .stock__year-content-value {
-    margin-bottom: 50px;
+    margin-bottom: 44px;
   }
 }
 @media screen and (min-width: 768px) {
   .stock__year-content-description {
-    margin-bottom: 180px;
+    margin-bottom: 185px;
   }
 }
 @media screen and (min-width: 768px) {
+  .stock__year-content-link {
+    font-size: 15px;
+  }
   .stock__year-content-link::before {
     left: -3px;
   }
@@ -3572,7 +3579,7 @@ button.swiper-pagination-bullet {
   .stock__month,
 .stock__discount {
     text-align: left;
-    padding-top: 28px;
+    padding-top: 25px;
     padding-bottom: 28px;
   }
 }
@@ -3621,12 +3628,12 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 768px) {
   .stock__discount-description {
-    margin-bottom: 61px;
+    margin-bottom: 72px;
   }
 }
 @media screen and (min-width: 768px) {
   .stock__month-description {
-    margin-bottom: 39px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -3637,6 +3644,12 @@ button.swiper-pagination-bullet {
 @media screen and (min-width: 768px) {
   .stock__discount-link::before {
     left: -2px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .stock__month-link,
+.stock__discount-link {
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -3845,17 +3858,17 @@ button.swiper-pagination-bullet {
 
 @media screen and (min-width: 768px) {
   .faq__container-title {
-    font-size: 42px;
-    margin-bottom: 40px;
+    font-size: 45px;
+    margin-bottom: 53px;
   }
   .faq__container {
     width: 678px;
-    padding-bottom: 75px;
+    padding-bottom: 73px;
   }
   .faq {
     background-color: #f8f9fc;
-    margin-bottom: 91px;
-    padding-top: 100px;
+    margin-bottom: 104px;
+    padding-top: 113px;
   }
   .faq__tabs-item-title {
     font-size: 24px;
@@ -3864,7 +3877,7 @@ button.swiper-pagination-bullet {
   }
   .faq__tabs-item {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 53px;
   }
   .faq__tabs-item::after {
     width: 678px;
@@ -3881,7 +3894,7 @@ button.swiper-pagination-bullet {
     height: 18px;
   }
   .faq__tabs-controls {
-    margin-bottom: 72px;
+    margin-bottom: 69px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3899,9 +3912,10 @@ button.swiper-pagination-bullet {
   }
   .faq__tabs-item-description {
     text-align: left;
-    padding-right: 181px;
+    padding-right: 160px;
     font-size: 18px;
     line-height: 25px;
+    margin-top: 16px;
   }
   .faq__tabs-control {
     width: 162px;
@@ -4138,8 +4152,8 @@ button.swiper-pagination-bullet {
     margin-bottom: 100px;
   }
   .reviews__title {
-    font-size: 42px;
-    margin-bottom: 40px;
+    font-size: 44px;
+    margin-bottom: 54px;
   }
   .reviews__slide-user-image {
     width: 80px;
@@ -4147,8 +4161,8 @@ button.swiper-pagination-bullet {
     background-size: 80px auto;
     margin-right: 0;
     position: absolute;
-    top: 8px;
-    left: 62px;
+    top: 7px;
+    left: 66px;
   }
   .reviews__slide-user-name {
     line-height: 30px;
@@ -4158,7 +4172,7 @@ button.swiper-pagination-bullet {
   }
   .reviews__slide {
     width: 328px;
-    padding: 62px 0px 62px 0px;
+    padding: 56px 0px 56px 0px;
   }
   .reviews__slide-user-review-text {
     text-align: left;
@@ -4179,7 +4193,7 @@ button.swiper-pagination-bullet {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     position: relative;
     padding-left: 173px;
   }
@@ -4187,12 +4201,12 @@ button.swiper-pagination-bullet {
     width: 566px;
   }
   .reviews__slider-button--prev {
-    top: 170px;
-    left: -20px;
+    top: 175px;
+    left: -16px;
   }
   .reviews__slider-button--next {
-    top: 170px;
-    right: -20px;
+    top: 175px;
+    right: -16px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -4386,11 +4400,14 @@ button.swiper-pagination-bullet {
 
 @media screen and (min-width: 768px) {
   .free-lesson-contacts__form-title {
-    font-size: 42px;
+    font-size: 44px;
     font-weight: 700;
+    margin-bottom: 47px;
   }
   .free-lesson-contacts__form {
     width: 500px;
+    padding-top: 73px;
+    padding-bottom: 70px;
   }
   .free-lesson-contacts__form-list {
     display: -webkit-box;
@@ -4419,12 +4436,12 @@ button.swiper-pagination-bullet {
     height: 1px;
     background-color: #74819c;
     position: absolute;
-    bottom: -10px;
+    bottom: -5px;
     left: 2px;
   }
   .free-lesson-contacts__form-item:not(:last-child) {
     margin-bottom: 0px;
-    margin-right: 60px;
+    margin-right: 54px;
   }
   .free-lesson-contacts__form-item:focus-within::after {
     content: "";
@@ -4438,13 +4455,28 @@ button.swiper-pagination-bullet {
   }
   .free-lesson-contacts__form-button {
     width: 472px;
-    margin-top: 40px;
+    margin-top: 34px;
+    font-size: 15px;
   }
   .free-lesson-contacts__contacts-title {
-    font-size: 42px;
+    font-size: 45px;
+    margin-bottom: 48px;
   }
   .free-lesson-contacts__contacts {
     width: 500px;
+    padding-top: 75px;
+    padding-bottom: 54px;
+    position: relative;
+  }
+  .free-lesson-contacts__contacts::before {
+    content: "";
+    width: 129px;
+    height: 1px;
+    background: #74819c;
+    position: absolute;
+    top: 216px;
+    left: 201px;
+    rotate: 90deg;
   }
   .free-lesson-contacts__contacts-list {
     display: -ms-grid;
@@ -4456,7 +4488,7 @@ button.swiper-pagination-bullet {
     -webkit-column-gap: 96px;
        -moz-column-gap: 96px;
             column-gap: 96px;
-    row-gap: 35px;
+    row-gap: 16px;
   }
   .free-lesson-contacts__contacts-item:not(:last-child) {
     margin-bottom: 0px;

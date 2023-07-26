@@ -72,10 +72,10 @@
 }
 
 .stock__year-image {
-  background-image: url("../img/main/stock-image-background1x.webp");
+  background-image: url("../img/main/stock-mobile-1x.webp");
   width: 290px;
   height: 299px;
-  background-size: 290px 357px;
+  background-size: 290px auto;
   background-repeat: no-repeat;
 }
 
@@ -174,7 +174,7 @@
 
 @media screen and (min-resolution: 2dppx){
   .stock__year-image {
-    background-image: url("../img/main/stock-image-background2x.webp");
+    background-image: url("../img/main/stock-mobile-2x.webp");
   }
 };
 
@@ -201,42 +201,44 @@
   }
 
   .stock__year-image {
-    background-image: url("../img/main/stock-image-background1x.webp");
-    width: 587px;
+    background-image: url("../img/main/stock-tablet1x.webp");
+    width: 581px;
     height: 462px;
-    background-size: 387px 537px;
+    background-size: 399px auto;
     background-repeat: no-repeat;
   }
 
   @media screen and (min-resolution: 2dppx){
     .stock__year-image {
-      background-image: url("../img/main/stock-image-background2x.webp");
+      background-image: url("../img/main/stock-tablet2x.webp");
     }
   }
 
   .stock__year-content {
-    padding: 45px 20px 45px 45px;
+    padding: 43px 4px 45px 45px;
     text-align: left;
   }
 
   .stock__year-content-value {
-    margin-bottom: 50px;
+    margin-bottom: 44px;
   }
 
   .stock__year-content-description {
-    margin-bottom: 180px;
+    margin-bottom: 185px;
   }
 
   .stock__year-content-link {
     &::before {
       left:-3px;
     }
+
+    font-size: 15px;
   }
 
   .stock__month,
   .stock__discount {
    text-align: left;
-   padding-top: 28px;
+   padding-top: 25px;
    padding-bottom: 28px;
   }
 
@@ -268,11 +270,11 @@
   }
 
   .stock__discount-description {
-    margin-bottom: 61px;
+    margin-bottom: 72px;
   }
 
   .stock__month-description {
-    margin-bottom: 39px;
+    margin-bottom: 50px;
   }
 
   .stock__month-link {
@@ -286,6 +288,11 @@
       left:-2px;
     }
   }
+
+  .stock__month-link,
+.stock__discount-link {
+  font-size: 13px;
+}
 
 }
 

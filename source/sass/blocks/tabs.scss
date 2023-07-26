@@ -53,7 +53,7 @@
     content: "";
     position: absolute;
     width: 272px;
-    height: 432px;
+    height: 368px;
     border: 7px solid;
     border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
     background: none;
@@ -161,12 +161,12 @@
 }
 
 .tabs__element-item-button {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 14px;
   font-weight: 700;
   color: $base-color;
   text-transform: uppercase;
-  padding: 21px 45px;
+  padding: 19px 41px;
 }
 
 .tabs__element-item-button-wrapper {
@@ -211,44 +211,40 @@
     margin-right: 48px;
   }
 
-  .tabs__element-list {
-    padding-top:5px;
-  }
-
   .tabs__element-item {
-    margin-top: 45px;
+    margin-top: 38px;
     width: 442px;
 
     &:hover::after {
       width: 429px;
-      height: 517px;
+      height: 435px;
     }
   }
 
   .tabs__element-item-title {
     font-size: 26px;
     line-height: 40px;
-    margin: 68px 0 0;
+    margin: 56px 0 0;
   }
 
   .tabs__element-item-info {
-    margin-top: 22px;
+    margin-top: 6px;
   }
 
   .tabs__element-item-price-wrapper {
-    margin-top: 96px;
+    margin-top: 64px;
   }
 
   .tabs__element-item-button-wrapper {
-    margin-top: 59px;
+    margin-top: 36px;
     margin-bottom: 68px;
   }
 
   .tabs__element-item-decoration-price {
     font-size: 100px;
     line-height: 150px;
-    top: 195px;
-    left: 132px;
+    top: 135px;
+    left: 120px;
   }
 
   .tabs__element-item-decoration-price--current {
@@ -277,7 +273,7 @@
     &::after {
       width: 62px;
       left: 56px;
-      top: 2px;
+      top: -12px;
     }
   }
 
@@ -285,7 +281,7 @@
     &::after {
       width: 84px;
       left: 166px;
-      top: 2px;
+      top: -12px;
     }
   }
 
@@ -293,7 +289,7 @@
     &::after {
       width: 88px;
       left: 300px;
-      top: 2px;
+      top: -12px;
     }
   }
 }

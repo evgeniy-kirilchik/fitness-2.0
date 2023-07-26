@@ -80,18 +80,17 @@
   }
 
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym1x.webp");
+    background-image: url("../img/main/gym-mobile-1x.webp");
     width: 320px;
     height: 313px;
     background-repeat: no-repeat;
-    background-size: 533px 314px;
-    background-position: -190px;
+    background-size: 320px auto;
     margin-bottom: 40px;
   }
 
   @media screen and (min-resolution: 2dppx){
     .gym__description-background-image-wrapper {
-      background-image: url("../img/main/gym2x.webp");
+      background-image: url("../img/main/gym-mobile-2x.webp");
     }
   };
 
@@ -135,7 +134,7 @@
     width: 678px;
     margin: 0 auto;
     margin-top: 100px;
-    margin-bottom: 190px;
+    margin-bottom: 183px;
   }
 
   .gym__description {
@@ -145,7 +144,7 @@
   }
 
   .gym__description-title {
-    font-size: 42px;
+    font-size: 45px;
     line-height: 50px;
     text-align: center;
     margin: 0;
@@ -159,23 +158,22 @@
     text-align: center;
     padding-right: 50px;
     padding-left: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 35px;
+    margin-bottom: 42px;
   }
 
   .gym__description-background-image-wrapper {
-    background-image: url("../img/main/gym1x.webp");
+    background-image: url("../img/main/gym-tablet-1x.webp");
     width: 678px;
     height: 345px;
-    background-size: 760px;
-    background-position: -90px;
+    background-size: 678px auto;
     z-index: -2;
     position: relative;
   }
 
   @media screen and (min-resolution: 2dppx){
     .gym__description-background-image-wrapper {
-      background-image: url("../img/main/gym2x.webp");
+      background-image: url("../img/main/gym-tablet-2x.webp");
     }
   };
 
@@ -184,8 +182,8 @@
     width: 266px;
     height: 167px;
     background-repeat: no-repeat;
-    background-size: 273px auto;
-    background-position: 0px -6px;
+    background-size: 282px auto;
+    background-position: 2px -18px;
     z-index: -1;
     position: relative;
   }
@@ -193,8 +191,8 @@
   .gym__video-wrapper-decoration {
     width: 266px;
     position: absolute;
-    top: -77px;
-    left: 220px;
+    top: -84px;
+    left: 206px;
   }
 
   @media screen and (min-resolution: 2dppx){
@@ -204,17 +202,17 @@
   };
 
   .gym__video-player-button-decoration-ring {
-    width: 69px;
-    height: 69px;
-    top: -155px;
-    left: 198px;
+    width: 72px;
+    height: 72px;
+    top: -161px;
+    left: 182px;
   }
 
   .gym__video-player-button-decoration-circle {
     width: 52px;
     height: 52px;
-    left: 207px;
-    bottom: 95px;
+    left: 190px;
+    bottom: 100px;
   }
 
   .gym__video-player-button-svg {
