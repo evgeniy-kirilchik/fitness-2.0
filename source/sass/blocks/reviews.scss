@@ -15,7 +15,7 @@
   font-weight: 600;
   text-align: center;
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 48px;
 }
 
 .reviews__slider-button {
@@ -39,14 +39,14 @@
 
 .reviews__slider-button--prev {
   position: absolute;
-  top: 210px;
-  left: 0px;
+  top: 222px;
+  left: 2px;
 }
 
 .reviews__slider-button--next {
   position: absolute;
-  top: 210px;
-  right: 0px;
+  top: 222px;
+  right: 2px;
 }
 
 .reviews__slide-user-image {
@@ -87,7 +87,7 @@
   width: 176px;
   background-color: #1c3374;
   margin: 0 auto;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 34px 0px;
 }
 
 .reviews__slide-user-name-wrapper {
@@ -100,7 +100,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 
 .reviews__slider-container {

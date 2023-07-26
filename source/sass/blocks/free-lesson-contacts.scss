@@ -1,11 +1,11 @@
 .free-lesson-contacts__form-title {
   font-family: $alumni-sans-font;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
   text-align: left;
   margin: 0;
   color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 43px;
 }
 
 .free-lesson-contacts__form-input::placeholder {
@@ -26,16 +26,16 @@
   border: 3px solid #ffffff;
   cursor: pointer;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 44px;
 }
 
 .free-lesson-contacts__contacts-title {
   font-family: $alumni-sans-font;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
   text-align: left;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .free-lesson-contacts__contacts-item-title {
@@ -86,12 +86,12 @@
     background-color: #ffffff;
     opacity: 0.5;
     position: absolute;
-    bottom: -10px;
+    bottom: -4px;
     left: 0;
   }
 
   &:not(:last-child) {
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 
   &:hover {
@@ -143,18 +143,18 @@
   width: 290px;
   margin: 0 auto;
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 64px;
 }
 
 .free-lesson-contacts__contacts-item {
 
   &:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 24px;
   }
 }
 
 .free-lesson-contacts__contacts-item-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: $vp-768) {

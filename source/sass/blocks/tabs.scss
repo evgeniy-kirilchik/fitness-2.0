@@ -11,7 +11,7 @@
     position: absolute;
     background: #787878;
     left: 0;
-    top: 60px;
+    top: 46px;
     opacity: 0.5;
   }
 }
@@ -47,7 +47,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-top: 35px;
+  margin-top: 33px;
 
   &:hover::after {
     content: "";
@@ -86,12 +86,12 @@
   line-height: 24px;
   font-weight: 700;
   margin: 0;
-  margin-top: 55px;
+  margin-top: 50px;
 }
 
 .tabs__element-item-info {
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 9px;
 }
 
 .tabs__element-item-decoration-price {
@@ -101,7 +101,7 @@
   color: #e8e8e8;
   opacity: 0.5;
   position: absolute;
-  top: 163px;
+  top: 115px;
   left: 67px;
 }
 
@@ -111,7 +111,7 @@
 
 .tabs__element-item-price-wrapper {
   margin: 0;
-  margin-top: 81px;
+  margin-top: 54px;
   z-index: 1;
   position: relative;
 }
@@ -124,7 +124,7 @@
     position: absolute;
     background: #d10a42;
     left: 1px;
-    top: 5px;
+    top: -9px;
   }
 }
 
@@ -136,7 +136,7 @@
     position: absolute;
     background: #d10a42;
     left: 97px;
-    top: 5px;
+    top: -9px;
   }
 }
 
@@ -148,7 +148,7 @@
     position: absolute;
     background: #d10a42;
     left: 209px;
-    top: 5px;
+    top: -9px;
   }
 }
 
@@ -177,7 +177,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 55px;
   z-index: 1;
 }

@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 95px;
+  margin-top: 72px;
   position: relative;
 }
 
 .hero-block__services-list {
   position: absolute;
-  left: 4px;
-  bottom: 68px;
+  left: 1px;
+  bottom: 56px;
 }
 
 .hero-block__services-item {
@@ -28,20 +28,18 @@
   font-style: normal;
   color: #ffffff;
   text-transform: uppercase;
-  margin-left: 231px;
+  margin-left: 239px;
 }
 
 .hero-block__title {
   font-family: $alumni-sans-font;
-  font-size: 72px;
+  font-size: 75px;
   line-height: 87px;
   font-weight: 700;
   font-style: normal;
   color: #ffffff;
   text-align: right;
-  margin: 0;
-  margin-right: 8px;
-  margin-bottom: 35px;
+  margin: 10px 6px 23px 0;
 }
 
 @media screen and (min-width: $vp-768) {

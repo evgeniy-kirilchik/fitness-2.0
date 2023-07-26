@@ -1,10 +1,10 @@
 .faq__container-title  {
   font-family: $alumni-sans-font;
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 600;
   text-align: center;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 
 .faq__tabs-item-title {
@@ -18,8 +18,8 @@
 
 .faq {
   background-color: #f8f9fc;
-  margin-bottom: 63px;
-  padding-top: 70px;
+  margin-bottom: 74px;
+  padding-top: 77px;
 }
 
 .faq__tabs-item-toggle-minus {
@@ -44,7 +44,7 @@
 
 .faq__tabs-item {
   position: relative;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 
   &::after {
     content: "";
@@ -63,7 +63,7 @@
   border: 1px solid #1c3374;
   background-color: inherit;
   position: absolute;
-  top: 6px;
+  top: 11px;
   right: 0;
   cursor: pointer;
   display: flex;
@@ -124,6 +124,7 @@
 
 .faq__tabs-item-description {
   text-align: left;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: $vp-768)  {
