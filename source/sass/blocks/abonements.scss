@@ -65,17 +65,27 @@
   }
 
   .abonements__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
+    margin-bottom: 7px;
   }
 
   .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor1x.webp");
     width: 321px;
     height: 384px;
     background-size: 321px auto;
     background-repeat: no-repeat;
     position: absolute;
-    top: 540px;
-    left: 1047px;
+    top: 442px;
+    left: 1051px;
+    rotate: 150deg;
   }
+
+  @media screen and (min-resolution: 2dppx){
+    .abonements__decoration-wrapper {
+      background-image: url("../img/main/abonements-decor2x.webp");
+    }
+  };
+
 }

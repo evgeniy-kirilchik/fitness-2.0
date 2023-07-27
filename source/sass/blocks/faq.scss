@@ -206,20 +206,20 @@
 
 @media screen and (min-width: $vp-1200) {
   .faq__container-title  {
-    font-size: 54px;
-    margin-bottom: 39px;
+    font-size: 58px;
+    margin-bottom: 59px;
     text-align: left;
   }
 
   .faq__container {
     width: 1160px;
-    padding-bottom: 95px;
+    padding-bottom: 86px;
   }
 
   .faq {
     background-color: #f8f9fc;
-    margin-bottom: 120px;
-    padding-top: 120px;
+    margin-bottom: 140px;
+    padding-top: 141px;
   }
 
   .faq__tabs-item-title {
@@ -235,7 +235,7 @@
   }
 
   .faq__tabs-item-toggle {
-    top: -4px;
+    top: -8px;
   }
 
   .faq__tabs-controls {
@@ -273,5 +273,9 @@
     width: 860px;
     margin-top: 32px;
     margin-left: 40px;
+  }
+
+  .faq__tabs-item {
+    margin-bottom: 62px;
   }
 }

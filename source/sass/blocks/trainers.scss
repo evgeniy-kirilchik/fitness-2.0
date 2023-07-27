@@ -270,11 +270,11 @@
   }
 
   .trainers__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
     margin-bottom: 48px;
     text-align: left;
-    margin-left: 0;
+    margin-left: 3px;
   }
 
   .trainers__slider-one-image, .trainers__slider-two-image,.trainers__slider-three-image, .trainers__slider-four-image {
@@ -290,6 +290,7 @@
   .trainers__slider-three-wrapper-decoration {
     background-color: rgba(20, 54, 122, 0.7);
     width: 151px;
+    height: 179px;
   }
 
   .trainers__slider-three {
@@ -329,13 +330,13 @@
 
   .trainers__slider-button--prev {
     position: absolute;
-    left: -90px;
-    top: 230px;
+    left: -77px;
+    top: 232px;
   }
 
   .trainers__slider-button--next {
     position: absolute;
-    right: -90px;
-    top: 230px;
+    right: -77px;
+    top: 232px;
   }
 }

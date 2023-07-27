@@ -329,7 +329,7 @@
 
   .advantages {
     padding-top: 108px;
-    padding-bottom: 129px;
+    padding-bottom: 120px;
     margin-bottom: 135px;
   }
 
@@ -339,7 +339,7 @@
   }
 
   .advantages__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
     margin-bottom: 55px;
   }
@@ -349,7 +349,7 @@
   .advantages__comfort-value,
   .advantages__coaching-experience-value {
     font-size: 71px;
-    line-height: 106px;
+    line-height: 105px;
   }
 
   .advantages__simulators-key {
@@ -359,16 +359,17 @@
 
   .advantages__wrapper {
     display: grid;
-    grid-template-columns: 319px 240px 334px;
+    grid-template-columns: 339px 240px 327px;
     grid-template-rows: 127px 0px;
-    column-gap: 73px;
+    column-gap: 61px;
     row-gap: 35px;
   }
 
   .advantages__simulators {
     width: 240px;
     margin-left: 0;
-    padding-top: 66px;
+    padding-top: 55px;
+    height: 252px;
   }
 
   .advantages__parking {
@@ -395,8 +396,8 @@
     &::before {
       content: "";
       position: absolute;
-      left: -2px;
-      top: -41px;
+      left: 0px;
+      top: -44px;
       width: 340px;
       height: 2px;
       background-color: #d10a42;
@@ -407,10 +408,17 @@
   .advantages__simulators__description {
     padding-right: 34px;
     padding-left: 34px;
+    margin-top: 33px;
   }
 
   .advantages__area-value-wrapper {
-    margin-top: -24px;
+    margin-top: -29px;
+    margin-left: 20px;
+  }
+
+  .advantages__area-key-title {
+    font-size: 22px;
+    margin-bottom: 4px;
   }
 
   .advantages__area-key-wrapper {
@@ -419,7 +427,8 @@
   }
 
   .advantages__parking-value-wrapper {
-    margin-top: -24px;
+    margin-top: -28px;
+    margin-left: -1px;
   }
 
   .advantages__parking-key-wrapper {
@@ -433,12 +442,47 @@
     &::before {
       content: "";
       position: absolute;
-      left: -12px;
-      top: -41px;
+      left: 0px;
+      top: -44px;
       width: 340px;
       height: 2px;
       background-color: #d10a42;
       opacity: 0.2;
     }
+  }
+
+  .advantages__simulators-value  {
+    margin-bottom: 5px;
+  }
+
+  .advantages__parking-key-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+
+  .advantages__comfort-value-wrapper {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+
+  .advantages__comfort-key-wrapper {
+    padding-top: 33px;
+  }
+
+  .advantages__comfort-key-title {
+    font-size: 22px;
+  }
+
+  .advantages__coaching-experience-value-wrapper {
+    padding-top: 10px;
+  }
+
+  .advantages__coaching-experience-key-wrapper {
+    padding-top: 33px;
+  }
+
+  .advantages__coaching-experience-key-title {
+    font-size: 22px;
+    margin-bottom: 7px;
   }
 }

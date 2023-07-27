@@ -307,14 +307,14 @@
   }
 
   .tabs__element-item {
-    margin-top: 34px;
+    margin-top: 30px;
     width: 360px;
 
     &:hover::after {
       content: "";
       position: absolute;
       width: 347px;
-      height: 518px;
+      height: 434px;
       border: 7px solid;
       border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
       background: none;
@@ -358,6 +358,7 @@
       content: "";
       width: 341px;
       left: 410px;
+      top: 51px;
     }
   }
 
@@ -365,7 +366,7 @@
     &::after {
       width: 66px;
       left: 409px;
-      top: -1px;
+      top: -10px;
     }
   }
 
@@ -373,7 +374,7 @@
     &::after {
       width: 87px;
       left: 522px;
-      top: -1px;
+      top: -10px;
     }
   }
 
@@ -381,7 +382,7 @@
     &::after {
       width: 92px;
       left: 658px;
-      top: -1px;
+      top: -10px;
     }
   }
 

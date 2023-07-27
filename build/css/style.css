@@ -1074,12 +1074,12 @@ button.swiper-pagination-bullet {
     margin-top: 30px;
   }
   .header__logo {
-    font-size: 36px;
+    font-size: 37px;
     line-height: 44px;
     font-weight: 600;
   }
   .header__tel {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 32px;
     font-weight: 600;
   }
@@ -1097,8 +1097,8 @@ button.swiper-pagination-bullet {
   }
   .header__button-wrapper {
     width: 222px;
-    left: 186px;
-    bottom: 35px;
+    left: 165px;
+    bottom: 15px;
   }
 }
 .hero-block {
@@ -1137,7 +1137,6 @@ button.swiper-pagination-bullet {
   font-weight: 600;
   font-style: normal;
   color: #ffffff;
-  text-transform: uppercase;
   margin-left: 239px;
 }
 
@@ -1178,16 +1177,19 @@ button.swiper-pagination-bullet {
   .hero-block__badge {
     font-size: 48px;
     line-height: 58px;
-    margin-left: 287px;
+    margin-left: 267px;
   }
   .hero-block__title {
-    font-size: 92px;
+    font-size: 97px;
     line-height: 111px;
-    margin-right: 64px;
+    letter-spacing: 2px;
+    margin-right: 66px;
     text-transform: uppercase;
+    margin-top: 15px;
   }
   .hero-block__image {
-    margin-top: -47px;
+    margin-top: -42px;
+    margin-right: 18px;
   }
   .hero-block {
     width: 978px;
@@ -1196,12 +1198,12 @@ button.swiper-pagination-bullet {
             justify-content: flex-start;
   }
   .hero-block__title-wrapper {
-    margin-top: 60px;
-    margin-bottom: 221px;
+    margin-top: 68px;
+    margin-bottom: 202px;
   }
   .hero-block__services-list {
-    left: 69px;
-    bottom: 259px;
+    left: 19px;
+    bottom: 239px;
   }
 }
 .gym {
@@ -1429,7 +1431,7 @@ button.swiper-pagination-bullet {
     width: 1160px;
     margin: 0 auto;
     margin-top: 120px;
-    margin-bottom: 238px;
+    margin-bottom: 235px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1446,21 +1448,21 @@ button.swiper-pagination-bullet {
     width: 1160px;
     margin: 0 auto;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 60px;
   }
   .gym__description-title {
-    font-size: 48px;
+    font-size: 52px;
     line-height: 58px;
-    margin-top: 49px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 7px;
   }
   .gym__description-text {
-    padding-right: 69px;
+    padding-right: 82px;
     margin-bottom: 0;
     margin-top: 0;
   }
   .gym__description-text--desktop-margin {
-    margin-top: 55px;
+    margin-top: 39px;
     margin-bottom: 10px;
   }
   .gym__description-text--desktop-on {
@@ -1468,7 +1470,7 @@ button.swiper-pagination-bullet {
   }
   .gym__description-background-image-wrapper {
     background-image: url("../img/main/gym1x.webp");
-    width: 1826px;
+    width: 1741px;
     height: 401px;
     background-size: 660px;
     background-repeat: no-repeat;
@@ -1488,16 +1490,16 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 1200px) {
   .gym__video-player-button-decoration-circle {
-    left: 20px;
-    bottom: -32px;
+    left: 24px;
+    bottom: -25px;
   }
 }
 @media screen and (min-width: 1200px) {
   .gym__video-player-button-decoration-ring {
     width: 100px;
     height: 100px;
-    top: -54px;
-    left: 6px;
+    top: -61px;
+    left: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1520,8 +1522,8 @@ button.swiper-pagination-bullet {
 @media screen and (min-width: 1200px) {
   .gym__video-container {
     position: absolute;
-    left: 441px;
-    top: 329px;
+    left: 437px;
+    top: 288px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1605,17 +1607,25 @@ button.swiper-pagination-bullet {
     position: relative;
   }
   .abonements__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
+    margin-bottom: 7px;
   }
   .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor1x.webp");
     width: 321px;
     height: 384px;
     background-size: 321px auto;
     background-repeat: no-repeat;
     position: absolute;
-    top: 540px;
-    left: 1047px;
+    top: 442px;
+    left: 1051px;
+    rotate: 150deg;
+  }
+}
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor2x.webp");
   }
 }
 .tabs__controls {
@@ -1925,14 +1935,14 @@ button.swiper-pagination-bullet {
             justify-content: space-between;
   }
   .tabs__element-item {
-    margin-top: 34px;
+    margin-top: 30px;
     width: 360px;
   }
   .tabs__element-item:hover::after {
     content: "";
     position: absolute;
     width: 347px;
-    height: 518px;
+    height: 434px;
     border: 7px solid;
     -o-border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
        border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
@@ -1967,21 +1977,22 @@ button.swiper-pagination-bullet {
     content: "";
     width: 341px;
     left: 410px;
+    top: 51px;
   }
   .tabs__element-list--current::after {
     width: 66px;
     left: 409px;
-    top: -1px;
+    top: -10px;
   }
   .tabs__element-list--current-two::after {
     width: 87px;
     left: 522px;
-    top: -1px;
+    top: -10px;
   }
   .tabs__element-list--current-three::after {
     width: 92px;
     left: 658px;
-    top: -1px;
+    top: -10px;
   }
   .tabs__element-item-decoration-price {
     left: 90px;
@@ -2227,10 +2238,12 @@ button.swiper-pagination-bullet {
   .super-games__title {
     font-size: 82px;
     line-height: 79px;
+    padding-right: 0px;
+    letter-spacing: 2px;
   }
   .super-games__data-key, .super-games__time-key, .super-games__content-badge {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 23px;
   }
   .super-games__content-badge {
     margin-right: 66px;
@@ -2253,14 +2266,14 @@ button.swiper-pagination-bullet {
   }
   .super-games__button-wrapper {
     width: 343px;
-    height: 67px;
-    margin: 23px auto 0;
+    height: 64px;
+    margin: 30px auto 0;
   }
   .super-games__data-value-object-wrapper {
     margin-top: 9px;
   }
   .super-games__content {
-    padding: 85px 79px 87px 78px;
+    padding: 85px 75px 87px 78px;
   }
   .super-games__data-value-object-wrapper::after {
     width: 64px;
@@ -2271,6 +2284,9 @@ button.swiper-pagination-bullet {
     width: 88px;
     left: 1px;
     top: 30px;
+  }
+  .super-games__data-wrapper {
+    margin-bottom: 12px;
   }
 }
 .trainers {
@@ -2553,11 +2569,11 @@ button.swiper-pagination-bullet {
     margin-bottom: 105px;
   }
   .trainers__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
     margin-bottom: 48px;
     text-align: left;
-    margin-left: 0;
+    margin-left: 3px;
   }
   .trainers__slider-one-image, .trainers__slider-two-image, .trainers__slider-three-image, .trainers__slider-four-image {
     width: 260px;
@@ -2570,6 +2586,7 @@ button.swiper-pagination-bullet {
   .trainers__slider-three-wrapper-decoration {
     background-color: rgba(20, 54, 122, 0.7);
     width: 151px;
+    height: 179px;
   }
   .trainers__slider-three {
     cursor: pointer;
@@ -2607,13 +2624,13 @@ button.swiper-pagination-bullet {
   }
   .trainers__slider-button--prev {
     position: absolute;
-    left: -90px;
-    top: 230px;
+    left: -77px;
+    top: 232px;
   }
   .trainers__slider-button--next {
     position: absolute;
-    right: -90px;
-    top: 230px;
+    right: -77px;
+    top: 232px;
   }
 }
 .advantages {
@@ -2979,7 +2996,7 @@ button.swiper-pagination-bullet {
 @media screen and (min-width: 1200px) {
   .advantages {
     padding-top: 108px;
-    padding-bottom: 129px;
+    padding-bottom: 120px;
     margin-bottom: 135px;
   }
   .advantages__container {
@@ -2987,7 +3004,7 @@ button.swiper-pagination-bullet {
     margin: 0 auto;
   }
   .advantages__title {
-    font-size: 54px;
+    font-size: 58px;
     line-height: 65px;
     margin-bottom: 55px;
   }
@@ -2996,7 +3013,7 @@ button.swiper-pagination-bullet {
 .advantages__comfort-value,
 .advantages__coaching-experience-value {
     font-size: 71px;
-    line-height: 106px;
+    line-height: 105px;
   }
   .advantages__simulators-key {
     font-size: 26px;
@@ -3005,19 +3022,20 @@ button.swiper-pagination-bullet {
   .advantages__wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 319px 240px 334px;
-    grid-template-columns: 319px 240px 334px;
+    -ms-grid-columns: 339px 240px 327px;
+    grid-template-columns: 339px 240px 327px;
     -ms-grid-rows: 127px 0px;
     grid-template-rows: 127px 0px;
-    -webkit-column-gap: 73px;
-       -moz-column-gap: 73px;
-            column-gap: 73px;
+    -webkit-column-gap: 61px;
+       -moz-column-gap: 61px;
+            column-gap: 61px;
     row-gap: 35px;
   }
   .advantages__simulators {
     width: 240px;
     margin-left: 0;
-    padding-top: 66px;
+    padding-top: 55px;
+    height: 252px;
   }
   .advantages__parking {
     -ms-grid-column: 3;
@@ -3053,8 +3071,8 @@ button.swiper-pagination-bullet {
   .advantages__coaching-experience::before {
     content: "";
     position: absolute;
-    left: -2px;
-    top: -41px;
+    left: 0px;
+    top: -44px;
     width: 340px;
     height: 2px;
     background-color: #d10a42;
@@ -3063,9 +3081,15 @@ button.swiper-pagination-bullet {
   .advantages__simulators__description {
     padding-right: 34px;
     padding-left: 34px;
+    margin-top: 33px;
   }
   .advantages__area-value-wrapper {
-    margin-top: -24px;
+    margin-top: -29px;
+    margin-left: 20px;
+  }
+  .advantages__area-key-title {
+    font-size: 22px;
+    margin-bottom: 4px;
   }
   .advantages__area-key-wrapper {
     margin-top: -4px;
@@ -3074,7 +3098,8 @@ button.swiper-pagination-bullet {
             justify-content: flex-start;
   }
   .advantages__parking-value-wrapper {
-    margin-top: -24px;
+    margin-top: -28px;
+    margin-left: -1px;
   }
   .advantages__parking-key-wrapper {
     margin-top: -4px;
@@ -3088,12 +3113,39 @@ button.swiper-pagination-bullet {
   .advantages__comfort::before {
     content: "";
     position: absolute;
-    left: -12px;
-    top: -41px;
+    left: 0px;
+    top: -44px;
     width: 340px;
     height: 2px;
     background-color: #d10a42;
     opacity: 0.2;
+  }
+  .advantages__simulators-value {
+    margin-bottom: 5px;
+  }
+  .advantages__parking-key-title {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .advantages__comfort-value-wrapper {
+    padding-top: 10px;
+    margin-left: 20px;
+  }
+  .advantages__comfort-key-wrapper {
+    padding-top: 33px;
+  }
+  .advantages__comfort-key-title {
+    font-size: 22px;
+  }
+  .advantages__coaching-experience-value-wrapper {
+    padding-top: 10px;
+  }
+  .advantages__coaching-experience-key-wrapper {
+    padding-top: 33px;
+  }
+  .advantages__coaching-experience-key-title {
+    font-size: 22px;
+    margin-bottom: 7px;
   }
 }
 .footer {
@@ -3263,7 +3315,7 @@ button.swiper-pagination-bullet {
     width: 1160px;
     margin: 0 auto;
     margin-top: 41px;
-    margin-bottom: 42px;
+    margin-bottom: 33px;
   }
   .footer__logo {
     font-size: 26px;
@@ -3271,7 +3323,8 @@ button.swiper-pagination-bullet {
     font-weight: 600;
   }
   .footer__nav-list-item--one {
-    margin-right: 277px;
+    margin-right: 284px;
+    margin-top: 2px;
   }
   .footer__nav-list-item:not(:last-child):not(:first-child) {
     margin-right: 40px;
@@ -3654,8 +3707,10 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 1200px) {
   .stock__title {
-    font-size: 54px;
+    font-size: 57px;
     line-height: 65px;
+    margin: 0;
+    margin-bottom: 34px;
   }
   .stock {
     width: 1160px;
@@ -3716,7 +3771,10 @@ button.swiper-pagination-bullet {
     grid-row-end: 3;
   }
   .stock__month-description {
-    margin-bottom: 61px;
+    margin-bottom: 71px;
+  }
+  .stock__year-content {
+    padding: 43px 42px 45px 45px;
   }
 }
 .faq__container-title {
@@ -3929,18 +3987,18 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 1200px) {
   .faq__container-title {
-    font-size: 54px;
-    margin-bottom: 39px;
+    font-size: 58px;
+    margin-bottom: 59px;
     text-align: left;
   }
   .faq__container {
     width: 1160px;
-    padding-bottom: 95px;
+    padding-bottom: 86px;
   }
   .faq {
     background-color: #f8f9fc;
-    margin-bottom: 120px;
-    padding-top: 120px;
+    margin-bottom: 140px;
+    padding-top: 141px;
   }
   .faq__tabs-item-title {
     padding-right: 20px;
@@ -3950,7 +4008,7 @@ button.swiper-pagination-bullet {
     bottom: -25px;
   }
   .faq__tabs-item-toggle {
-    top: -4px;
+    top: -8px;
   }
   .faq__tabs-controls {
     margin-bottom: 0px;
@@ -3996,6 +4054,9 @@ button.swiper-pagination-bullet {
     width: 860px;
     margin-top: 32px;
     margin-left: 40px;
+  }
+  .faq__tabs-item {
+    margin-bottom: 62px;
   }
 }
 .reviews {
@@ -4228,8 +4289,8 @@ button.swiper-pagination-bullet {
     margin-bottom: 120px;
   }
   .reviews__title {
-    font-size: 54px;
-    margin-bottom: 37px;
+    font-size: 57px;
+    margin-bottom: 58px;
   }
 }
 .free-lesson-contacts__form-title {
@@ -4516,7 +4577,7 @@ button.swiper-pagination-bullet {
 }
 @media screen and (min-width: 1200px) {
   .free-lesson-contacts__form-title {
-    font-size: 54px;
+    font-size: 58px;
     font-weight: 800;
   }
   .free-lesson-contacts__container {
@@ -4534,9 +4595,10 @@ button.swiper-pagination-bullet {
   .free-lesson-contacts__contacts {
     margin-left: 0;
     margin-right: auto;
-    padding-left: 120px;
+    padding-left: 127px;
     width: 100%;
     border-top: 1px solid #74819c;
+    padding-bottom: 44px;
   }
   .free-lesson-contacts__form-container {
     padding-right: 170px;
@@ -4544,7 +4606,7 @@ button.swiper-pagination-bullet {
   }
   .free-lesson-contacts__form {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 0px;
     width: 410px;
   }
   .free-lesson-contacts__form-item {
@@ -4576,16 +4638,38 @@ button.swiper-pagination-bullet {
     width: 410px;
   }
   .free-lesson-contacts__contacts-title {
-    margin-bottom: 43px;
+    margin-bottom: 59px;
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin-left: -8px;
   }
   .free-lesson-contacts__contacts-item-title {
     margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: -2px;
+    margin-bottom: 1px;
   }
   .free-lesson-contacts__contacts-list {
     -webkit-column-gap: 120px;
        -moz-column-gap: 120px;
             column-gap: 120px;
     row-gap: 0px;
+  }
+  .free-lesson-contacts__form {
+    padding-top: 86px;
+  }
+  .free-lesson-contacts__contacts-item-description {
+    font-size: 13px;
+  }
+  .free-lesson-contacts__contacts-item-email--position-left,
+.free-lesson-contacts__contacts-item-telefon--position-left {
+    margin-left: -49px;
+  }
+  .free-lesson-contacts__contacts::before {
+    width: 102px;
+    top: 216px;
+    left: 304px;
   }
 }
 /* @mixin hover-focus {

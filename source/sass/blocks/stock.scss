@@ -298,8 +298,10 @@
 
 @media screen and (min-width: $vp-1200) {
   .stock__title {
-    font-size: 54px;
+    font-size: 57px;
     line-height: 65px;
+    margin: 0;
+    margin-bottom: 34px;
   }
 
   .stock {
@@ -350,6 +352,10 @@
    }
 
    .stock__month-description {
-    margin-bottom: 61px;
+    margin-bottom: 71px;
+  }
+
+  .stock__year-content {
+    padding: 43px 42px 45px 45px;
   }
 }
