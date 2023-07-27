@@ -76,9 +76,12 @@
 }
 
 .gym__video-iframe {
+  width: 320px;
+  height: 167px;
   position: absolute;
-  top: -155px;
+  top: -125px;
   left: 0;
+  border: 0px;
 }
 
 @media screen and (max-width: 767px){
