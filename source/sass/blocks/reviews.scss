@@ -202,6 +202,14 @@
       border: 1px solid #102654;
     }
 
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      border: 1px solid #102654;
+    }
+
     &:active {
       background-color: #102654;
     .reviews__slider-button-prev,

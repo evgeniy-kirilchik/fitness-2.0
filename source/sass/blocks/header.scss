@@ -132,8 +132,20 @@
     color: $base-color;
   }
 
+  .header__button:focus {
+    color: #103aae;
+  }
+
+  .header__button:focus {
+    background: #ffffff;
+  }
+
+  .header__button:disabled {
+    opacity: 0.3;
+  }
+
   .header__button {
-    padding: 20px 57px;
+    padding: 18px 57px;
   }
 
   .header__button-wrapper {

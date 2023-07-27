@@ -41,6 +41,29 @@
   }
 }
 
+.faq__tabs-item-toggle-plus{
+  stroke: $base-color;
+}
+
+.faq__tabs-item-toggle {
+  &:hover {
+    background-color: $base-color;
+  }
+
+  &:hover .faq__tabs-item-toggle-plus{
+    stroke: #ffffff;
+  }
+
+  &:focus .faq__tabs-item-toggle-plus{
+    stroke: #ffffff;
+  }
+
+  &:focus {
+    background-color: $base-color;
+    outline: none;
+  }
+}
+
 
 .faq__tabs-item {
   position: relative;
@@ -112,6 +135,14 @@
   justify-content: center;
 
   &:hover {
+    border: 1px solid #102654;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
     border: 1px solid #102654;
   }
 

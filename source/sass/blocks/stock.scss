@@ -229,10 +229,11 @@
 
   .stock__year-content-link {
     &::before {
-      left:-3px;
+      left:-1px;
     }
 
     font-size: 15px;
+    width: 78px;
   }
 
   .stock__month,
@@ -290,8 +291,9 @@
   }
 
   .stock__month-link,
-.stock__discount-link {
+  .stock__discount-link {
   font-size: 13px;
+  width: 67px;
 }
 
 }
@@ -357,5 +359,58 @@
 
   .stock__year-content {
     padding: 43px 42px 45px 45px;
+  }
+
+  .stock__year-content-link {
+    &:focus {
+      outline: none;
+    }
+
+    &:focus::before {
+      content: "";
+      position: absolute;
+      left:-11px;
+      top: -8px;
+      width: 99px;
+      height: 30px;
+      border: 1px solid #ffffff;
+      background: none;
+    }
+  }
+
+  .stock__month-link {
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus::before {
+      content: "";
+      position: absolute;
+      left:-11pxpx;
+      top: -8px;
+      width: 99px;
+      height: 30px;
+      border: 1px solid #1c3374;
+      background: none;
+    }
+  }
+
+  .stock__discount-link {
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus::before {
+      content: "";
+      position: absolute;
+      left:-11pxpx;
+      top: -8px;
+      width: 99px;
+      height: 30px;
+      border: 1px solid #1c3374;
+      background: none;
+    }
   }
 }

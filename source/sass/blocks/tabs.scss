@@ -334,6 +334,27 @@
     &:not(:last-child) {
       margin-right: 40px;
     }
+
+    &:focus::after {
+      content: "";
+      position: absolute;
+      width: 347px;
+      height: 434px;
+      border: 7px solid;
+      border-image: linear-gradient(120deg, #ED0233 0%, #003EB7 100%) 1;
+      background: none;
+    }
+
+    &:focus .tabs__element-item-button-wrapper {
+      background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+      border: none;
+      width: 205px;
+      height: 64px;
+    }
+
+    &:focus .tabs__element-item-button {
+      color: #ffffff;
+    }
   }
 
   .tabs__element-item-button:active {
@@ -345,6 +366,10 @@
     line-height: 30px;
 
     &:hover {
+      opacity: 1;
+    }
+
+    &:focus {
       opacity: 1;
     }
   }
@@ -392,5 +417,19 @@
 
   .tabs__element-item-decoration-price--position-left {
     left: 60px;
+  }
+
+  .tabs__element-item-button-wrapper {
+
+    &:focus {
+      background: linear-gradient(151deg, #ED0233 0%, #003EB7 100%);
+      border: none;
+      width: 205px;
+      height: 64px;
+    }
+
+    &:focus .tabs__element-item-button {
+      color: #ffffff;
+    }
   }
 }

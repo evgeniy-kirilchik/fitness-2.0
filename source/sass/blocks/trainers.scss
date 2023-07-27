@@ -295,6 +295,14 @@
 
   .trainers__slider-three {
     cursor: pointer;
+
+    &:focus .trainers__slider-three-wrapper-decoration {
+      z-index: 1;
+    }
+
+    &:focus .trainers__slider-three-image-content {
+      z-index: -1;
+    }
   }
 
   .trainers__slider-three-wrapper-decoration-item {
@@ -316,6 +324,14 @@
     border-radius: 50%;
 
     &:hover {
+      border: 1px solid #102654;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
       border: 1px solid #102654;
     }
 
