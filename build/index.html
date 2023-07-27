@@ -55,7 +55,7 @@
           <div class="gym__video-wrapper-decoration"> <span class="visually-hidden">Маска затемнения</span>
             <div class="gym__video-wrapper"><span class="visually-hidden">Фоновое фото тренажерного зала</span></div>
           </div>
-           <a class="gym__video-player-button" href="https://www.youtube.com/watch?v=9TZXsZItgdw">
+           <a class="gym__video-player-button" data-frame-load="test" href="#no_scroll">
             <svg class="gym__video-player-button-decoration-ring" width="73" height="73" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle class="gym__video-player-button-decoration-ring-stroke" cx="36.5" cy="36.5" r="35.5" stroke="url(#paint0_linear_1_895)" stroke-opacity="0.2" stroke-width="2"/>
               <defs>
@@ -70,6 +70,7 @@
                </svg>
             </div>
            </a>
+           <iframe class="gym__video-iframe" width="100%" height="200"  data-frame-group="test" data-frame-src="//www.youtube.com/embed/9TZXsZItgdw?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
       </section>
       <section class="abonements" id="abonements">
@@ -83,7 +84,7 @@
           </div>
           <div class="tabs__content" data-tabs="content">
             <ul class="tabs__element-list tabs__element-list--current" data-tabs="element">
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
                 <span class="tabs__element-item-decoration-price">5000</span>
@@ -93,11 +94,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                   <p class="tabs__element-item-title">Дневной</p>
                  <span class="tabs__element-item-info">с 8:00 до 17:00</span>
                  <span class="tabs__element-item-decoration-price">1700</span>
@@ -107,11 +108,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                  </div>
-                 <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                 <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                  </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
                 <span class="tabs__element-item-decoration-price">2700</span>
@@ -121,13 +122,13 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
             </ul>
             <ul class="tabs__element-list tabs__element-list--current-two" data-tabs="element">
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
                 <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">20000</span>
@@ -137,11 +138,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                   <p class="tabs__element-item-title">Дневной</p>
                  <span class="tabs__element-item-info">с 8:00 до 17:00</span>
                  <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">13700</span>
@@ -151,11 +152,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                  </div>
-                 <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                 <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                  </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
                 <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">16200</span>
@@ -165,13 +166,13 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
             </ul>
             <ul class="tabs__element-list tabs__element-list--current-three" data-tabs="element">
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
                 <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">35000</span>
@@ -181,11 +182,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                   <p class="tabs__element-item-title">Дневной</p>
                  <span class="tabs__element-item-info">с 8:00 до 17:00</span>
                  <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">27700</span>
@@ -195,11 +196,11 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                  </div>
-                 <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                 <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                  </div>
               </li>
-              <li class="tabs__element-item">
+              <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
                 <span class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-left">30200</span>
@@ -209,8 +210,8 @@
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
                   </svg>
                 </div>
-                <div class="tabs__element-item-button-wrapper">
-                  <a class="tabs__element-item-button" href="#">купить абонемент</a>
+                <div class="tabs__element-item-button-wrapper" tabindex="0">
+                  <a class="tabs__element-item-button" href="#" tabindex="-1">купить абонемент</a>
                 </div>
               </li>
             </ul>
@@ -267,7 +268,7 @@
             <div class="trainers__slider swiper-slide trainers__slider-two">
               <div class="trainers__slider-two-image"><span class="trainers__slider-two-image-content">Алексей Лавров</span></div>
             </div>
-            <div class="trainers__slider swiper-slide trainers__slider-three">
+            <div class="trainers__slider swiper-slide trainers__slider-three" tabindex="0">
               <div class="trainers__slider-three-wrapper-decoration">
                 <span class="trainers__slider-three-wrapper-decoration-content">Александр Пашков</span>
                 <span class="trainers__slider-three-wrapper-decoration-badge">CrossFit</span>
@@ -697,11 +698,11 @@
         <nav class="footer__nav">
           <ul class="footer__nav-list">
             <li class="footer__nav-list-item footer__nav-list-item--one"><a class="footer__nav-link footer__logo" href="#">SUPERGYM</a></li>
-            <li class="footer__nav-list-item footer__nav-list-item--two"><a class="footer__nav-link" href="#">Услуги</a></li>
-            <li class="footer__nav-list-item footer__nav-list-item--three"><a class="footer__nav-link" href="#abonements">Абонементы</a></li>
-            <li class="footer__nav-list-item footer__nav-list-item--four"><a class="footer__nav-link" href="#">Акции</a></li>
-            <li class="footer__nav-list-item footer__nav-list-item--five"><a class="footer__nav-link" href="#">Тренеры</a></li>
-            <li class="footer__nav-list-item footer__nav-list-item--six"><a class="footer__nav-link" href="#">Расписание</a></li>
+            <li class="footer__nav-list-item" ><a class="footer__nav-link footer__nav-list-item--two" href="#">Услуги</a></li>
+            <li class="footer__nav-list-item" ><a class="footer__nav-link footer__nav-list-item--three" href="#abonements">Абонементы</a></li>
+            <li class="footer__nav-list-item" ><a class="footer__nav-link footer__nav-list-item--four" href="#" >Акции</a></li>
+            <li class="footer__nav-list-item" ><a class="footer__nav-link footer__nav-list-item--five" href="#">Тренеры</a></li>
+            <li class="footer__nav-list-item" ><a class="footer__nav-link footer__nav-list-item--six" href="#">Расписание</a></li>
           </ul>
         </nav>
         <ul class="footer__social-list">

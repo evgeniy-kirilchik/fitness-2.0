@@ -4,4 +4,5 @@ import './vendor/focus-visible-polyfill';
 import './modules/accordeon/index';
 import './modules/tabs/index';
 import './modules/form-validate/index';
+import './modules/iframe';
 
