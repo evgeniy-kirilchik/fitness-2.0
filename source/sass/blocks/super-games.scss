@@ -190,11 +190,13 @@
   .super-games__title {
     font-size: 82px;
     line-height: 79px;
+    padding-right: 0px;
+    letter-spacing: 2px;
   }
 
   .super-games__data-key, .super-games__time-key, .super-games__content-badge {
     font-size: 18px;
-    line-height: 27px;
+    line-height: 23px;
   }
 
   .super-games__content-badge {
@@ -223,8 +225,8 @@
 
   .super-games__button-wrapper {
     width: 343px;
-    height: 67px;
-    margin: 23px auto 0;
+    height: 64px;
+    margin: 30px auto 0;
   }
 
   .super-games__data-value-object-wrapper {
@@ -232,7 +234,7 @@
   }
 
   .super-games__content {
-    padding: 85px 79px 87px 78px;
+    padding: 85px 75px 87px 78px;
   }
 
   .super-games__data-value-object-wrapper {
@@ -249,5 +251,9 @@
       left: 1px;
       top: 30px;
     }
+  }
+
+  .super-games__data-wrapper {
+    margin-bottom: 12px;
   }
 }

@@ -27,7 +27,6 @@
   font-weight: 600;
   font-style: normal;
   color: #ffffff;
-  text-transform: uppercase;
   margin-left: 239px;
 }
 
@@ -75,18 +74,21 @@
   .hero-block__badge {
     font-size: 48px;
     line-height: 58px;
-    margin-left: 287px;
+    margin-left: 267px;
   }
 
   .hero-block__title {
-    font-size: 92px;
+    font-size: 97px;
     line-height: 111px;
-    margin-right: 64px;
+    letter-spacing: 2px;
+    margin-right: 66px;
     text-transform: uppercase;
+    margin-top: 15px;
   }
 
   .hero-block__image {
-    margin-top: -47px;
+    margin-top: -42px;
+    margin-right: 18px;
   }
 
   .hero-block {
@@ -95,12 +97,12 @@
   }
 
   .hero-block__title-wrapper {
-    margin-top: 60px;
-    margin-bottom: 221px;
+    margin-top: 68px;
+    margin-bottom: 202px;
   }
 
   .hero-block__services-list {
-    left: 69px;
-    bottom: 259px;
+    left: 19px;
+    bottom: 239px;
   }
 }
