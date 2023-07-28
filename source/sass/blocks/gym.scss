@@ -139,6 +139,26 @@
   };
 };
 
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .gym__description {
+    width: 100%;
+  }
+
+  .gym__description-text {
+    padding-right: 0;
+  }
+
+  .gym__video-wrapper-decoration {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .gym {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: $vp-768) and (max-width: 1199px) {
   .gym {
     width: 678px;
