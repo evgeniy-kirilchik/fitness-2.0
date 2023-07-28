@@ -192,6 +192,19 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px){
+  .super-games {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .super-games__content {
+    width: 30%;
+  }
+
+}
+
+
 @media screen and (min-width: $vp-1200) {
   .super-games {
     width: 1160px;

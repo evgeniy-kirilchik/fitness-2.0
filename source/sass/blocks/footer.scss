@@ -141,6 +141,16 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .footer__container {
+    width: 90%;
+  }
+
+  .footer__nav-list {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: $vp-1200) {
   .footer__container {
     width: 1160px;
