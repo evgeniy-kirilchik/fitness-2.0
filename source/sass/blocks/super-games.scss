@@ -145,8 +145,27 @@
 
 @media screen and (max-width: 767px) {
   .super-games__background-image {
-    background-size: 395px 316px;
-    background-position: -44px 6px;
+    background-size: 429px 335px;
+    background-position: -64px 0px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .super-games {
+    width: 90%;
+  }
+
+  .super-games__content {
+    width: 202px;
+  }
+}
+
+@media screen and (min-width: 644px) and (max-width: 768px){
+  .super-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 

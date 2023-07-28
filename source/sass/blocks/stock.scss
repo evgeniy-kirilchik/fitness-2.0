@@ -1,4 +1,4 @@
-.stock {
+.stock__container {
   width: 290px;
   margin: 0 auto;
   margin-bottom: 70px;
@@ -178,26 +178,67 @@
   }
 };
 
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .stock__container {
+    width: 90%;
+  }
+
+  .stock__year-content {
+    width: 190px;
+  }
+
+  .stock__month {
+    width: 196px;
+  }
+
+  .stock__discount{
+    width: 168px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 644px) {
+  .stock__month {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 644px) and (max-width: 767px){
+  .stock__year {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .stock__adaptive-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .stock__month {
+    margin-bottom: 0px;
+  }
+}
+
 @media screen and (min-width: $vp-768) {
   .stock__title {
     font-size: 42px;
     line-height: 50px;
   }
 
-  .stock {
+  .stock__container {
     width: 678px;
     margin: 0 auto;
     margin-bottom: 100px;
   }
 
   .stock__year {
-   margin-bottom: 0;
+   margin-bottom: 30px;
    display: flex;
    flex-direction: row;
-   grid-column-start: 1;
-   grid-column-end: 3;
-   grid-row-start: 1;
-   grid-row-end: 2;
   }
 
   .stock__year-image {
@@ -240,34 +281,20 @@
   .stock__discount {
    text-align: left;
    padding-top: 25px;
-   padding-bottom: 28px;
+   padding-bottom: 29px;
   }
 
   .stock__month {
    padding-left: 28px;
-   padding-right: 55px;
+   padding-right: 56px;
    margin-bottom: 0px;
-   grid-column-start: 1;
-   grid-column-end: 2;
-   grid-row-start: 2;
-   grid-row-end: 3;
+   width: 226px;
   }
 
   .stock__discount {
    padding-left: 28px;
-   padding-right: 20px;
-   grid-column-start: 2;
-   grid-column-end: 3;
-   grid-row-start: 2;
-   grid-row-end: 3;
-  }
-
-  .stock__container {
-    display: grid;
-    grid-template-columns: 324px 324px;
-    grid-template-rows: 462px 211px;
-    column-gap: 30px;
-    row-gap: 30px;
+   padding-right: 41px;
+   width: 240px;
   }
 
   .stock__discount-description {
@@ -294,7 +321,13 @@
   .stock__discount-link {
   font-size: 13px;
   width: 67px;
-}
+  }
+
+  .stock__adaptive-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
 }
 
@@ -306,51 +339,33 @@
     margin-bottom: 34px;
   }
 
-  .stock {
+  .stock__container{
     width: 1160px;
     margin: 0 auto;
     margin-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .stock__year-image {
     background-image: url("../img/main/stock-image-background1x.webp");
-    width: 492px;
+    width: 320px;
     height: 462px;
-    background-size: 292px 462px;
+    background-size: 280px 462px;
     background-repeat: no-repeat;
-  }
-
-  .stock__container {
-    display: grid;
-    grid-template-columns: 560px 560px;
-    grid-template-rows: 211px 211px;
-    column-gap: 40px;
-    row-gap: 40px;
   }
 
   .stock__month {
     padding-left: 28px;
     padding-right: 55px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+    width: 463px;
    }
 
    .stock__discount {
     padding-left: 28px;
     padding-right: 20px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-   }
-
-   .stock__year {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    width: 498px;
    }
 
    .stock__month-description {
@@ -359,6 +374,7 @@
 
   .stock__year-content {
     padding: 43px 42px 45px 45px;
+    width: 193px;
   }
 
   .stock__year-content-link {
@@ -413,4 +429,14 @@
       background: none;
     }
   }
+
+  .stock__adaptive-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .stock__year {
+    margin-bottom: 0px;
+   }
 }

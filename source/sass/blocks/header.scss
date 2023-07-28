@@ -67,7 +67,18 @@
   .hero-block__image {
     display: none
   }
-};
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .header__container {
+    width: 90%;
+  }
+
+  .header__button-wrapper {
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+}
 
 @media screen and (min-width: $vp-768){
   .header__container {

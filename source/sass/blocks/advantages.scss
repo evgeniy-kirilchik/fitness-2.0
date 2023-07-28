@@ -204,6 +204,12 @@
   margin-bottom: 39px;
 }
 
+@media screen and (min-width: 321px) and (max-width: 767px){
+  .advantages__container {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: $vp-768) {
   .advantages {
     padding-top: 91px;
