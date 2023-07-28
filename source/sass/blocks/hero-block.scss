@@ -89,6 +89,24 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px){
+
+  .hero-block__badge {
+    margin-left: 76%;
+  }
+
+  .hero-block__image {
+    width: 88%;
+    height: 88%;
+    padding-left: 12%;
+  }
+
+  .hero-block__title {
+    padding-left: 40%;
+  }
+}
+
+
 @media screen and (min-width: $vp-1200) {
   .hero-block__badge {
     font-size: 48px;

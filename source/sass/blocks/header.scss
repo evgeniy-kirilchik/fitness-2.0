@@ -110,7 +110,17 @@
     left: 140px;
     bottom: 27px;
   }
-};
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px){
+  .header__container {
+    width: 90%;
+  }
+
+  .header__button-wrapper {
+    margin-bottom: 80px;
+  }
+}
 
 @media screen and (min-width: $vp-1200){
   .header__container {

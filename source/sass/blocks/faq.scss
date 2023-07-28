@@ -247,6 +247,12 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .faq__container {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: $vp-1200) {
   .faq__container-title  {
     font-size: 58px;

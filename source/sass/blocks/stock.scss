@@ -328,7 +328,39 @@
     flex-direction: row;
     justify-content: space-between;
   }
+}
 
+@media screen and (min-width: 769px) and (max-width: 1199px){
+  .stock__container {
+    width: 90%;
+  }
+
+  .stock__year {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .stock__adaptive-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .stock__month {
+    margin-bottom: 0px;
+  }
+
+  .stock__year-image {
+    width: 320px;
+  }
+
+  .stock__year-content {
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: $vp-1200) {

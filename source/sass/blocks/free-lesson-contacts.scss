@@ -300,6 +300,31 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .free-lesson-contacts__contacts {
+    width: 90%;
+  }
+
+  .free-lesson-contacts__contacts-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .free-lesson-contacts__contacts-item {
+    &:not(:last-child) {
+      margin-right: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .free-lesson-contacts__contacts::before {
+    display: none;
+  }
+}
+
 @media screen and (min-width: $vp-1200) {
   .free-lesson-contacts__form-title {
     font-size: 58px;
