@@ -8,7 +8,7 @@
   margin-bottom: 43px;
 }
 
-.free-lesson-contacts__form-input::placeholder {
+.free-lesson-contacts__form-container input::placeholder {
   font-family: $base-font;
   font-size: 14px;
   font-weight: 400;
@@ -56,7 +56,7 @@
   background-color: $base-color;
 }
 
-.free-lesson-contacts__form-input {
+.free-lesson-contacts__form-container input {
   background-color:$base-color;
   color: #ffffff;
   border: none;
@@ -69,7 +69,7 @@
 }
 
 
-.free-lesson-contacts__form {
+.free-lesson-contacts__form-container form {
   width: 290px;
   margin: 0 auto;
   padding-top: 70px;
@@ -173,9 +173,7 @@
   }
 
   .free-lesson-contacts__contacts-item {
-    &:not(:last-child) {
       margin-right: 20px;
-    }
   }
 }
 
@@ -186,7 +184,7 @@
     margin-bottom: 47px;
   }
 
-  .free-lesson-contacts__form {
+  .free-lesson-contacts__form-container form {
     width: 500px;
     padding-top: 73px;
     padding-bottom: 70px;
@@ -197,7 +195,7 @@
     flex-direction: row;
   }
 
-  .free-lesson-contacts__form-input {
+  .free-lesson-contacts__form-container input {
     background-color:$base-color;
     color: #ffffff;
     border: none;
@@ -351,7 +349,7 @@
     width: calc(100%);
   }
 
-  .free-lesson-contacts__form{
+  .free-lesson-contacts__form-container form{
     margin-left: auto;
     margin-right: 0px;
     width: 410px;
@@ -383,7 +381,7 @@
     }
   }
 
-  .free-lesson-contacts__form-input {
+  .free-lesson-contacts__form-container input {
     width: 185px;
 
     &:focus {
@@ -415,7 +413,7 @@
     row-gap: 0px;
   }
 
-  .free-lesson-contacts__form {
+  .free-lesson-contacts__form-container form {
     padding-top: 86px;
   }
 
