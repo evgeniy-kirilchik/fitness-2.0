@@ -3616,7 +3616,7 @@ body main {
   .footer__social-list-item:hover .footer__social-container-icon {
     background-color: #103aae;
   }
-  .footer__social-link:focus .footer__social-container-icon {
+  .footer__social-link:focus-visible .footer__social-container-icon {
     background-color: #103aae;
   }
   .footer__social-list-item:active .footer__social-container-icon {
@@ -3643,7 +3643,7 @@ body main {
     top: 25px;
     left: 0;
   }
-  .footer__nav-link-two:focus::after {
+  .footer__nav-link-two:focus-visible::after {
     content: "";
     width: 60px;
     height: 32px;
@@ -3665,7 +3665,7 @@ body main {
     top: 25px;
     left: 0;
   }
-  .footer__nav-link-three:focus::after {
+  .footer__nav-link-three:focus-visible::after {
     content: "";
     width: 85px;
     height: 32px;
@@ -3687,7 +3687,7 @@ body main {
     top: 25px;
     left: 0;
   }
-  .footer__nav-link-four:focus::after {
+  .footer__nav-link-four:focus-visible::after {
     content: "";
     width: 47px;
     height: 32px;
@@ -3709,7 +3709,7 @@ body main {
     top: 25px;
     left: 0;
   }
-  .footer__nav-link-five:focus::after {
+  .footer__nav-link-five:focus-visible::after {
     content: "";
     width: 63px;
     height: 32px;
@@ -3731,7 +3731,7 @@ body main {
     top: 25px;
     left: 0;
   }
-  .footer__nav-link-six:focus::after {
+  .footer__nav-link-six:focus-visible::after {
     content: "";
     width: 79px;
     height: 32px;
@@ -4186,7 +4186,7 @@ body main {
   .stock__year-content-link:focus {
     outline: none;
   }
-  .stock__year-content-link:focus::before {
+  .stock__year-content-link:focus-visible::before {
     content: "";
     position: absolute;
     left: -11px;
@@ -4199,10 +4199,10 @@ body main {
   .stock__month-link:focus {
     outline: none;
   }
-  .stock__month-link:focus::before {
+  .stock__month-link:focus-visible::before {
     content: "";
     position: absolute;
-    left: -11pxpx;
+    left: -11px;
     top: -8px;
     width: 99px;
     height: 30px;
@@ -4212,10 +4212,10 @@ body main {
   .stock__discount-link:focus {
     outline: none;
   }
-  .stock__discount-link:focus::before {
+  .stock__discount-link:focus-visible::before {
     content: "";
     position: absolute;
-    left: -11pxpx;
+    left: -11px;
     top: -8px;
     width: 99px;
     height: 30px;
@@ -4287,11 +4287,13 @@ body main {
 .faq__tabs-item-toggle:hover .faq__tabs-item-toggle-plus {
   stroke: #ffffff;
 }
-.faq__tabs-item-toggle:focus .faq__tabs-item-toggle-plus {
+.faq__tabs-item-toggle:focus-visible .faq__tabs-item-toggle-plus {
   stroke: #ffffff;
 }
-.faq__tabs-item-toggle:focus {
+.faq__tabs-item-toggle:focus-visible {
   background-color: #102654;
+}
+.faq__tabs-item-toggle:focus {
   outline: none;
 }
 

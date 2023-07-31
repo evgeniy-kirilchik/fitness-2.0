@@ -54,12 +54,15 @@
     stroke: #ffffff;
   }
 
-  &:focus .faq__tabs-item-toggle-plus{
+  &:focus-visible .faq__tabs-item-toggle-plus{
     stroke: #ffffff;
   }
 
-  &:focus {
+  &:focus-visible {
     background-color: $base-color;
+  }
+
+  &:focus {
     outline: none;
   }
 }

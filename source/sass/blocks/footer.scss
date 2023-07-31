@@ -178,7 +178,7 @@
     background-color: #103aae;
   }
 
-  .footer__social-link:focus .footer__social-container-icon  {
+  .footer__social-link:focus-visible .footer__social-container-icon  {
     background-color: #103aae;
   }
 
@@ -216,7 +216,7 @@
      left: 0;
     }
 
-    &:focus::after {
+    &:focus-visible::after {
       content: "";
       width: 60px;
       height: 32px;
@@ -243,7 +243,7 @@
       left: 0;
     }
 
-    &:focus::after {
+    &:focus-visible::after {
       content: "";
       width: 85px;
       height: 32px;
@@ -271,7 +271,7 @@
       left: 0;
     }
 
-    &:focus::after {
+    &:focus-visible::after {
       content: "";
       width: 47px;
       height: 32px;
@@ -299,7 +299,7 @@
       left: 0;
     }
 
-    &:focus::after {
+    &:focus-visible::after {
       content: "";
       width: 63px;
       height: 32px;
@@ -327,7 +327,7 @@
       left: 0;
     }
 
-    &:focus::after {
+    &:focus-visible::after {
       content: "";
       width: 79px;
       height: 32px;
