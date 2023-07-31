@@ -1,5 +1,5 @@
 .header {
-  background:$base-gradient;
+  background: $base-gradient;
 }
 
 .header__container {
@@ -54,12 +54,13 @@
 
 .header__button-wrapper:active {
   background: #ffffff;
+
   .header__button {
     color: $base-color;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px){
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .header__container {
     width: 90%;
   }
@@ -70,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: $vp-768){
+@media screen and (min-width: $vp-768) {
   .header__container {
     width: 678px;
     margin: 0 auto;
@@ -102,7 +103,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   .header__container {
     width: 90%;
   }
@@ -112,7 +113,7 @@
   }
 }
 
-@media screen and (min-width: $vp-1200){
+@media screen and (min-width: $vp-1200) {
   .header__container {
     width: 1160px;
     margin: 0 auto;
@@ -164,4 +165,4 @@
     left: 165px;
     bottom: 15px;
   }
-};
+}

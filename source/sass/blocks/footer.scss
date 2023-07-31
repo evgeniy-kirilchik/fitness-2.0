@@ -115,7 +115,7 @@
     justify-content: space-between;
   }
 
-   .footer__nav-list-item:not(:last-child):not(:first-child) {
+  .footer__nav-list-item:not(:last-child):not(:first-child) {
     margin-right: 30px;
   }
 
@@ -178,7 +178,7 @@
     background-color: #103aae;
   }
 
-  .footer__social-link:focus-visible .footer__social-container-icon  {
+  .footer__social-link:focus-visible .footer__social-container-icon {
     background-color: #103aae;
   }
 
@@ -198,7 +198,7 @@
 
     &:focus {
       outline: none;
-     }
+    }
   }
 
   .footer__nav-link-two {
@@ -207,13 +207,13 @@
     }
 
     &:hover::after {
-     content: "";
-     width: 40px;
-     height: 1px;
-     background-color: #ffffff;
-     position: absolute;
-     top: 25px;
-     left: 0;
+      content: "";
+      width: 40px;
+      height: 1px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 25px;
+      left: 0;
     }
 
     &:focus-visible::after {
@@ -225,7 +225,7 @@
       top: -4px;
       left: -11px;
       background: none;
-     }
+    }
   }
 
   .footer__nav-link-three {
@@ -252,7 +252,7 @@
       top: -4px;
       left: -8px;
       background: none;
-     }
+    }
   }
 
   .footer__nav-link-four {
@@ -280,7 +280,7 @@
       top: -4px;
       left: -8px;
       background: none;
-     }
+    }
   }
 
   .footer__nav-link-five {
@@ -308,7 +308,7 @@
       top: -4px;
       left: -8px;
       background: none;
-     }
+    }
   }
 
   .footer__nav-link-six {
@@ -336,6 +336,6 @@
       top: -4px;
       left: -8px;
       background: none;
-     }
+    }
   }
 }

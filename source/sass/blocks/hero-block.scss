@@ -45,13 +45,13 @@
   margin: 10px 6px 23px 0;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .hero-block img {
     display: none
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 767px){
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .hero-block {
     display: block;
   }
@@ -99,7 +99,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1199px) {
 
   .hero-block__badge {
     margin-left: 76%;

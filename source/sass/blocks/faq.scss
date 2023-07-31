@@ -1,4 +1,4 @@
-.faq__container-title  {
+.faq__container-title {
   font-family: $alumni-sans-font;
   font-size: 34px;
   font-weight: 600;
@@ -29,8 +29,8 @@
 
 .faq__tabs-item {
   &.is-active .faq__tabs-item-toggle {
-      background-color: $base-color;
-    }
+    background-color: $base-color;
+  }
 
   &.is-active .faq__tabs-item-toggle-plus {
     display: none;
@@ -41,7 +41,7 @@
   }
 }
 
-.faq__tabs-item-toggle-plus{
+.faq__tabs-item-toggle-plus {
   stroke: $base-color;
 }
 
@@ -50,11 +50,11 @@
     background-color: $base-color;
   }
 
-  &:hover .faq__tabs-item-toggle-plus{
+  &:hover .faq__tabs-item-toggle-plus {
     stroke: #ffffff;
   }
 
-  &:focus-visible .faq__tabs-item-toggle-plus{
+  &:focus-visible .faq__tabs-item-toggle-plus {
     stroke: #ffffff;
   }
 
@@ -167,14 +167,14 @@
   }
 }
 
-@media screen and (min-width: 400px) and (max-width: 767px)  {
+@media screen and (min-width: 400px) and (max-width: 767px) {
   .faq__tabs-item-description {
     padding-right: 10%;
   }
 }
 
-@media screen and (min-width: $vp-768)  {
-  .faq__container-title  {
+@media screen and (min-width: $vp-768) {
+  .faq__container-title {
     font-size: 45px;
     margin-bottom: 53px;
   }
@@ -257,7 +257,7 @@
 }
 
 @media screen and (min-width: $vp-1200) {
-  .faq__container-title  {
+  .faq__container-title {
     font-size: 58px;
     margin-bottom: 59px;
     text-align: left;

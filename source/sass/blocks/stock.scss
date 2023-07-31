@@ -47,7 +47,7 @@
   &::before {
     content: "";
     position: absolute;
-    left:56px;
+    left: 56px;
     top: 17px;
     width: 79px;
     height: 1px;
@@ -110,7 +110,7 @@
   &::before {
     content: "";
     position: absolute;
-    left:65px;
+    left: 65px;
     top: 17px;
     width: 68px;
     height: 1px;
@@ -130,7 +130,7 @@
   &::before {
     content: "";
     position: absolute;
-    left:51px;
+    left: 51px;
     top: 17px;
     width: 68px;
     height: 1px;
@@ -172,13 +172,13 @@
   padding-right: 54px;
 }
 
-@media screen and (min-resolution: 2dppx){
+@media screen and (min-resolution: 2dppx) {
   .stock__year-image {
     background-image: url("../img/main/stock-mobile-2x.webp");
   }
-};
+}
 
-@media screen and (min-width: 321px) and (max-width: 767px){
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .stock__container {
     width: 90%;
   }
@@ -191,7 +191,7 @@
     width: 196px;
   }
 
-  .stock__discount{
+  .stock__discount {
     width: 168px;
   }
 }
@@ -202,7 +202,7 @@
   }
 }
 
-@media screen and (min-width: 644px) and (max-width: 767px){
+@media screen and (min-width: 644px) and (max-width: 767px) {
   .stock__year {
     display: flex;
     flex-direction: row;
@@ -236,9 +236,9 @@
   }
 
   .stock__year {
-   margin-bottom: 30px;
-   display: flex;
-   flex-direction: row;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
   }
 
   .stock__year-image {
@@ -249,7 +249,7 @@
     background-repeat: no-repeat;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .stock__year-image {
       background-image: url("../img/main/stock-tablet2x.webp");
     }
@@ -270,7 +270,7 @@
 
   .stock__year-content-link {
     &::before {
-      left:-1px;
+      left: -1px;
     }
 
     font-size: 15px;
@@ -279,22 +279,22 @@
 
   .stock__month,
   .stock__discount {
-   text-align: left;
-   padding-top: 25px;
-   padding-bottom: 29px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 29px;
   }
 
   .stock__month {
-   padding-left: 28px;
-   padding-right: 56px;
-   margin-bottom: 0px;
-   width: 226px;
+    padding-left: 28px;
+    padding-right: 56px;
+    margin-bottom: 0px;
+    width: 226px;
   }
 
   .stock__discount {
-   padding-left: 28px;
-   padding-right: 41px;
-   width: 240px;
+    padding-left: 28px;
+    padding-right: 41px;
+    width: 240px;
   }
 
   .stock__discount-description {
@@ -307,20 +307,20 @@
 
   .stock__month-link {
     &::before {
-      left:-2px;
+      left: -2px;
     }
   }
 
   .stock__discount-link {
     &::before {
-      left:-2px;
+      left: -2px;
     }
   }
 
   .stock__month-link,
   .stock__discount-link {
-  font-size: 13px;
-  width: 67px;
+    font-size: 13px;
+    width: 67px;
   }
 
   .stock__adaptive-wrapper {
@@ -330,7 +330,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   .stock__container {
     width: 90%;
   }
@@ -371,7 +371,7 @@
     margin-bottom: 34px;
   }
 
-  .stock__container{
+  .stock__container {
     width: 1160px;
     margin: 0 auto;
     margin-bottom: 120px;
@@ -392,15 +392,15 @@
     padding-left: 28px;
     padding-right: 55px;
     width: 463px;
-   }
+  }
 
-   .stock__discount {
+  .stock__discount {
     padding-left: 28px;
     padding-right: 20px;
     width: 498px;
-   }
+  }
 
-   .stock__month-description {
+  .stock__month-description {
     margin-bottom: 71px;
   }
 
@@ -417,7 +417,7 @@
     &:focus-visible::before {
       content: "";
       position: absolute;
-      left:-11px;
+      left: -11px;
       top: -8px;
       width: 99px;
       height: 30px;
@@ -435,7 +435,7 @@
     &:focus-visible::before {
       content: "";
       position: absolute;
-      left:-11px;
+      left: -11px;
       top: -8px;
       width: 99px;
       height: 30px;
@@ -453,7 +453,7 @@
     &:focus-visible::before {
       content: "";
       position: absolute;
-      left:-11px;
+      left: -11px;
       top: -8px;
       width: 99px;
       height: 30px;
@@ -470,5 +470,5 @@
 
   .stock__year {
     margin-bottom: 0px;
-   }
+  }
 }

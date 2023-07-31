@@ -386,20 +386,6 @@ fieldset {
   display: none;
 }
 
-:root {
-  /*
-  --swiper-pagination-color: var(--swiper-theme-color);
-  --swiper-pagination-bullet-size: 8px;
-  --swiper-pagination-bullet-width: 8px;
-  --swiper-pagination-bullet-height: 8px;
-  --swiper-pagination-bullet-inactive-color: #000;
-  --swiper-pagination-bullet-inactive-opacity: 0.2;
-  --swiper-pagination-bullet-opacity: 1;
-  --swiper-pagination-bullet-horizontal-gap: 4px;
-  --swiper-pagination-bullet-vertical-gap: 6px;
-  */
-}
-
 .swiper-pagination {
   position: absolute;
   text-align: center;
@@ -623,6 +609,7 @@ button.swiper-pagination-bullet {
   border-radius: 10px;
   position: relative;
   -ms-touch-action: none;
+      touch-action: none;
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -688,13 +675,6 @@ button.swiper-pagination-bullet {
 
 .swiper-slide-zoomed {
   cursor: move;
-}
-
-/* Preloader */
-:root {
-  /*
-  --swiper-preloader-color: var(--swiper-theme-color);
-  */
 }
 
 .swiper-lazy-preloader {
@@ -946,7 +926,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-body .header, body .footer {
+body .header,
+body .footer {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
@@ -2209,7 +2190,9 @@ body main {
   padding-left: 8px;
 }
 
-.super-games__data-key, .super-games__time-key, .super-games__content-badge {
+.super-games__data-key,
+.super-games__time-key,
+.super-games__content-badge {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
@@ -2221,7 +2204,8 @@ body main {
   text-align: center;
 }
 
-.super-games__data-value, .super-games__time-value {
+.super-games__data-value,
+.super-games__time-value {
   font-weight: 700;
   font-size: 24px;
   line-height: 36px;
@@ -2463,14 +2447,17 @@ body main {
     padding-right: 0px;
     letter-spacing: 2px;
   }
-  .super-games__data-key, .super-games__time-key, .super-games__content-badge {
+  .super-games__data-key,
+.super-games__time-key,
+.super-games__content-badge {
     font-size: 18px;
     line-height: 23px;
   }
   .super-games__content-badge {
     margin-right: 66px;
   }
-  .super-games__data-value, .super-games__time-value {
+  .super-games__data-value,
+.super-games__time-value {
     font-size: 40px;
     line-height: 60px;
   }
@@ -2745,7 +2732,9 @@ body main {
     line-height: 50px;
     margin-bottom: 31px;
   }
-  .trainers__slider-one-image, .trainers__slider-two-image, .trainers__slider-four-image {
+  .trainers__slider-one-image,
+.trainers__slider-two-image,
+.trainers__slider-four-image {
     width: 268px;
     height: 294px;
     background-size: 268px auto;
@@ -2797,7 +2786,10 @@ body main {
     text-align: left;
     margin-left: 3px;
   }
-  .trainers__slider-one-image, .trainers__slider-two-image, .trainers__slider-three-image, .trainers__slider-four-image {
+  .trainers__slider-one-image,
+.trainers__slider-two-image,
+.trainers__slider-three-image,
+.trainers__slider-four-image {
     width: 260px;
     background-size: 260px auto;
   }
