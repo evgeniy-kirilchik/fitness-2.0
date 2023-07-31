@@ -42,7 +42,7 @@
     rotate: 150deg;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .abonements__decoration-wrapper {
       background-image: url("../img/main/abonements-decor2x.webp");
     }
@@ -59,7 +59,7 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   .abonements__container {
     width: 90%;
   }
@@ -97,7 +97,7 @@
     rotate: 150deg;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .abonements__decoration-wrapper {
       background-image: url("../img/main/abonements-decor2x.webp");
     }

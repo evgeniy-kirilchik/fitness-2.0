@@ -84,7 +84,7 @@
   border: 0px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .gym__description-text {
     padding-right: 35px;
   }
@@ -98,11 +98,11 @@
     margin-bottom: 40px;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .gym__description-background-image-wrapper {
       background-image: url("../img/main/gym-mobile-2x.webp");
     }
-  };
+  }
 
   .gym__video-player-button-decoration-ring {
     width: 69px;
@@ -132,14 +132,14 @@
     position: relative;
   }
 
-  @media screen and (min-resolution: 2dppx){
-    .gym__video-wrapper  {
+  @media screen and (min-resolution: 2dppx) {
+    .gym__video-wrapper {
       background-image: url("../img/main/gym-video-image2x.webp");
     }
-  };
-};
+  }
+}
 
-@media screen and (min-width: 321px) and (max-width: 767px){
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .gym__description {
     width: 100%;
   }
@@ -209,11 +209,11 @@
     position: relative;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .gym__description-background-image-wrapper {
       background-image: url("../img/main/gym-tablet-2x.webp");
     }
-  };
+  }
 
   .gym__video-wrapper {
     background-image: url("../img/main/gym-video-image1x.webp");
@@ -233,11 +233,11 @@
     left: 206px;
   }
 
-  @media screen and (min-resolution: 2dppx){
-    .gym__video-wrapper  {
+  @media screen and (min-resolution: 2dppx) {
+    .gym__video-wrapper {
       background-image: url("../img/main/gym-video-image2x.webp");
     }
-  };
+  }
 
   .gym__video-player-button-decoration-ring {
     width: 72px;
@@ -265,9 +265,9 @@
     width: 463px;
     height: 300px;
   }
-};
+}
 
-@media screen and (min-width: 769px) and (max-width: 1199px){
+@media screen and (min-width: 769px) and (max-width: 1199px) {
   .gym__description {
     width: 100%;
   }
@@ -277,9 +277,9 @@
   }
 
   .gym__description-background-image-wrapper {
-   width: 100%;
-   background-size: 80%;
-   background-repeat: no-repeat;
+    width: 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
   }
 
   .gym__video-container {
@@ -287,7 +287,7 @@
   }
 }
 
-@media screen and (min-width: $vp-1200){
+@media screen and (min-width: $vp-1200) {
   .gym {
     width: 1160px;
     margin: 0 auto;
@@ -337,11 +337,11 @@
     z-index: -2;
   }
 
-  @media screen and (min-resolution: 2dppx){
+  @media screen and (min-resolution: 2dppx) {
     .gym__description-background-image-wrapper {
       background-image: url("../img/main/gym2x.webp");
     }
-  };
+  }
 
   .gym__video-player-button-svg {
     width: 17px;
@@ -365,29 +365,29 @@
     top: 125px;
     left: 122px;
 
-    &:hover .gym__video-player-button-decoration-ring-stroke  {
-     stroke: #102654;
-     stroke-opacity: 1;
+    &:hover .gym__video-player-button-decoration-ring-stroke {
+      stroke: #102654;
+      stroke-opacity: 1;
     }
 
-    &:hover .gym__video-player-button-decoration-circle  {
+    &:hover .gym__video-player-button-decoration-circle {
       background: #ffffff;
     }
 
-    &:hover .gym__video-player-button-svg  {
+    &:hover .gym__video-player-button-svg {
       fill: #102654;
     }
 
-    &:focus .gym__video-player-button-decoration-circle  {
+    &:focus .gym__video-player-button-decoration-circle {
       background: #ffffff;
     }
 
-    &:focus .gym__video-player-button-decoration-ring-stroke  {
+    &:focus .gym__video-player-button-decoration-ring-stroke {
       stroke: #102654;
       stroke-opacity: 1;
-     }
+    }
 
-    &:focus .gym__video-player-button-svg  {
+    &:focus .gym__video-player-button-svg {
       fill: #102654;
     }
 
@@ -418,11 +418,11 @@
     height: 228px;
   }
 
-  @media screen and (min-resolution: 2dppx){
-    .gym__video-wrapper  {
+  @media screen and (min-resolution: 2dppx) {
+    .gym__video-wrapper {
       background-image: url("../img/main/gym-video-image2x.webp");
     }
-  };
+  }
 
   .gym__video-iframe {
     position: absolute;
@@ -431,5 +431,4 @@
     width: 600px;
     height: 335px;
   }
-};
-
+}
