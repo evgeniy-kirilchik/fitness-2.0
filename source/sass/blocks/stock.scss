@@ -414,7 +414,7 @@
       outline: none;
     }
 
-    &:focus::before {
+    &:focus-visible::before {
       content: "";
       position: absolute;
       left:-11px;
@@ -432,10 +432,10 @@
       outline: none;
     }
 
-    &:focus::before {
+    &:focus-visible::before {
       content: "";
       position: absolute;
-      left:-11pxpx;
+      left:-11px;
       top: -8px;
       width: 99px;
       height: 30px;
@@ -450,10 +450,10 @@
       outline: none;
     }
 
-    &:focus::before {
+    &:focus-visible::before {
       content: "";
       position: absolute;
-      left:-11pxpx;
+      left:-11px;
       top: -8px;
       width: 99px;
       height: 30px;
