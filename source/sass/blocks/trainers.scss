@@ -29,8 +29,8 @@
   position: relative;
 }
 
-.trainers__slider-image img{
- display: block;
+.trainers__slider-image img {
+  display: block;
 }
 
 .trainers__slider--three {
@@ -224,7 +224,7 @@
     height: 179px;
   }
 
-  .trainers__slider--three{
+  .trainers__slider--three {
     cursor: pointer;
 
     &:focus .trainers__slider-three-wrapper-decoration {
