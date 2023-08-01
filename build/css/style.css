@@ -2787,7 +2787,7 @@ body main {
   background-color: #f8f9fc;
   padding-top: 63px;
   padding-bottom: 60px;
-  margin-bottom: 64px;
+  margin-bottom: 30px;
 }
 
 .advantages__container {
@@ -2795,7 +2795,7 @@ body main {
   margin: 0 auto;
 }
 
-.advantages__wrapper {
+.advantages__list {
   text-align: center;
 }
 
@@ -2806,12 +2806,12 @@ body main {
   font-weight: 600;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 31px;
+  margin-bottom: 50px;
 }
 
-.advantages__area-value {
+.advantages__value {
   font-size: 58px;
-  line-height: 87px;
+  line-height: 44px;
   font-weight: 700;
   background: -webkit-linear-gradient(295deg, #D10A42 35%, #0041CA 49%);
   -webkit-background-clip: text;
@@ -2819,58 +2819,80 @@ body main {
   -webkit-text-fill-color: transparent;
 }
 
-.advantages__area-value-badge {
+.advantages__value-badge {
   font-size: 14px;
-  line-height: 21px;
   font-weight: 400;
   color: #2e35ac;
+  margin-top: 3px;
 }
 
-.advantages__area-key-title {
+.advantages__key-wrapper {
+  margin-top: 3px;
+}
+
+.advantages__key-title {
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
 }
 
-.advantages__area-key-description {
-  padding-right: 67px;
-  padding-left: 66px;
+.advantages__key-description {
+  padding-right: 66px;
+  padding-left: 67px;
   margin: 0;
-  margin-top: 8px;
-  margin-bottom: 3px;
+  margin-top: 7px;
+  margin-bottom: 0px;
 }
 
-.advantages__parking-value {
-  font-size: 58px;
-  line-height: 87px;
-  font-weight: 700;
-  background: -webkit-linear-gradient(299deg, #D10A42 37%, #0041CA 61%);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
+.advantages__key-description--padding {
+  padding-right: 46px;
+  padding-left: 47px;
+  margin-top: 1px;
 }
 
-.advantages__parking-value-badge {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #2e35ac;
-}
-
-.advantages__parking-key-title {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-}
-
-.advantages__parking-key-description {
-  padding-right: 45px;
-  padding-left: 45px;
-  margin: 0;
+.advantages__key-description--margin {
   margin-top: 2px;
 }
 
-.advantages__simulators {
+.advantages__value-simulators {
+  font-size: 74px;
+  line-height: 111px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+.advantages__key-title--simulators {
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -23px;
+}
+
+.advantages__key-description--simulators {
+  font-weight: 400;
+  color: #ffffff;
+  padding-right: 65px;
+  padding-left: 65px;
+  margin-bottom: 0;
+}
+
+.advantages__value-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.advantages__item {
+  margin-bottom: 35px;
+}
+
+.advantages--simulators {
   background-color: #1c3374;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2879,126 +2901,10 @@ body main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 36px;
-  padding-bottom: 39px;
-  margin-bottom: 27px;
-}
-
-.advantages__simulators-value {
-  font-size: 74px;
-  line-height: 111px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: -20px;
-}
-
-.advantages__simulators-key {
-  font-size: 22px;
-  line-height: 33px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: -23px;
-}
-
-.advantages__simulators__description {
-  font-weight: 400;
-  color: #ffffff;
-  padding-right: 65px;
-  padding-left: 65px;
-  margin-bottom: 0;
-}
-
-.advantages__comfort {
-  margin-bottom: 18px;
-}
-
-.advantages__comfort-value {
-  font-size: 58px;
-  line-height: 87px;
-  font-weight: 700;
-  background: -webkit-linear-gradient(299deg, #D10A42 37%, #0041CA 61%);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.advantages__comfort-value-badge {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #2e35ac;
-}
-
-.advantages__comfort-key-title {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-}
-
-.advantages__comfort-key-description {
-  padding-right: 47px;
-  padding-left: 47px;
-  margin: 0;
-  margin-top: 3px;
-}
-
-.advantages__coaching-experience-value {
-  font-size: 58px;
-  line-height: 87px;
-  font-weight: 700;
-  background: -webkit-linear-gradient(299deg, #D10A42 37%, #0041CA 61%);
-  -webkit-background-clip: text;
-          background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.advantages__coaching-experience-value-badge {
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 400;
-  color: #2e35ac;
-}
-
-.advantages__coaching-experience-key-title {
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-}
-
-.advantages__coaching-experience-key-description {
-  padding-right: 41px;
-  padding-left: 42px;
-  margin: 0;
-  margin-top: 2px;
-}
-
-.advantages__area-value-wrapper,
-.advantages__parking-value-wrapper,
-.advantages__comfort-value-wrapper,
-.advantages__coaching-experience-value-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 3px;
-}
-
-.advantages__area-value-badge,
-.advantages__parking-value-badge,
-.advantages__comfort-value-badge,
-.advantages__coaching-experience-value-badge {
-  margin-top: -17px;
-}
-
-.advantages__area {
-  margin-bottom: 13px;
-}
-
-.advantages__parking {
-  margin-bottom: 39px;
+  padding-top: 39px;
+  padding-bottom: 44px;
+  margin-bottom: 48px;
+  margin-top: 41px;
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
@@ -3009,7 +2915,7 @@ body main {
 @media screen and (min-width: 768px) {
   .advantages {
     padding-top: 91px;
-    padding-bottom: 80px;
+    padding-bottom: 76px;
     margin-bottom: 91px;
   }
   .advantages__container {
@@ -3021,10 +2927,7 @@ body main {
     line-height: 50px;
     margin-bottom: 30px;
   }
-  .advantages__area-value-wrapper,
-.advantages__parking-value-wrapper,
-.advantages__comfort-value-wrapper,
-.advantages__coaching-experience-value-wrapper {
+  .advantages__value-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3037,11 +2940,20 @@ body main {
         -ms-flex-align: start;
             align-items: flex-start;
     margin-right: 29px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .advantages__area-key-wrapper,
-.advantages__parking-key-wrapper,
-.advantages__comfort-key-wrapper,
-.advantages__coaching-experience-key-wrapper {
+  .advantages__value-wrapper--simulators {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .advantages__key-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3056,31 +2968,13 @@ body main {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .advantages__area-key-wrapper {
-    padding-right: px;
-  }
-  .advantages__parking-key-wrapper {
-    padding-right: px;
-  }
-  .advantages__comfort-key-wrapper {
-    padding-right: px;
-  }
-  .advantages__coaching-experience-key-wrapper {
-    padding-right: px;
-  }
-  .advantages__area-key-description,
-.advantages__parking-key-description,
-.advantages__comfort-key-description,
-.advantages__coaching-experience-key-description {
+  .advantages__key-description {
     padding-right: 0;
     padding-left: 0;
     text-align: left;
     margin: 0;
   }
-  .advantages__area,
-.advantages__parking,
-.advantages__comfort,
-.advantages__coaching-experience {
+  .advantages__item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3093,14 +2987,15 @@ body main {
             justify-content: space-between;
     margin-bottom: 0;
   }
-  .advantages__simulators {
+  .advantages--simulators {
     margin-bottom: 0;
     width: 442px;
     padding-bottom: 0;
     padding-top: 37px;
     margin-left: 116px;
+    margin-top: 0;
   }
-  .advantages__wrapper {
+  .advantages__list {
     text-align: center;
     display: -ms-grid;
     display: grid;
@@ -3111,9 +3006,9 @@ body main {
     -webkit-column-gap: 55px;
        -moz-column-gap: 55px;
             column-gap: 55px;
-    row-gap: 27px;
+    row-gap: 28px;
   }
-  .advantages__coaching-experience {
+  .advantages--coaching-grid {
     -ms-grid-column: 2;
         grid-column-start: 2;
     -ms-grid-column-span: 1;
@@ -3123,7 +3018,7 @@ body main {
     -ms-grid-row-span: 1;
     grid-row-end: 4;
   }
-  .advantages__comfort {
+  .advantages--comfort-grid {
     -ms-grid-column: 1;
         grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -3133,14 +3028,13 @@ body main {
     -ms-grid-row-span: 1;
     grid-row-end: 4;
   }
-  .advantages__simulators__description {
-    padding-right: 126px;
-    padding-left: 126px;
+  .advantages__key-description--simulators {
+    padding-right: 129px;
+    padding-left: 133px;
+    margin-top: 12px;
+    text-align: center;
   }
-  .advantages__area-value,
-.advantages__parking-value,
-.advantages__comfort-value,
-.advantages__coaching-experience-value {
+  .advantages__value {
     background: -webkit-linear-gradient(295deg, #D10A42 28%, #0041CA 62%);
     -webkit-background-clip: text;
             background-clip: text;
@@ -3151,7 +3045,7 @@ body main {
   .advantages__container {
     width: 90%;
   }
-  .advantages__wrapper {
+  .advantages__list {
     text-align: center;
     display: -ms-grid;
     display: grid;
@@ -3166,14 +3060,14 @@ body main {
     margin: 0;
     margin-left: 10%;
   }
-  .advantages__simulators {
+  .advantages--simulators {
     margin-left: 47%;
   }
 }
 @media screen and (min-width: 1200px) {
   .advantages {
     padding-top: 108px;
-    padding-bottom: 120px;
+    padding-bottom: 129px;
     margin-bottom: 135px;
   }
   .advantages__container {
@@ -3185,36 +3079,72 @@ body main {
     line-height: 65px;
     margin-bottom: 55px;
   }
-  .advantages__area-value,
-.advantages__parking-value,
-.advantages__comfort-value,
-.advantages__coaching-experience-value {
-    font-size: 71px;
-    line-height: 105px;
+  .advantages__key-title {
+    line-height: 0;
+    font-size: 22px;
+    margin-top: 11px;
+    margin-bottom: 20px;
   }
-  .advantages__simulators-key {
+  .advantages__value {
+    font-size: 71px;
+    line-height: 55px;
+  }
+  .advantages__value-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-right: 30px;
+    margin-left: 17px;
+  }
+  .advantages__value-simulators {
+    font-size: 74px;
+    line-height: 0px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 36px;
+    margin-bottom: 27px;
+  }
+  .advantages__value-wrapper--simulators {
+    margin: 0 auto;
+  }
+  .advantages__value-badge {
+    margin-top: 1px;
+  }
+  .advantages__key-description {
+    padding-right: 30px;
+  }
+  .advantages__key-description--padding-right {
+    padding-right: 44px;
+  }
+  .advantages__key-wrapper {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-top: 0;
+  }
+  .advantages__key-title--simulators {
     font-size: 26px;
     line-height: 39px;
   }
-  .advantages__wrapper {
+  .advantages__list {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 339px 240px 327px;
-    grid-template-columns: 339px 240px 327px;
-    -ms-grid-rows: 127px 0px;
-    grid-template-rows: 127px 0px;
-    -webkit-column-gap: 61px;
-       -moz-column-gap: 61px;
-            column-gap: 61px;
-    row-gap: 35px;
+    -ms-grid-columns: 37% 26% 36%;
+    grid-template-columns: 37% 26% 36%;
+    -ms-grid-rows: 50%;
+    grid-template-rows: 50%;
+    -webkit-column-gap: 15px;
+       -moz-column-gap: 15px;
+            column-gap: 15px;
+    row-gap: 40px;
   }
-  .advantages__simulators {
+  .advantages--simulators {
     width: 240px;
     margin-left: 0;
     padding-top: 55px;
     height: 252px;
   }
-  .advantages__parking {
+  .advantages--parking-grid {
     -ms-grid-column: 3;
         grid-column-start: 3;
     -ms-grid-column-span: 1;
@@ -3224,7 +3154,7 @@ body main {
     -ms-grid-row-span: 1;
     grid-row-end: 2;
   }
-  .advantages__simulators {
+  .advantages--simulators {
     -ms-grid-column: 2;
         grid-column-start: 2;
     -ms-grid-column-span: 1;
@@ -3234,7 +3164,7 @@ body main {
     -ms-grid-row-span: 3;
     grid-row-end: 4;
   }
-  .advantages__coaching-experience {
+  .advantages--coaching-grid {
     -ms-grid-column: 3;
         grid-column-start: 3;
     -ms-grid-column-span: 1;
@@ -3245,84 +3175,32 @@ body main {
     grid-row-end: 4;
     position: relative;
   }
-  .advantages__coaching-experience::before {
+  .advantages--coaching-grid::before {
     content: "";
     position: absolute;
-    left: 0px;
-    top: -44px;
+    left: 15px;
+    top: -81px;
     width: 340px;
     height: 2px;
     background-color: #d10a42;
     opacity: 0.2;
   }
-  .advantages__simulators__description {
+  .advantages__key-description--simulators {
     padding-right: 34px;
     padding-left: 34px;
-    margin-top: 33px;
   }
-  .advantages__area-value-wrapper {
-    margin-top: -29px;
-    margin-left: 20px;
-  }
-  .advantages__area-key-title {
-    font-size: 22px;
-    margin-bottom: 4px;
-  }
-  .advantages__area-key-wrapper {
-    margin-top: -4px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .advantages__parking-value-wrapper {
-    margin-top: -28px;
-    margin-left: -1px;
-  }
-  .advantages__parking-key-wrapper {
-    margin-top: -4px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .advantages__comfort {
+  .advantages--comfort-grid {
     position: relative;
   }
-  .advantages__comfort::before {
+  .advantages--comfort-grid::before {
     content: "";
     position: absolute;
     left: 0px;
-    top: -44px;
+    top: -81px;
     width: 340px;
     height: 2px;
     background-color: #d10a42;
     opacity: 0.2;
-  }
-  .advantages__simulators-value {
-    margin-bottom: 5px;
-  }
-  .advantages__parking-key-title {
-    font-size: 22px;
-    margin-bottom: 5px;
-  }
-  .advantages__comfort-value-wrapper {
-    padding-top: 10px;
-    margin-left: 20px;
-  }
-  .advantages__comfort-key-wrapper {
-    padding-top: 33px;
-  }
-  .advantages__comfort-key-title {
-    font-size: 22px;
-  }
-  .advantages__coaching-experience-value-wrapper {
-    padding-top: 10px;
-  }
-  .advantages__coaching-experience-key-wrapper {
-    padding-top: 33px;
-  }
-  .advantages__coaching-experience-key-title {
-    font-size: 22px;
-    margin-bottom: 7px;
   }
 }
 .footer {
