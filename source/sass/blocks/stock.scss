@@ -79,16 +79,14 @@
   background-repeat: no-repeat;
 }
 
-.stock__month-title,
-.stock__discount-title {
+.stock__item-title {
   font-weight: 700;
   font-size: 26px;
   color: #1c3374;
   margin-bottom: 10px;
 }
 
-.stock__month-description,
-.stock__discount-description {
+.stock__item-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -96,8 +94,7 @@
   margin-bottom: 25px;
 }
 
-.stock__month-link,
-.stock__discount-link {
+.stock__item-link {
   font-weight: 700;
   font-size: 12px;
   line-height: 14px;
@@ -106,7 +103,7 @@
   position: relative;
 }
 
-.stock__month-link {
+.stock__item-link--month {
   &::before {
     content: "";
     position: absolute;
@@ -126,7 +123,7 @@
   }
 }
 
-.stock__discount-link {
+.stock__item-link--discount {
   &::before {
     content: "";
     position: absolute;
@@ -150,8 +147,7 @@
   margin-bottom: 30px;
 }
 
-.stock__month,
-.stock__discount {
+.stock__item {
   border: 7px solid;
   border-image: linear-gradient(151deg, #ED0233 0%, #003EB7 100%) 1;
   text-align: center;
@@ -161,13 +157,13 @@
   flex-direction: column;
 }
 
-.stock__month {
+.stock__item--month {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 30px;
 }
 
-.stock__discount {
+.stock__item--discount {
   padding-left: 54px;
   padding-right: 54px;
 }
@@ -187,17 +183,17 @@
     width: 190px;
   }
 
-  .stock__month {
+  .stock__item--month {
     width: 196px;
   }
 
-  .stock__discount {
+  .stock__item--discount {
     width: 168px;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 644px) {
-  .stock__month {
+  .stock__item--month {
     margin-bottom: 40px;
   }
 }
@@ -210,7 +206,7 @@
     justify-content: space-between;
   }
 
-  .stock__adaptive-wrapper {
+  .stock__adaptive-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -218,7 +214,7 @@
 
   }
 
-  .stock__month {
+  .stock__item--month {
     margin-bottom: 0px;
   }
 }
@@ -243,7 +239,7 @@
 
   .stock__year-image {
     background-image: url("../img/main/stock-tablet1x.webp");
-    width: 581px;
+    width: 651px;
     height: 462px;
     background-size: 399px auto;
     background-repeat: no-repeat;
@@ -266,6 +262,7 @@
 
   .stock__year-content-description {
     margin-bottom: 185px;
+    padding-right: 36px;
   }
 
   .stock__year-content-link {
@@ -277,53 +274,51 @@
     width: 78px;
   }
 
-  .stock__month,
-  .stock__discount {
+  .stock__item {
     text-align: left;
     padding-top: 25px;
     padding-bottom: 29px;
   }
 
-  .stock__month {
+  .stock__item--month {
     padding-left: 28px;
     padding-right: 56px;
     margin-bottom: 0px;
     width: 226px;
   }
 
-  .stock__discount {
+  .stock__item--discount {
     padding-left: 28px;
     padding-right: 41px;
     width: 240px;
   }
 
-  .stock__discount-description {
+  .stock__item-description--discount {
     margin-bottom: 72px;
   }
 
-  .stock__month-description {
+  .stock__item-description--month {
     margin-bottom: 50px;
   }
 
-  .stock__month-link {
+  .stock__item-link--month {
     &::before {
       left: -2px;
     }
   }
 
-  .stock__discount-link {
+  .stock__item-link--discount {
     &::before {
       left: -2px;
     }
   }
 
-  .stock__month-link,
-  .stock__discount-link {
+  .stock__item-link {
     font-size: 13px;
     width: 67px;
   }
 
-  .stock__adaptive-wrapper {
+  .stock__adaptive-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -342,7 +337,7 @@
     justify-content: space-between;
   }
 
-  .stock__adaptive-wrapper {
+  .stock__adaptive-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -350,7 +345,7 @@
 
   }
 
-  .stock__month {
+  .stock__item--month{
     margin-bottom: 0px;
   }
 
@@ -388,20 +383,25 @@
     background-repeat: no-repeat;
   }
 
-  .stock__month {
+  .stock__item--month {
     padding-left: 28px;
     padding-right: 55px;
     width: 463px;
   }
 
-  .stock__discount {
+  .stock__item--discount {
     padding-left: 28px;
     padding-right: 20px;
     width: 498px;
   }
 
-  .stock__month-description {
+  .stock__item-description--month {
     margin-bottom: 71px;
+  }
+
+
+  .stock__year-content-description {
+    padding-right: 0;
   }
 
   .stock__year-content {
@@ -426,7 +426,7 @@
     }
   }
 
-  .stock__month-link {
+  .stock__item-link--month{
 
     &:focus {
       outline: none;
@@ -444,7 +444,7 @@
     }
   }
 
-  .stock__discount-link {
+  .stock__item-link--discount {
 
     &:focus {
       outline: none;
@@ -462,7 +462,7 @@
     }
   }
 
-  .stock__adaptive-wrapper {
+  .stock__adaptive-list {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
