@@ -4409,21 +4409,14 @@ body main {
   right: 2px;
 }
 
-.reviews__slide-user-image {
-  background-image: url("../img/main/reviews-user-image1x.webp");
+.reviews__slide-user-image img {
+  border-radius: 50%;
+  margin-right: 14px;
+  margin-left: 42px;
   width: 68px;
   height: 68px;
-  background-size: 68px auto;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin-right: 15px;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
-  .reviews__slide-user-image {
-    background-image: url("../img/main/reviews-user-image2x.webp");
-  }
-}
 .reviews__slide-user-name {
   font-size: 20px;
   line-height: 26px;
@@ -4446,17 +4439,7 @@ body main {
   width: 176px;
   background-color: #1c3374;
   margin: 0 auto;
-  padding: 40px 0px 34px 0px;
-}
-
-.reviews__slide-user-name-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  padding: 39px 0px 35px 0px;
 }
 
 .reviews__slide-user-container {
@@ -4473,7 +4456,7 @@ body main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 17px;
+  margin-bottom: 10px;
 }
 
 .reviews__slider-container {
@@ -4509,14 +4492,15 @@ body main {
     font-size: 44px;
     margin-bottom: 54px;
   }
-  .reviews__slide-user-image {
-    width: 80px;
-    height: 80px;
-    background-size: 80px auto;
+  .reviews__slide-user-image img {
+    border-radius: 50%;
+    margin-right: 15px;
     margin-right: 0;
     position: absolute;
-    top: 7px;
-    left: 66px;
+    top: 8px;
+    left: 24px;
+    width: 80px;
+    height: 80px;
   }
   .reviews__slide-user-name {
     line-height: 30px;
@@ -4526,22 +4510,13 @@ body main {
   }
   .reviews__slide {
     width: 328px;
-    padding: 56px 0px 56px 0px;
+    padding: 56px 0px 58px 0px;
   }
   .reviews__slide-user-review-text {
     text-align: left;
     padding-left: 0px;
     padding-left: 173px;
     padding-right: 62px;
-  }
-  .reviews__slide-user-name-wrapper {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
   }
   .reviews__slide-user-container {
     -webkit-box-pack: start;
