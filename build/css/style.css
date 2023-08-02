@@ -1122,6 +1122,7 @@ body main {
 .hero-block img {
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: #000150;
 }
 
 .hero-block__services-item {
@@ -1202,7 +1203,8 @@ body main {
   .hero-block img {
     width: 88%;
     height: 88%;
-    padding-left: 12%;
+    margin-left: 12%;
+    background-color: #000150;
   }
   .hero-block__title {
     padding-left: 40%;
@@ -1442,6 +1444,7 @@ body main {
     background-size: 678px auto;
     z-index: -2;
     position: relative;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
@@ -1459,6 +1462,7 @@ body main {
     background-position: 2px -18px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1513,8 +1517,8 @@ body main {
     width: 90%;
   }
   .gym__description-image {
-    width: 100%;
-    background-size: 80%;
+    width: 98%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
   .gym__video-container {
@@ -1570,6 +1574,7 @@ body main {
     background-size: 660px;
     background-repeat: no-repeat;
     z-index: -2;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -1644,6 +1649,7 @@ body main {
     background-position: 1px -26px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -3793,6 +3799,7 @@ body main {
     height: 462px;
     background-size: 399px auto;
     background-repeat: no-repeat;
+    background-color: #4983f7;
   }
 }
 @media screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 2dppx) {
