@@ -202,13 +202,14 @@
     margin-bottom: 42px;
   }
 
-  .gym__description-image{
+  .gym__description-image {
     background-image: url("../img/main/gym-tablet-1x.webp");
     width: 678px;
     height: 345px;
     background-size: 678px auto;
     z-index: -2;
     position: relative;
+    background-color: #bbbfc4;
   }
 
   @media screen and (min-resolution: 2dppx) {
@@ -226,6 +227,7 @@
     background-position: 2px -18px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 
   .gym__video-wrapper-decoration {
@@ -279,8 +281,8 @@
   }
 
   .gym__description-image {
-    width: 100%;
-    background-size: 80%;
+    width: 98%;
+    background-size: 100%;
     background-repeat: no-repeat;
   }
 
@@ -337,6 +339,7 @@
     background-size: 660px;
     background-repeat: no-repeat;
     z-index: -2;
+    background-color: #bbbfc4;
   }
 
   @media screen and (min-resolution: 2dppx) {
@@ -413,6 +416,7 @@
     background-position: 1px -26px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 
   .gym__video-wrapper-decoration {
