@@ -1,135 +1,37 @@
-.header {
-  background: $base-gradient;
-}
-
-.header__container {
-  width: 290px;
-  margin: 0 auto;
-  margin-top: 15px;
-}
-
-.header__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.header__logo {
-  font-family: $alumni-sans-font;
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 700;
-  font-style: normal;
-  color: #ffffff;
-}
-
-.header__tel {
-  font-family: $alumni-sans-font;
-  font-size: 21px;
-  line-height: 24px;
-  font-weight: 600;
-  font-style: normal;
-  color: #ffffff;
-}
-
-.header__button {
-  font-size: 12px;
-  line-height: 14px;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-  padding: 22px 87px;
-}
-
-.header__button-wrapper {
-  width: 282px;
-  height: 51px;
-  border: 4px solid #ffffff;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 80px;
-}
-
-.header__button-wrapper:active {
-  background: #ffffff;
-
-  .header__button {
-    color: $base-color;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .header__container {
-    width: 90%;
-  }
-
-  .header__button-wrapper {
-    margin: 0 auto;
-    margin-bottom: 80px;
-  }
-}
-
-@media screen and (min-width: $vp-768) {
-  .header__container {
-    width: 678px;
-    margin: 0 auto;
-    margin-top: 34px;
-    position: relative;
-  }
-
-  .header__logo {
-    font-size: 25px;
-    line-height: 29px;
-  }
-
-  .header__tel {
-    font-size: 25px;
-    line-height: 29px;
-    font-weight: 700;
-  }
-
-  .header__button {
-    padding: 19px 34px;
-  }
-
-  .header__button-wrapper {
-    width: 177px;
-    height: 50px;
-    position: absolute;
-    left: 140px;
-    bottom: 27px;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-  .header__container {
-    width: 90%;
-  }
-
-  .header__button-wrapper {
-    margin-bottom: 80px;
-  }
-}
-
 @media screen and (min-width: $vp-1200) {
+  .header {
+    background: $base-gradient;
+  }
+
   .header__container {
     width: 1160px;
     margin: 0 auto;
     margin-top: 30px;
+    position: relative;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .header__logo {
     font-size: 37px;
     line-height: 44px;
     font-weight: 600;
+    font-family: $alumni-sans-font;
+    font-style: normal;
+    color: #ffffff;
   }
 
   .header__tel {
     font-size: 28px;
     line-height: 32px;
     font-weight: 600;
+    font-family: $alumni-sans-font;
+    font-style: normal;
+    color: #ffffff;
   }
 
   .header__button-wrapper:hover {
@@ -158,11 +60,186 @@
 
   .header__button {
     padding: 18px 57px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
   }
 
   .header__button-wrapper {
     width: 222px;
+    height: 50px;
     left: 165px;
     bottom: 15px;
+    position: absolute;
+    border: 4px solid #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header__button-wrapper:active {
+    background: #ffffff;
+
+    .header__button {
+      color: $base-color;
+    }
+  }
+}
+
+@media screen and (min-width: $vp-768) and (max-width: 1199px) {
+  .header {
+    background: $base-gradient;
+  }
+
+  .header__container {
+    width: 678px;
+    margin: 0 auto;
+    margin-top: 34px;
+    position: relative;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-size: 25px;
+    line-height: 29px;
+    font-family: $alumni-sans-font;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .header__tel {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 700;
+    font-family: $alumni-sans-font;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .header__button {
+    padding: 19px 34px;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .header__button-wrapper {
+    width: 177px;
+    height: 50px;
+    position: absolute;
+    left: 140px;
+    bottom: 27px;
+    border: 4px solid #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header__button-wrapper:active {
+    background: #ffffff;
+
+    .header__button {
+      color: $base-color;
+    }
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .header__container {
+    width: 90%;
+  }
+
+  .header__button-wrapper {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    background: $base-gradient;
+  }
+
+  .header__container {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-family: $alumni-sans-font;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .header__tel {
+    font-family: $alumni-sans-font;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+  }
+
+  .header__button {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 22px 87px;
+  }
+
+  .header__button-wrapper {
+    width: 282px;
+    height: 51px;
+    border: 4px solid #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
+
+  .header__button-wrapper:active {
+    background: #ffffff;
+
+    .header__button {
+      color: $base-color;
+    }
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .header__container {
+    width: 90%;
+  }
+
+  .header__button-wrapper {
+    margin: 0 auto;
+    margin-bottom: 80px;
   }
 }
