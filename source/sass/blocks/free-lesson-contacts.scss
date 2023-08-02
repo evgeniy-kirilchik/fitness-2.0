@@ -29,7 +29,7 @@
   margin-top: 40px;
 }
 
-.free-lesson-contacts__contacts-title {
+.free-lesson-contacts__title {
   font-family: $alumni-sans-font;
   font-size: 34px;
   font-weight: 600;
@@ -38,14 +38,14 @@
   margin-bottom: 45px;
 }
 
-.free-lesson-contacts__contacts-item-title {
+.free-lesson-contacts__item-title {
   font-family: $base-font;
   font-size: 20px;
   font-weight: 700;
   margin: 0;
 }
 
-.free-lesson-contacts__contacts-item-description {
+.free-lesson-contacts__item-description {
   font-family: $base-font;
   font-size: 18px;
   font-weight: 400;
@@ -135,14 +135,14 @@
   padding-bottom: 64px;
 }
 
-.free-lesson-contacts__contacts-item {
+.free-lesson-contacts__item {
 
   &:not(:last-child) {
     margin-bottom: 24px;
   }
 }
 
-.free-lesson-contacts__contacts-item-title {
+.free-lesson-contacts__item-title {
   margin-bottom: 10px;
 }
 
@@ -154,14 +154,14 @@
 
 @media screen and (min-width: 466px) and (max-width: 767px) {
 
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
-  .free-lesson-contacts__contacts-item {
+  .free-lesson-contacts__item {
     margin-right: 20px;
   }
 }
@@ -257,7 +257,7 @@
     font-size: 15px;
   }
 
-  .free-lesson-contacts__contacts-title {
+  .free-lesson-contacts__title {
     font-size: 45px;
     margin-bottom: 48px;
   }
@@ -280,7 +280,7 @@
     }
   }
 
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: grid;
     grid-template-columns: 218px 218px;
     grid-template-rows: 67px 67px;
@@ -288,21 +288,21 @@
     row-gap: 16px;
   }
 
-  .free-lesson-contacts__contacts-item {
+  .free-lesson-contacts__item {
 
     &:not(:last-child) {
       margin-bottom: 0px;
     }
   }
 
-  .free-lesson-contacts__contacts-item-graphic {
+  .free-lesson-contacts__item--graphic {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
   }
 
-  .free-lesson-contacts__contacts-item-telefon {
+  .free-lesson-contacts__item--telefon {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -315,14 +315,14 @@
     width: 90%;
   }
 
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
   }
 
-  .free-lesson-contacts__contacts-item {
+  .free-lesson-contacts__item {
     &:not(:last-child) {
       margin-right: 0px;
     }
@@ -408,14 +408,14 @@
     width: 410px;
   }
 
-  .free-lesson-contacts__contacts-title {
+  .free-lesson-contacts__title {
     margin-bottom: 59px;
     font-size: 54px;
     letter-spacing: 2px;
     margin-left: -8px;
   }
 
-  .free-lesson-contacts__contacts-item-title {
+  .free-lesson-contacts__item-title {
     margin-bottom: 5px;
     font-weight: 700;
     font-size: 16px;
@@ -423,7 +423,7 @@
     margin-bottom: 1px;
   }
 
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     column-gap: 120px;
     row-gap: 0px;
   }
@@ -432,12 +432,12 @@
     padding-top: 86px;
   }
 
-  .free-lesson-contacts__contacts-item-description {
+  .free-lesson-contacts__item-description {
     font-size: 13px;
   }
 
-  .free-lesson-contacts__contacts-item-email--position-left,
-  .free-lesson-contacts__contacts-item-telefon--position-left {
+  .free-lesson-contacts__item--email-position-left,
+  .free-lesson-contacts__item--telefon-position-left {
     margin-left: -49px;
   }
 

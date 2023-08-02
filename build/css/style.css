@@ -4626,7 +4626,7 @@ body main {
   margin-top: 40px;
 }
 
-.free-lesson-contacts__contacts-title {
+.free-lesson-contacts__title {
   font-family: "Alumni Sans", "Arial", sans-serif;
   font-size: 34px;
   font-weight: 600;
@@ -4635,14 +4635,14 @@ body main {
   margin-bottom: 45px;
 }
 
-.free-lesson-contacts__contacts-item-title {
+.free-lesson-contacts__item-title {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin: 0;
 }
 
-.free-lesson-contacts__contacts-item-description {
+.free-lesson-contacts__item-description {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -4723,11 +4723,11 @@ body main {
   padding-bottom: 64px;
 }
 
-.free-lesson-contacts__contacts-item:not(:last-child) {
+.free-lesson-contacts__item:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.free-lesson-contacts__contacts-item-title {
+.free-lesson-contacts__item-title {
   margin-bottom: 10px;
 }
 
@@ -4737,7 +4737,7 @@ body main {
   }
 }
 @media screen and (min-width: 466px) and (max-width: 767px) {
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4751,7 +4751,7 @@ body main {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .free-lesson-contacts__contacts-item {
+  .free-lesson-contacts__item {
     margin-right: 20px;
   }
 }
@@ -4835,7 +4835,7 @@ body main {
     margin-top: 34px;
     font-size: 15px;
   }
-  .free-lesson-contacts__contacts-title {
+  .free-lesson-contacts__title {
     font-size: 45px;
     margin-bottom: 48px;
   }
@@ -4855,7 +4855,7 @@ body main {
     left: 201px;
     rotate: 90deg;
   }
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 218px 218px;
@@ -4867,10 +4867,10 @@ body main {
             column-gap: 96px;
     row-gap: 16px;
   }
-  .free-lesson-contacts__contacts-item:not(:last-child) {
+  .free-lesson-contacts__item:not(:last-child) {
     margin-bottom: 0px;
   }
-  .free-lesson-contacts__contacts-item-graphic {
+  .free-lesson-contacts__item--graphic {
     -ms-grid-column: 1;
         grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -4880,7 +4880,7 @@ body main {
     -ms-grid-row-span: 1;
     grid-row-end: 3;
   }
-  .free-lesson-contacts__contacts-item-telefon {
+  .free-lesson-contacts__item--telefon {
     -ms-grid-column: 2;
         grid-column-start: 2;
     -ms-grid-column-span: 1;
@@ -4895,7 +4895,7 @@ body main {
   .free-lesson-contacts__contacts {
     width: 90%;
   }
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4909,7 +4909,7 @@ body main {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .free-lesson-contacts__contacts-item:not(:last-child) {
+  .free-lesson-contacts__item:not(:last-child) {
     margin-right: 0px;
   }
 }
@@ -4979,20 +4979,20 @@ body main {
   .free-lesson-contacts__form-button {
     width: 410px;
   }
-  .free-lesson-contacts__contacts-title {
+  .free-lesson-contacts__title {
     margin-bottom: 59px;
     font-size: 54px;
     letter-spacing: 2px;
     margin-left: -8px;
   }
-  .free-lesson-contacts__contacts-item-title {
+  .free-lesson-contacts__item-title {
     margin-bottom: 5px;
     font-weight: 700;
     font-size: 16px;
     margin-left: -2px;
     margin-bottom: 1px;
   }
-  .free-lesson-contacts__contacts-list {
+  .free-lesson-contacts__list {
     -webkit-column-gap: 120px;
        -moz-column-gap: 120px;
             column-gap: 120px;
@@ -5001,11 +5001,11 @@ body main {
   .free-lesson-contacts__form-container form {
     padding-top: 86px;
   }
-  .free-lesson-contacts__contacts-item-description {
+  .free-lesson-contacts__item-description {
     font-size: 13px;
   }
-  .free-lesson-contacts__contacts-item-email--position-left,
-.free-lesson-contacts__contacts-item-telefon--position-left {
+  .free-lesson-contacts__item--email-position-left,
+.free-lesson-contacts__item--telefon-position-left {
     margin-left: -49px;
   }
   .free-lesson-contacts__contacts::before {
