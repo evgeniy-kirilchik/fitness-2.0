@@ -89,17 +89,18 @@
     padding-right: 35px;
   }
 
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym-mobile-1x.webp");
     width: 320px;
     height: 313px;
     background-repeat: no-repeat;
     background-size: 320px auto;
     margin-bottom: 40px;
+    background-color: #bbbfc4;
   }
 
   @media screen and (min-resolution: 2dppx) {
-    .gym__description-background-image-wrapper {
+    .gym__description-image {
       background-image: url("../img/main/gym-mobile-2x.webp");
     }
   }
@@ -130,6 +131,7 @@
     background-position: 0px -6px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 
   @media screen and (min-resolution: 2dppx) {
@@ -160,9 +162,9 @@
 }
 
 @media screen and (min-width: 467px) and (max-width: 767px) {
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     width: 80%;
-    background-size: 95% 145%;
+    background-size: 100% 145%;
     background-position: 30%;
   }
 }
@@ -200,7 +202,7 @@
     margin-bottom: 42px;
   }
 
-  .gym__description-background-image-wrapper {
+  .gym__description-image{
     background-image: url("../img/main/gym-tablet-1x.webp");
     width: 678px;
     height: 345px;
@@ -210,7 +212,7 @@
   }
 
   @media screen and (min-resolution: 2dppx) {
-    .gym__description-background-image-wrapper {
+    .gym__description-image {
       background-image: url("../img/main/gym-tablet-2x.webp");
     }
   }
@@ -276,7 +278,7 @@
     width: 90%;
   }
 
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     width: 100%;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -328,7 +330,7 @@
     display: block;
   }
 
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym1x.webp");
     width: 1741px;
     height: 401px;
@@ -338,7 +340,7 @@
   }
 
   @media screen and (min-resolution: 2dppx) {
-    .gym__description-background-image-wrapper {
+    .gym__description-image {
       background-image: url("../img/main/gym2x.webp");
     }
   }

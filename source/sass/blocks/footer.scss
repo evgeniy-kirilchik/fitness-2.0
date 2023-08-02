@@ -21,7 +21,7 @@
   color: #ffffff;
 }
 
-.footer__social-container-icon {
+.footer__social-link {
   width: 25px;
   height: 25px;
   background-color: #ffffff;
@@ -174,15 +174,15 @@
     margin-right: 40px;
   }
 
-  .footer__social-list-item:hover .footer__social-container-icon {
+  .footer__social-link:hover {
     background-color: #103aae;
   }
 
-  .footer__social-link:focus-visible .footer__social-container-icon {
+  .footer__social-link:focus-visible {
     background-color: #103aae;
   }
 
-  .footer__social-list-item:active .footer__social-container-icon {
+  .footer__social-link:active  {
     background-color: $base-color;
   }
 
