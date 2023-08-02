@@ -1331,17 +1331,18 @@ body main {
   .gym__description-text {
     padding-right: 35px;
   }
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym-mobile-1x.webp");
     width: 320px;
     height: 313px;
     background-repeat: no-repeat;
     background-size: 320px auto;
     margin-bottom: 40px;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 2dppx) {
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym-mobile-2x.webp");
   }
 }
@@ -1375,6 +1376,7 @@ body main {
     background-position: 0px -6px;
     z-index: -1;
     position: relative;
+    background-color: #bbbfc4;
   }
 }
 @media screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 2dppx) {
@@ -1399,9 +1401,9 @@ body main {
   }
 }
 @media screen and (min-width: 467px) and (max-width: 767px) {
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     width: 80%;
-    background-size: 95% 145%;
+    background-size: 100% 145%;
     background-position: 30%;
   }
 }
@@ -1433,7 +1435,7 @@ body main {
     margin-top: 35px;
     margin-bottom: 42px;
   }
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym-tablet-1x.webp");
     width: 678px;
     height: 345px;
@@ -1443,7 +1445,7 @@ body main {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym-tablet-2x.webp");
   }
 }
@@ -1510,7 +1512,7 @@ body main {
   .gym {
     width: 90%;
   }
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     width: 100%;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -1561,7 +1563,7 @@ body main {
   .gym__description-text--desktop-on {
     display: block;
   }
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym1x.webp");
     width: 1741px;
     height: 401px;
@@ -1571,7 +1573,7 @@ body main {
   }
 }
 @media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .gym__description-background-image-wrapper {
+  .gym__description-image {
     background-image: url("../img/main/gym2x.webp");
   }
 }
@@ -1710,7 +1712,7 @@ body main {
   }
 }
 @media screen and (min-width: 768px) {
-  .abonements__decoration-wrapper-overflow-container {
+  .abonements__decoration-overflow-wrapper {
     position: absolute;
     top: 1382px;
     left: 449px;
@@ -1723,7 +1725,7 @@ body main {
   .abonements__container {
     width: 90%;
   }
-  .abonements__decoration-wrapper-overflow-container {
+  .abonements__decoration-overflow-wrapper {
     width: 40%;
     margin-left: 14%;
   }
@@ -1757,7 +1759,7 @@ body main {
   }
 }
 @media screen and (min-width: 1200px) {
-  .abonements__decoration-wrapper-overflow-container {
+  .abonements__decoration-overflow-wrapper {
     position: absolute;
     top: 428px;
     left: 1019px;
@@ -2270,6 +2272,7 @@ body main {
   width: 290px;
   height: 292px;
   background-repeat: no-repeat;
+  background-color: #090a6b;
 }
 
 .super-games__data-value-object-wrapper {
@@ -2531,6 +2534,7 @@ body main {
 
 .trainers__slider-image img {
   display: block;
+  background-color: #bbbaba;
 }
 
 .trainers__slider--three {
@@ -3226,7 +3230,7 @@ body main {
   color: #ffffff;
 }
 
-.footer__social-container-icon {
+.footer__social-link {
   width: 25px;
   height: 25px;
   background-color: #ffffff;
@@ -3406,13 +3410,13 @@ body main {
   .footer__nav-list-item:not(:last-child):not(:first-child) {
     margin-right: 40px;
   }
-  .footer__social-list-item:hover .footer__social-container-icon {
+  .footer__social-link:hover {
     background-color: #103aae;
   }
-  .footer__social-link:focus-visible .footer__social-container-icon {
+  .footer__social-link:focus-visible {
     background-color: #103aae;
   }
-  .footer__social-list-item:active .footer__social-container-icon {
+  .footer__social-link:active {
     background-color: #102654;
   }
   .footer__social-link:focus {
@@ -3616,6 +3620,7 @@ body main {
   height: 299px;
   background-size: 290px auto;
   background-repeat: no-repeat;
+  background-color: #4983f7;
 }
 
 .stock__item-title {
@@ -3949,7 +3954,7 @@ body main {
   }
   .stock__year-image {
     background-image: url("../img/main/stock-image-background1x.webp");
-    width: 320px;
+    width: 280px;
     height: 462px;
     background-size: 280px 462px;
     background-repeat: no-repeat;
@@ -4415,6 +4420,7 @@ body main {
   margin-left: 42px;
   width: 68px;
   height: 68px;
+  background-color: #4b4a43;
 }
 
 .reviews__slide-user-name {
