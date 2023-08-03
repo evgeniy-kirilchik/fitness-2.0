@@ -1,24 +1,58 @@
-.abonements {
-  background-color: #f8f9fc;
-  padding-top: 63px;
-  padding-bottom: 73px;
+@media screen and (min-width: $vp-1200) {
+
+  .abonements {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f8f9fc;
+  }
+
+  .abonements__container {
+    width: 1160px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .abonements__title {
+    font-size: 58px;
+    line-height: 65px;
+    margin: 0;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: $alumni-sans-font;
+    font-weight: 600;
+  }
+
+  .abonements__decoration-wrapper {
+    background-image: url("../img/main/abonements-decor1x.webp");
+    width: 347px;
+    height: 405px;
+    background-size: 319px auto;
+    background-repeat: no-repeat;
+    rotate: 150deg;
+  }
+
+  @media screen and (min-resolution: 2dppx) {
+    .abonements__decoration-wrapper {
+      background-image: url("../img/main/abonements-decor2x.webp");
+    }
+  }
+
+  .abonements__decoration-overflow-wrapper {
+    position: absolute;
+    top: 428px;
+    left: 1019px;
+    overflow: hidden;
+    width: 380px;
+    height: 384px;
+  }
 }
 
-.abonements__title {
-  text-align: center;
-  font-family: $alumni-sans-font;
-  font-size: 34px;
-  line-height: 38px;
-  font-weight: 600;
-  margin: 0;
-  margin-bottom: 12px;
-}
-
-@media screen and (min-width: $vp-768) {
+@media screen and (min-width: $vp-768) and (max-width: 1199px) {
 
   .abonements {
     padding-top: 102px;
     padding-bottom: 100px;
+    background-color: #f8f9fc;
   }
 
   .abonements__container {
@@ -30,7 +64,11 @@
   .abonements__title {
     font-size: 45px;
     line-height: 50px;
+    margin: 0;
     margin-bottom: 10px;
+    text-align: center;
+    font-family: $alumni-sans-font;
+    font-weight: 600;
   }
 
   .abonements__decoration-wrapper {
@@ -70,46 +108,21 @@
   }
 }
 
-@media screen and (min-width: $vp-1200) {
+@media screen and (max-width: 767px) {
 
   .abonements {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
-  .abonements__container {
-    width: 1160px;
-    position: relative;
+    background-color: #f8f9fc;
+    padding-top: 63px;
+    padding-bottom: 30px;
   }
 
   .abonements__title {
-    font-size: 58px;
-    line-height: 65px;
-    margin-bottom: 7px;
+    text-align: center;
+    font-family: $alumni-sans-font;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 12px;
   }
-
-  .abonements__decoration-wrapper {
-    background-image: url("../img/main/abonements-decor1x.webp");
-    width: 347px;
-    height: 405px;
-    background-size: 319px auto;
-    background-repeat: no-repeat;
-    rotate: 150deg;
-  }
-
-  @media screen and (min-resolution: 2dppx) {
-    .abonements__decoration-wrapper {
-      background-image: url("../img/main/abonements-decor2x.webp");
-    }
-  }
-
-  .abonements__decoration-overflow-wrapper {
-    position: absolute;
-    top: 428px;
-    left: 1019px;
-    overflow: hidden;
-    width: 380px;
-    height: 384px;
-  }
-
 }
