@@ -37,7 +37,7 @@
     padding-left: 28px;
     padding-right: 55px;
     width: 463px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .stock__item--discount {
@@ -70,24 +70,7 @@
     flex-direction: column;
   }
 
-  .stock__year-content-link {
-    &:focus {
-      outline: none;
-    }
-
-    &:focus-visible::before {
-      content: "";
-      position: absolute;
-      left: -11px;
-      top: -8px;
-      width: 99px;
-      height: 30px;
-      border: 1px solid #ffffff;
-      background: none;
-    }
-  }
-
-  .stock__item-link--month{
+  .stock__item-link--month {
     &::before {
       content: "";
       position: absolute;
@@ -123,7 +106,6 @@
   }
 
   .stock__item-link--discount {
-
     &::before {
       content: "";
       position: absolute;
@@ -165,7 +147,7 @@
   }
 
   .stock__year {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: row;
   }
@@ -210,6 +192,21 @@
     &:hover {
       opacity: 0.7;
     }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible::before {
+      content: "";
+      position: absolute;
+      left: -11px;
+      top: -8px;
+      width: 99px;
+      height: 30px;
+      border: 1px solid #ffffff;
+      background: none;
+    }
   }
 
   .stock__item {
@@ -217,7 +214,7 @@
     padding-top: 25px;
     padding-bottom: 29px;
     border: 7px solid;
-    border-image: linear-gradient(151deg, #ED0233 0%, #003EB7 100%) 1;
+    border-image: linear-gradient(151deg, #ed0233 0%, #003eb7 100%) 1;
     display: flex;
     flex-direction: column;
   }
@@ -249,7 +246,6 @@
   .stock__item-description--discount {
     margin-bottom: 72px;
   }
-
 }
 
 @media screen and (min-width: $vp-768) and (max-width: 1199px) {
@@ -354,7 +350,7 @@
     padding-top: 25px;
     padding-bottom: 29px;
     border: 7px solid;
-    border-image: linear-gradient(151deg, #ED0233 0%, #003EB7 100%) 1;
+    border-image: linear-gradient(151deg, #ed0233 0%, #003eb7 100%) 1;
     display: flex;
     flex-direction: column;
   }
@@ -362,7 +358,7 @@
   .stock__item--month {
     padding-left: 28px;
     padding-right: 56px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     width: 226px;
   }
 
@@ -468,11 +464,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
-  .stock__item--month{
-    margin-bottom: 0px;
+  .stock__item--month {
+    margin-bottom: 0;
   }
 
   .stock__year-image {
@@ -637,7 +632,7 @@
 
   .stock__item {
     border: 7px solid;
-    border-image: linear-gradient(151deg, #ED0233 0%, #003EB7 100%) 1;
+    border-image: linear-gradient(151deg, #ed0233 0%, #003eb7 100%) 1;
     text-align: center;
     padding-top: 37px;
     padding-bottom: 44px;
@@ -661,7 +656,6 @@
       background-image: url("../img/main/stock-mobile-2x.webp");
     }
   }
-
 }
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
@@ -701,10 +695,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 
   .stock__item--month {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }

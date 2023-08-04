@@ -28,12 +28,12 @@
 
     &::before {
       content: "";
-      width: 129px;
+      width: 102px;
       height: 1px;
       background: #74819c;
       position: absolute;
       top: 216px;
-      left: 201px;
+      left: 304px;
       rotate: 90deg;
     }
   }
@@ -47,10 +47,10 @@
   .free-lesson-contacts__form-container form {
     margin: 0 auto;
     margin-left: auto;
-    margin-right: 0px;
+    margin-right: 0;
     width: 410px;
-    padding-top: 73px;
     padding-bottom: 70px;
+    padding-top: 86px;
   }
 
   .free-lesson-contacts__form-item {
@@ -67,15 +67,16 @@
 
     &.is-invalid {
       border-bottom: 1px solid #ff121f;
+
       &:focus-within {
-         border-top: 1px solid #ff121f;
-         border-left: 1px solid #ff121f;
-         border-right: 1px solid #ff121f;
-         border-bottom: 1px solid #ff121f;
+        border-top: 1px solid #ff121f;
+        border-left: 1px solid #ff121f;
+        border-right: 1px solid #ff121f;
+        border-bottom: 1px solid #ff121f;
 
         .input-message {
-         right: -38px;
-         bottom: -30px;
+          right: -38px;
+          bottom: -30px;
         }
       }
     }
@@ -88,7 +89,7 @@
         border-left: 1px solid #22b259;
         border-right: 1px solid #22b259;
         border-bottom: 1px solid #22b259;
-       }
+      }
     }
 
     &:focus-within {
@@ -99,11 +100,11 @@
 
       &:not(:last-child) {
         margin-right: 43px;
-       }
-     }
+      }
+    }
 
     &:not(:last-child) {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-right: 30px;
     }
 
@@ -118,9 +119,8 @@
     }
 
     .free-lesson-contacts__item {
-
       &:not(:last-child) {
-        margin-bottom: 0px;
+        margin-bottom: 0;
       }
     }
   }
@@ -166,7 +166,6 @@
 
   .free-lesson-contacts__item-title {
     margin: 0;
-    margin-bottom: 5px;
     font-weight: 700;
     font-size: 16px;
     margin-left: -2px;
@@ -176,14 +175,10 @@
 
   .free-lesson-contacts__list {
     column-gap: 120px;
-    row-gap: 0px;
+    row-gap: 0;
     display: grid;
     grid-template-columns: 218px 218px;
     grid-template-rows: 67px 67px;
-  }
-
-  .free-lesson-contacts__form-container form {
-    padding-top: 86px;
   }
 
   .free-lesson-contacts__item-description {
@@ -196,14 +191,6 @@
   .free-lesson-contacts__item--email-position-left,
   .free-lesson-contacts__item--telefon-position-left {
     margin-left: -49px;
-  }
-
-  .free-lesson-contacts__contacts {
-    &::before {
-      width: 102px;
-      top: 216px;
-      left: 304px;
-    }
   }
 
   .free-lesson-contacts__form-list {
@@ -282,7 +269,7 @@
     }
 
     &:not(:last-child) {
-      margin-bottom: 0px;
+      margin-bottom: 0;
       margin-right: 54px;
     }
 
@@ -294,35 +281,35 @@
 
       &:not(:last-child) {
         margin-right: 67px;
-       }
-     }
+      }
+    }
 
-     &.is-invalid {
-       border-bottom: 1px solid #ff121f;
+    &.is-invalid {
+      border-bottom: 1px solid #ff121f;
 
-       &:focus-within {
-         border-top: 1px solid #ff121f;
-         border-left: 1px solid #ff121f;
-         border-right: 1px solid #ff121f;
-         border-bottom: 1px solid #ff121f;
+      &:focus-within {
+        border-top: 1px solid #ff121f;
+        border-left: 1px solid #ff121f;
+        border-right: 1px solid #ff121f;
+        border-bottom: 1px solid #ff121f;
 
-         .input-message {
+        .input-message {
           right: -17px;
           bottom: -30px;
-         }
         }
-     }
+      }
+    }
 
-     &.is-valid {
-       border-bottom: 1px solid #22b259;
+    &.is-valid {
+      border-bottom: 1px solid #22b259;
 
-       &:focus-within {
-         border-top: 1px solid #22b259;
-         border-left: 1px solid #22b259;
-         border-right: 1px solid #22b259;
-         border-bottom: 1px solid #22b259;
-        }
-     }
+      &:focus-within {
+        border-top: 1px solid #22b259;
+        border-left: 1px solid #22b259;
+        border-right: 1px solid #22b259;
+        border-bottom: 1px solid #22b259;
+      }
+    }
 
     .input-message {
       position: absolute;
@@ -387,9 +374,8 @@
   }
 
   .free-lesson-contacts__item {
-
     &:not(:last-child) {
-      margin-bottom: 0px;
+      margin-bottom: 0;
     }
   }
 
@@ -449,7 +435,7 @@
 
   .free-lesson-contacts__item {
     &:not(:last-child) {
-      margin-right: 0px;
+      margin-right: 0;
     }
   }
 }
@@ -553,10 +539,10 @@
     }
 
     &:focus-within {
-     border-top: 1px solid #ffffff;
-     border-left: 1px solid #ffffff;
-     border-right: 1px solid #ffffff;
-     border-bottom: 1px solid #ffffff;
+      border-top: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
     }
 
     &.is-invalid {
@@ -567,7 +553,7 @@
         border-left: 1px solid #ff121f;
         border-right: 1px solid #ff121f;
         border-bottom: 1px solid #ff121f;
-       }
+      }
     }
 
     &.is-valid {
@@ -578,7 +564,7 @@
         border-left: 1px solid #22b259;
         border-right: 1px solid #22b259;
         border-bottom: 1px solid #22b259;
-       }
+      }
     }
 
     .input-message {
@@ -600,7 +586,6 @@
   }
 
   .free-lesson-contacts__item {
-
     &:not(:last-child) {
       margin-bottom: 24px;
     }
@@ -614,7 +599,6 @@
 }
 
 @media screen and (min-width: 466px) and (max-width: 767px) {
-
   .free-lesson-contacts__list {
     display: flex;
     flex-direction: row;

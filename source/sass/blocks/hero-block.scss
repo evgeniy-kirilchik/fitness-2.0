@@ -61,7 +61,6 @@
 }
 
 @media screen and (min-width: $vp-768) and (max-width: 1199px) {
-
   .hero-block {
     margin-top: 19px;
     display: flex;
@@ -117,7 +116,6 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
-
   .hero-block__badge {
     margin-left: 76%;
   }
@@ -138,7 +136,7 @@
   .hero-block img {
     object-fit: cover;
     background-color: #000150;
-    display: none
+    display: none;
   }
 
   .hero-block {
