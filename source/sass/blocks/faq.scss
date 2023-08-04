@@ -97,12 +97,12 @@
   }
 
   .faq__tabs-controls {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     row-gap: 10px;
-    column-gap: 0px;
+    column-gap: 0;
     position: relative;
 
     &::after {
@@ -152,7 +152,7 @@
     }
 
     &.is-active {
-      background: linear-gradient(140deg, #ED0233 19%, #003EB7 100%);
+      background: linear-gradient(140deg, #ed0233 19%, #003eb7 100%);
       border: none;
       color: #ffffff;
     }
@@ -316,7 +316,7 @@
     }
 
     &.is-active {
-      background: linear-gradient(140deg, #ED0233 19%, #003EB7 100%);
+      background: linear-gradient(140deg, #ed0233 19%, #003eb7 100%);
       border: none;
       color: #ffffff;
     }
@@ -364,20 +364,6 @@
     width: 12px;
   }
 
-  .faq__tabs-item {
-    &.is-active .faq__tabs-item-toggle {
-      background-color: $base-color;
-    }
-
-    &.is-active .faq__tabs-item-toggle-plus {
-      display: none;
-    }
-
-    &.is-active .faq__tabs-item-toggle-minus {
-      display: block;
-    }
-  }
-
   .faq__tabs-item-toggle-plus {
     stroke: $base-color;
   }
@@ -404,9 +390,7 @@
     &:active {
       background-color: $base-color;
     }
-
   }
-
 
   .faq__tabs-item {
     position: relative;
@@ -419,6 +403,18 @@
       background-color: rgb(28, 51, 116, 0.2);
       position: absolute;
       bottom: -18px;
+    }
+
+    &.is-active .faq__tabs-item-toggle {
+      background-color: $base-color;
+    }
+
+    &.is-active .faq__tabs-item-toggle-plus {
+      display: none;
+    }
+
+    &.is-active .faq__tabs-item-toggle-minus {
+      display: block;
     }
   }
 
@@ -475,7 +471,7 @@
     }
 
     &.is-active {
-      background: linear-gradient(140deg, #ED0233 19%, #003EB7 100%);
+      background: linear-gradient(140deg, #ed0233 19%, #003eb7 100%);
       border: none;
       color: #ffffff;
     }

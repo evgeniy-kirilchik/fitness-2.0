@@ -74,7 +74,7 @@
     left: 24px;
     bottom: -25px;
     border-radius: 50px;
-    background: linear-gradient(46deg, #003D85 20%, #B80027 88.54%);
+    background: linear-gradient(46deg, #003d85 20%, #b80027 88.54%);
     position: absolute;
     width: 72px;
     height: 72px;
@@ -146,7 +146,7 @@
   .gym__video-wrapper-decoration {
     width: 364px;
     height: 228px;
-    background-color: rgba(20,54,122,.5);
+    background-color: rgba(20, 54, 122, 0.5);
   }
 
   @media screen and (min-resolution: 2dppx) {
@@ -268,7 +268,7 @@
     left: 190px;
     bottom: 100px;
     border-radius: 50px;
-    background: linear-gradient(46deg, #003D85 20%, #B80027 88.54%);
+    background: linear-gradient(46deg, #003d85 20%, #b80027 88.54%);
     position: absolute;
   }
 
@@ -384,7 +384,7 @@
 
   .gym__video-player-button-decoration-circle {
     border-radius: 50px;
-    background: linear-gradient(46deg, #003D85 20%, #B80027 88.54%);
+    background: linear-gradient(46deg, #003d85 20%, #b80027 88.54%);
     position: absolute;
     width: 52px;
     height: 52px;
@@ -405,7 +405,7 @@
     position: absolute;
     top: -125px;
     left: 0;
-    border: 0px;
+    border: 0;
   }
 
   .gym__description-image {
@@ -430,7 +430,7 @@
     height: 167px;
     background-repeat: no-repeat;
     background-size: 326px auto;
-    background-position: 0px -6px;
+    background-position: 0 -6px;
     z-index: -1;
     position: relative;
     background-color: #bbbfc4;

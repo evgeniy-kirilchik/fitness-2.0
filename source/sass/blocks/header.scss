@@ -42,15 +42,8 @@
     color: #103aae;
   }
 
-  .header__button-wrapper:active .header__button {
-    color: $base-color;
-  }
-
   .header__button:focus {
     color: #103aae;
-  }
-
-  .header__button:focus {
     background: #ffffff;
   }
 
