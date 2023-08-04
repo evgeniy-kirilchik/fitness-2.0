@@ -3,7 +3,7 @@ name: gh-pages
 on:
   push:
     branches:
-      - master
+      - main
 
 permissions:
   contents: write
@@ -24,10 +24,10 @@ jobs:
           node-version: '16.x'
 
       - name: Installing Dependencies
-        run: npm ci
+        run: npm i
 
       - name: Linting
-        run: npm run lint
+        run: npm run test
 
       - name: Building
         run: npm run build
