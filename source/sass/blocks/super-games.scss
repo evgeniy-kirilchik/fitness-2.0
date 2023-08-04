@@ -179,7 +179,7 @@
 
   .super-games__background-image {
     width: 386px;
-    height: 292px;
+    height: 293px;
     background-size: 386px auto;
     background-image: url("../img/main/super-games-background-image1x.webp");
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@
   }
 
   .super-games__content {
-    padding: 50px 10px 50px 43px;
+    padding: 50px 43px 50px 43px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -249,7 +249,7 @@
   .super-games__time-value {
     font-weight: 700;
     font-size: 24px;
-    line-height: 30px;
+    line-height: 36px;
     color: #ffffff;
   }
 
@@ -268,6 +268,23 @@
       position: absolute;
       left: -15px;
       top: -1px;
+    }
+  }
+
+  .super-games__time-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 56px;
+      height: 1px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 0px;
+      top: 20px;
     }
   }
 
@@ -308,8 +325,8 @@
 
   .super-games__content {
     width: 30%;
+    padding-right: 5%;
   }
-
 }
 
 @media screen and (max-width: 767px) {
