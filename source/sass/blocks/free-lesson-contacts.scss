@@ -1,182 +1,254 @@
-.free-lesson-contacts__form-title {
-  font-family: $alumni-sans-font;
-  font-size: 34px;
-  font-weight: 600;
-  text-align: left;
-  margin: 0;
-  color: #ffffff;
-  margin-bottom: 43px;
-}
-
-.free-lesson-contacts__form-container input::placeholder {
-  font-family: $base-font;
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.free-lesson-contacts__form-button {
-  font-family: $base-font;
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffffff;
-  width: 290px;
-  height: 52px;
-  background-color: $base-color;
-  border: 3px solid #ffffff;
-  cursor: pointer;
-  text-transform: uppercase;
-  margin-top: 38px;
-}
-
-.free-lesson-contacts__title {
-  font-family: $alumni-sans-font;
-  font-size: 34px;
-  font-weight: 600;
-  text-align: left;
-  margin: 0;
-  margin-bottom: 45px;
-}
-
-.free-lesson-contacts__item-title {
-  font-family: $base-font;
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0;
-}
-
-.free-lesson-contacts__item-description {
-  font-family: $base-font;
-  font-size: 18px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.free-lesson-contacts__form-container {
-  background-color: $base-color;
-}
-
-.free-lesson-contacts__form-container input {
-  background-color: $base-color;
-  color: #ffffff;
-  border: none;
-  width: 290px;
-  outline: none;
-  padding-bottom: 5px;
-  padding-top: 5px;
-}
-
-.free-lesson-contacts__form-container form {
-  width: 290px;
-  margin: 0 auto;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.free-lesson-contacts__form-item {
-  position: relative;
-  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
-  border-top: 1px solid #102654;
-  border-left: 1px solid #102654;
-  border-right: 1px solid #102654;
-
-  &:not(:last-child) {
-    margin-bottom: 35px;
+@media screen and (min-width: $vp-1200) {
+  .free-lesson-contacts__form-title {
+    font-size: 58px;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 47px;
+    font-family: $alumni-sans-font;
+    text-align: left;
+    color: #ffffff;
   }
 
-  &:hover {
-    border-bottom: 1px solid #ffffff;
-  }
-
-  &:focus-within {
-   border-top: 1px solid #ffffff;
-   border-left: 1px solid #ffffff;
-   border-right: 1px solid #ffffff;
-   border-bottom: 1px solid #ffffff;
-  }
-
-  &.is-invalid {
-    border-bottom: 1px solid #ff121f;
-
-    &:focus-within {
-      border-top: 1px solid #ff121f;
-      border-left: 1px solid #ff121f;
-      border-right: 1px solid #ff121f;
-      border-bottom: 1px solid #ff121f;
-     }
-  }
-
-  &.is-valid {
-    border-bottom: 1px solid #22b259;
-
-    &:focus-within {
-      border-top: 1px solid #22b259;
-      border-left: 1px solid #22b259;
-      border-right: 1px solid #22b259;
-      border-bottom: 1px solid #22b259;
-     }
-  }
-
-  .input-message {
-    position: absolute;
-    right: 69px;
-    bottom: -34px;
-
-    &.is-invalid {
-      color: #ff0000;
-    }
-  }
-}
-
-.free-lesson-contacts__contacts {
-  width: 290px;
-  margin: 0 auto;
-  padding-top: 70px;
-  padding-bottom: 64px;
-}
-
-.free-lesson-contacts__item {
-
-  &:not(:last-child) {
-    margin-bottom: 24px;
-  }
-}
-
-.free-lesson-contacts__item-title {
-  margin-bottom: 10px;
-}
-
-@media screen and (min-width: 321px) and (max-width: 767px) {
-  .free-lesson-contacts__contacts {
-    width: 90%;
-  }
-}
-
-@media screen and (min-width: 466px) and (max-width: 767px) {
-
-  .free-lesson-contacts__list {
+  .free-lesson-contacts__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .free-lesson-contacts__item {
-    margin-right: 20px;
+  .free-lesson-contacts__contacts {
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 127px;
+    width: calc(100%);
+    border-top: 1px solid #74819c;
+    padding-bottom: 44px;
+    padding-top: 75px;
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 129px;
+      height: 1px;
+      background: #74819c;
+      position: absolute;
+      top: 216px;
+      left: 201px;
+      rotate: 90deg;
+    }
+  }
+
+  .free-lesson-contacts__form-container {
+    padding-right: 170px;
+    width: calc(100%);
+    background-color: $base-color;
+  }
+
+  .free-lesson-contacts__form-container form {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 410px;
+    padding-top: 73px;
+    padding-bottom: 70px;
+  }
+
+  .free-lesson-contacts__form-item {
+    position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid #102654;
+    border-left: 1px solid #102654;
+    border-right: 1px solid #102654;
+
+    &:hover {
+      border-bottom: 1px solid #ffffff;
+    }
+
+
+    &.is-invalid {
+      border-bottom: 1px solid #ff121f;
+      &:focus-within {
+         border-top: 1px solid #ff121f;
+         border-left: 1px solid #ff121f;
+         border-right: 1px solid #ff121f;
+         border-bottom: 1px solid #ff121f;
+
+        .input-message {
+         right: -38px;
+         bottom: -30px;
+        }
+      }
+    }
+
+    &.is-valid {
+      border-bottom: 1px solid #22b259;
+
+      &:focus-within {
+        border-top: 1px solid #22b259;
+        border-left: 1px solid #22b259;
+        border-right: 1px solid #22b259;
+        border-bottom: 1px solid #22b259;
+       }
+    }
+
+    &:focus-within {
+      border-top: 1px solid #ffffff;
+      border-left: 1px solid #ffffff;
+      border-right: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+
+      &:not(:last-child) {
+        margin-right: 43px;
+       }
+     }
+
+    &:not(:last-child) {
+      margin-bottom: 0px;
+      margin-right: 30px;
+    }
+
+    .input-message {
+      position: absolute;
+      right: -25px;
+      bottom: -30px;
+
+      &.is-invalid {
+        color: #ff0000;
+      }
+    }
+
+    .free-lesson-contacts__item {
+
+      &:not(:last-child) {
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .free-lesson-contacts__form-container input {
+    width: 185px;
+    background-color: $base-color;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    &:focus {
+      width: 172px;
+    }
+  }
+
+  .free-lesson-contacts__form-button {
+    width: 410px;
+    margin-top: 31px;
+    font-size: 15px;
+    font-family: $base-font;
+    font-weight: 700;
+    color: #ffffff;
+    height: 52px;
+    background-color: $base-color;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .free-lesson-contacts__title {
+    margin: 0;
+    margin-bottom: 59px;
+    font-size: 54px;
+    letter-spacing: 2px;
+    margin-left: -8px;
+    font-family: $alumni-sans-font;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .free-lesson-contacts__item-title {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: -2px;
+    margin-bottom: 1px;
+    font-family: $base-font;
+  }
+
+  .free-lesson-contacts__list {
+    column-gap: 120px;
+    row-gap: 0px;
+    display: grid;
+    grid-template-columns: 218px 218px;
+    grid-template-rows: 67px 67px;
+  }
+
+  .free-lesson-contacts__form-container form {
+    padding-top: 86px;
+  }
+
+  .free-lesson-contacts__item-description {
+    font-size: 13px;
+    font-family: $base-font;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .free-lesson-contacts__item--email-position-left,
+  .free-lesson-contacts__item--telefon-position-left {
+    margin-left: -49px;
+  }
+
+  .free-lesson-contacts__contacts {
+    &::before {
+      width: 102px;
+      top: 216px;
+      left: 304px;
+    }
+  }
+
+  .free-lesson-contacts__form-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .free-lesson-contacts__item--graphic {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .free-lesson-contacts__item--telefon {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .free-lesson-contacts__form-container input::placeholder {
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
   }
 }
 
-@media screen and (min-width: $vp-768) {
+@media screen and (min-width: $vp-768) and (max-width: 1199px) {
   .free-lesson-contacts__form-title {
+    margin: 0;
     font-size: 44px;
     font-weight: 700;
     margin-bottom: 47px;
+    font-family: $alumni-sans-font;
+    text-align: left;
+    color: #ffffff;
   }
 
   .free-lesson-contacts__form-container form {
     width: 500px;
     padding-top: 73px;
     padding-bottom: 70px;
+    margin: 0 auto;
   }
 
   .free-lesson-contacts__form-list {
@@ -189,6 +261,9 @@
     color: #ffffff;
     border: none;
     width: 206px;
+    outline: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
 
     &:focus {
       width: 193px;
@@ -201,6 +276,10 @@
     border-top: 1px solid #102654;
     border-left: 1px solid #102654;
     border-right: 1px solid #102654;
+
+    &:hover {
+      border-bottom: 1px solid #ffffff;
+    }
 
     &:not(:last-child) {
       margin-bottom: 0px;
@@ -246,8 +325,13 @@
      }
 
     .input-message {
+      position: absolute;
       right: -4px;
       bottom: -30px;
+
+      &.is-invalid {
+        color: #ff0000;
+      }
     }
   }
 
@@ -255,11 +339,23 @@
     width: 472px;
     margin-top: 31px;
     font-size: 15px;
+    font-family: $base-font;
+    font-weight: 700;
+    color: #ffffff;
+    height: 52px;
+    background-color: $base-color;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
   }
 
   .free-lesson-contacts__title {
+    margin: 0;
     font-size: 45px;
     margin-bottom: 48px;
+    font-family: $alumni-sans-font;
+    font-weight: 600;
+    text-align: left;
   }
 
   .free-lesson-contacts__contacts {
@@ -267,6 +363,8 @@
     padding-top: 75px;
     padding-bottom: 54px;
     position: relative;
+    margin: 0 auto;
+
 
     &::before {
       content: "";
@@ -308,6 +406,33 @@
     grid-row-start: 1;
     grid-row-end: 2;
   }
+
+  .free-lesson-contacts__form-container {
+    background-color: $base-color;
+  }
+
+
+  .free-lesson-contacts__item-title {
+    font-family: $base-font;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .free-lesson-contacts__item-description {
+    font-family: $base-font;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .free-lesson-contacts__form-container input::placeholder {
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
@@ -335,117 +460,169 @@
   }
 }
 
-@media screen and (min-width: $vp-1200) {
+@media screen and (max-width: 767px) {
   .free-lesson-contacts__form-title {
-    font-size: 58px;
-    font-weight: 800;
+    font-family: $alumni-sans-font;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    color: #ffffff;
+    margin-bottom: 43px;
   }
 
-  .free-lesson-contacts__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .free-lesson-contacts__form-container input::placeholder {
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
   }
 
-  .free-lesson-contacts__contacts {
-    margin-left: 0;
-    margin-right: auto;
-    padding-left: 127px;
-    width: calc(100%);
-    border-top: 1px solid #74819c;
-    padding-bottom: 44px;
+  .free-lesson-contacts__form-button {
+    font-family: $base-font;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 290px;
+    height: 52px;
+    background-color: $base-color;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 38px;
+  }
+
+  .free-lesson-contacts__title {
+    font-family: $alumni-sans-font;
+    font-size: 34px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 45px;
+  }
+
+  .free-lesson-contacts__item-title {
+    font-family: $base-font;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .free-lesson-contacts__item-description {
+    font-family: $base-font;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
   }
 
   .free-lesson-contacts__form-container {
-    padding-right: 170px;
-    width: calc(100%);
+    background-color: $base-color;
+  }
+
+  .free-lesson-contacts__form-container input {
+    background-color: $base-color;
+    color: #ffffff;
+    border: none;
+    width: 290px;
+    outline: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 
   .free-lesson-contacts__form-container form {
-    margin-left: auto;
-    margin-right: 0px;
-    width: 410px;
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 
   .free-lesson-contacts__form-item {
     position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    border-top: 1px solid #102654;
+    border-left: 1px solid #102654;
+    border-right: 1px solid #102654;
 
-    &.is-invalid {
-      &:focus-within {
-        .input-message {
-         right: -38px;
-         bottom: -30px;
-        }
-      }
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+
+    &:hover {
+      border-bottom: 1px solid #ffffff;
     }
 
     &:focus-within {
-      &:not(:last-child) {
-        margin-right: 43px;
-       }
-     }
+     border-top: 1px solid #ffffff;
+     border-left: 1px solid #ffffff;
+     border-right: 1px solid #ffffff;
+     border-bottom: 1px solid #ffffff;
+    }
 
-    &:not(:last-child) {
-      margin-bottom: 0px;
-      margin-right: 30px;
+    &.is-invalid {
+      border-bottom: 1px solid #ff121f;
+
+      &:focus-within {
+        border-top: 1px solid #ff121f;
+        border-left: 1px solid #ff121f;
+        border-right: 1px solid #ff121f;
+        border-bottom: 1px solid #ff121f;
+       }
+    }
+
+    &.is-valid {
+      border-bottom: 1px solid #22b259;
+
+      &:focus-within {
+        border-top: 1px solid #22b259;
+        border-left: 1px solid #22b259;
+        border-right: 1px solid #22b259;
+        border-bottom: 1px solid #22b259;
+       }
     }
 
     .input-message {
-      right: -25px;
-      bottom: -30px;
+      position: absolute;
+      right: 69px;
+      bottom: -34px;
+
+      &.is-invalid {
+        color: #ff0000;
+      }
     }
-  }
-
-  .free-lesson-contacts__form-container input {
-    width: 185px;
-
-    &:focus {
-      width: 172px;
-    }
-  }
-
-  .free-lesson-contacts__form-button {
-    width: 410px;
-  }
-
-  .free-lesson-contacts__title {
-    margin-bottom: 59px;
-    font-size: 54px;
-    letter-spacing: 2px;
-    margin-left: -8px;
-  }
-
-  .free-lesson-contacts__item-title {
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-size: 16px;
-    margin-left: -2px;
-    margin-bottom: 1px;
-  }
-
-  .free-lesson-contacts__list {
-    column-gap: 120px;
-    row-gap: 0px;
-  }
-
-  .free-lesson-contacts__form-container form {
-    padding-top: 86px;
-  }
-
-  .free-lesson-contacts__item-description {
-    font-size: 13px;
-  }
-
-  .free-lesson-contacts__item--email-position-left,
-  .free-lesson-contacts__item--telefon-position-left {
-    margin-left: -49px;
   }
 
   .free-lesson-contacts__contacts {
-    &::before {
-      width: 102px;
-      top: 216px;
-      left: 304px;
+    width: 290px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 64px;
+  }
+
+  .free-lesson-contacts__item {
+
+    &:not(:last-child) {
+      margin-bottom: 24px;
     }
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .free-lesson-contacts__contacts {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 466px) and (max-width: 767px) {
+
+  .free-lesson-contacts__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .free-lesson-contacts__item {
+    margin-right: 20px;
   }
 }
