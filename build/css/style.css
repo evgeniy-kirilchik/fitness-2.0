@@ -933,7 +933,7 @@ body main {
 
 @media screen and (min-width: 1200px) {
   .header {
-    background: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg);
+    background: conic-gradient(from 176deg at 20.71% 35.74%, #003d85 0deg, #b80027 262deg, #003d85 358deg);
   }
   .header__container {
     width: 1160px;
@@ -1018,7 +1018,7 @@ body main {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .header {
-    background: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg);
+    background: conic-gradient(from 176deg at 20.71% 35.74%, #003d85 0deg, #b80027 262deg, #003d85 358deg);
   }
   .header__container {
     width: 678px;
@@ -1098,7 +1098,7 @@ body main {
 }
 @media screen and (max-width: 767px) {
   .header {
-    background: conic-gradient(from 176deg at 20.7% 35.74%, #003D85 0deg, #B80027 262deg, #003D85 358deg);
+    background: conic-gradient(from 176deg at 20.71% 35.74%, #003d85 0deg, #b80027 262deg, #003d85 358deg);
   }
   .header__container {
     width: 290px;
@@ -2742,7 +2742,7 @@ body main {
   }
 }
 @media screen and (min-width: 1200px) {
-  .super-games__title-data-time-wrapper {
+  .super-games__data-time {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2817,7 +2817,7 @@ body main {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .super-games__title-data-time-wrapper {
+  .super-games__data-time {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3173,7 +3173,7 @@ body main {
   }
 }
 @media screen and (max-width: 767px) {
-  .super-games__title-data-time-wrapper {
+  .super-games__data-time {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5920,7 +5920,7 @@ body main {
     font-weight: 600;
     text-align: center;
   }
-  .reviews__container-for-position-toggle {
+  .reviews__container-for-toggle {
     position: relative;
     width: 100%;
   }
@@ -6113,7 +6113,7 @@ body main {
     top: 175px;
     right: -16px;
   }
-  .reviews__container-for-position-toggle {
+  .reviews__container-for-toggle {
     position: relative;
     width: 100%;
   }
@@ -6133,7 +6133,7 @@ body main {
     margin: 0 auto;
     margin-bottom: 70px;
   }
-  .reviews__container-for-position-toggle {
+  .reviews__container-for-toggle {
     position: relative;
     width: 100%;
   }
