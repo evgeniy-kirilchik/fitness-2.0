@@ -38,8 +38,8 @@ const swiper = new Swiper('.trainers__slider-container', {
 const swiperReviews = new Swiper('.reviews__slider-container', {
 
   navigation: {
-    nextEl: '.reviews__slider-button--next',
-    prevEl: '.reviews__slider-button--prev',
+    nextEl: '.reviews__slider-button-next',
+    prevEl: '.reviews__slider-button-prev',
   },
 
   breakpoints: {

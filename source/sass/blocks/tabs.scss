@@ -197,7 +197,7 @@
     }
   }
 
-  .tabs__element-list--current-two {
+  .tabs__element-list--two-current-view {
     &::after {
       width: 87px;
       left: 522px;
@@ -209,7 +209,7 @@
     }
   }
 
-  .tabs__element-list--current-three {
+  .tabs__element-list--three-current-view {
     &::after {
       width: 92px;
       left: 658px;
@@ -232,7 +232,7 @@
     position: absolute;
   }
 
-  .tabs__element-item-decoration-price--position-left {
+  .tabs__element-item-decoration-price--position-action {
     left: 60px;
   }
 }
@@ -372,12 +372,8 @@
     left: 122px;
   }
 
-  .tabs__element-item-decoration-price--position-left {
+  .tabs__element-item-decoration-price--position-action {
     left: 98px;
-  }
-
-  .tabs__element-item-decoration-price--current-left {
-    left: 93px;
   }
 
   .tabs__element-item-price {
@@ -405,7 +401,7 @@
     }
   }
 
-  .tabs__element-list--current-two {
+  .tabs__element-list--two-current-view {
     &::after {
       width: 84px;
       left: 166px;
@@ -417,7 +413,7 @@
     }
   }
 
-  .tabs__element-list--current-three {
+  .tabs__element-list--three-current-view {
     &::after {
       width: 88px;
       left: 300px;
@@ -539,7 +535,7 @@
     left: 67px;
   }
 
-  .tabs__element-item-decoration-price--position-left {
+  .tabs__element-item-decoration-price--position-action {
     left: 44px;
   }
 
@@ -562,7 +558,7 @@
     }
   }
 
-  .tabs__element-list--current-two {
+  .tabs__element-list--two-current-view {
     &::after {
       content: "";
       width: 75px;
@@ -574,7 +570,7 @@
     }
   }
 
-  .tabs__element-list--current-three {
+  .tabs__element-list--three-current-view {
     &::after {
       content: "";
       width: 81px;

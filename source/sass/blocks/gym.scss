@@ -32,16 +32,16 @@
     font-weight: 400;
   }
 
-  .gym__description-text {
+  .gym__description-content {
     padding-right: 82px;
   }
 
-  .gym__description-text--desktop-margin {
+  .gym__description-content--view-action {
     margin-top: 39px;
     margin-bottom: -8px;
   }
 
-  .gym__description-text--desktop-on {
+  .gym__description-content--desktop-on {
     display: block;
   }
 
@@ -195,7 +195,7 @@
     font-weight: 400;
   }
 
-  .gym__description-text {
+  .gym__description-content {
     text-align: center;
     padding-right: 50px;
     padding-left: 50px;
@@ -203,7 +203,7 @@
     margin-bottom: 42px;
   }
 
-  .gym__description-text--desktop-on {
+  .gym__description-content--desktop-on {
     display: none;
   }
 
@@ -345,13 +345,13 @@
     font-weight: 400;
   }
 
-  .gym__description-text {
+  .gym__description-content {
     margin-top: 24px;
     margin-bottom: 32px;
     padding-right: 35px;
   }
 
-  .gym__description-text--desktop-on {
+  .gym__description-content--desktop-on {
     display: none;
   }
 
@@ -448,7 +448,7 @@
     width: 100%;
   }
 
-  .gym__description-text {
+  .gym__description-content {
     padding-right: 0;
   }
 
