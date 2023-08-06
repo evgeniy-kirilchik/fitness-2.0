@@ -46,7 +46,7 @@
     width: 498px;
   }
 
-  .stock__item-description--month {
+  .stock__item--month .stock__item-description {
     margin-bottom: 71px;
   }
 
@@ -70,42 +70,15 @@
     flex-direction: column;
   }
 
-  .stock__item-link--month {
-    &::before {
-      content: "";
-      position: absolute;
-      left: -2px;
-      top: 17px;
-      width: 68px;
-      height: 1px;
-      background-color: #1c3374;
-    }
+  .stock__item-link {
+    font-size: 13px;
+    width: 67px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #1c3374;
+    text-transform: uppercase;
+    position: relative;
 
-    &:hover::before {
-      opacity: 0.7;
-    }
-
-    &:hover {
-      opacity: 0.7;
-    }
-
-    &:focus {
-      outline: none;
-    }
-
-    &:focus-visible::before {
-      content: "";
-      position: absolute;
-      left: -11px;
-      top: -8px;
-      width: 99px;
-      height: 30px;
-      border: 1px solid #1c3374;
-      background: none;
-    }
-  }
-
-  .stock__item-link--discount {
     &::before {
       content: "";
       position: absolute;
@@ -233,17 +206,7 @@
     color: #1c3374;
   }
 
-  .stock__item-link {
-    font-size: 13px;
-    width: 67px;
-    font-weight: 700;
-    line-height: 14px;
-    color: #1c3374;
-    text-transform: uppercase;
-    position: relative;
-  }
-
-  .stock__item-description--discount {
+  .stock__item--discount .stock__item-description {
     margin-bottom: 72px;
   }
 }
@@ -368,52 +331,12 @@
     width: 240px;
   }
 
-  .stock__item-description--discount {
+  .stock__item--discount .stock__item-description {
     margin-bottom: 72px;
   }
 
-  .stock__item-description--month {
+  .stock__item--month .stock__item-description {
     margin-bottom: 50px;
-  }
-
-  .stock__item-link--month {
-    &::before {
-      content: "";
-      position: absolute;
-      left: -2px;
-      top: 17px;
-      width: 68px;
-      height: 1px;
-      background-color: #1c3374;
-    }
-
-    &:hover::before {
-      opacity: 0.7;
-    }
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-
-  .stock__item-link--discount {
-    &::before {
-      content: "";
-      position: absolute;
-      left: -2px;
-      top: 17px;
-      width: 68px;
-      height: 1px;
-      background-color: #1c3374;
-    }
-
-    &:hover::before {
-      opacity: 0.7;
-    }
-
-    &:hover {
-      opacity: 0.7;
-    }
   }
 
   .stock__item-link {
@@ -424,6 +347,24 @@
     color: #1c3374;
     text-transform: uppercase;
     position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -2px;
+      top: 17px;
+      width: 68px;
+      height: 1px;
+      background-color: #1c3374;
+    }
+
+    &:hover::before {
+      opacity: 0.7;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   .stock__adaptive-list {
@@ -584,13 +525,11 @@
     color: #1c3374;
     text-transform: uppercase;
     position: relative;
-  }
 
-  .stock__item-link--month {
     &::before {
       content: "";
       position: absolute;
-      left: 65px;
+      left: 64px;
       top: 17px;
       width: 68px;
       height: 1px;
@@ -606,23 +545,9 @@
     }
   }
 
-  .stock__item-link--discount {
+  .stock__item--discount .stock__item-link {
     &::before {
-      content: "";
-      position: absolute;
       left: 51px;
-      top: 17px;
-      width: 68px;
-      height: 1px;
-      background-color: #1c3374;
-    }
-
-    &:hover::before {
-      opacity: 0.7;
-    }
-
-    &:hover {
-      opacity: 0.7;
     }
   }
 

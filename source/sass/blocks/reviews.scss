@@ -27,8 +27,7 @@
     &:active {
       background-color: #102654;
 
-      .reviews__slider-button-prev,
-      .reviews__slider-button-next {
+      .reviews__slider-button-svg {
         stroke: #ffffff;
       }
     }
@@ -54,20 +53,19 @@
     width: 100%;
   }
 
-  .reviews__slider-button--prev {
+  .reviews__slider-button-prev {
     position: absolute;
     top: 175px;
     left: -16px;
   }
 
-  .reviews__slider-button--next {
+  .reviews__slider-button-next {
     position: absolute;
     top: 175px;
     right: -16px;
   }
 
-  .reviews__slider-button-prev,
-  .reviews__slider-button-next {
+  .reviews__slider-button-svg {
     width: 16px;
     height: 32px;
     stroke: #102654;
@@ -123,7 +121,7 @@
     }
   }
 
-  .reviews__slide-user-review-text {
+  .reviews__slide-user-review-content {
     text-align: left;
     padding-left: 173px;
     padding-right: 62px;
@@ -149,8 +147,7 @@
     background-color: #ffffff;
   }
 
-  .reviews__slider-button-prev,
-  .reviews__slider-button-next {
+  .reviews__slider-button-svg {
     width: 16px;
     height: 32px;
     stroke: #102654;
@@ -202,7 +199,7 @@
     margin: 0 auto;
   }
 
-  .reviews__slide-user-review-text {
+  .reviews__slide-user-review-content {
     text-align: left;
     padding-left: 173px;
     padding-right: 62px;
@@ -226,13 +223,13 @@
     width: 566px;
   }
 
-  .reviews__slider-button--prev {
+  .reviews__slider-button-prev {
     position: absolute;
     top: 175px;
     left: -16px;
   }
 
-  .reviews__slider-button--next {
+  .reviews__slider-button-next {
     position: absolute;
     top: 175px;
     right: -16px;
@@ -284,18 +281,17 @@
     background-color: #ffffff;
   }
 
-  .reviews__slider-button-prev,
-  .reviews__slider-button-next {
+  .reviews__slider-button-svg {
     stroke: #102654;
   }
 
-  .reviews__slider-button--prev {
+  .reviews__slider-button-prev {
     position: absolute;
     top: 222px;
     left: 2px;
   }
 
-  .reviews__slider-button--next {
+  .reviews__slider-button-next {
     position: absolute;
     top: 222px;
     right: 2px;
@@ -318,7 +314,7 @@
     color: #ffffff;
   }
 
-  .reviews__slide-user-review-text {
+  .reviews__slide-user-review-content {
     line-height: 22px;
     font-weight: 400;
     text-align: center;
