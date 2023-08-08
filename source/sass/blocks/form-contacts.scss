@@ -188,7 +188,7 @@
     margin: 0;
   }
 
-  .form-contacts__item--four-position-action {
+  .form-contacts__item--four-position {
     margin-left: -49px;
   }
 
@@ -197,14 +197,14 @@
     flex-direction: row;
   }
 
-  .form-contacts__item--two-position-action {
+  .form-contacts__item--two-position {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
   }
 
-  .form-contacts__item--three-position-action {
+  .form-contacts__item--three-position {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -379,7 +379,7 @@
     }
   }
 
-  .form-contacts__item--two-position-action {
+  .form-contacts__item--two-position {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;

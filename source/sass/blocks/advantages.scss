@@ -58,7 +58,7 @@
     margin-bottom: 27px;
   }
 
-  .advantages__value-wrapper--three-view-action {
+  .advantages__value-wrapper--three-view {
     margin: 0 auto;
     align-items: center;
   }
@@ -81,7 +81,7 @@
     padding-right: 44px;
   }
 
-  .advantages__key-description--five-view-action {
+  .advantages__key-description--five-view {
     padding-right: 44px;
   }
 
@@ -93,7 +93,7 @@
     align-items: flex-start;
   }
 
-  .advantages__key-title--three-view-action {
+  .advantages__key-title--three-view {
     font-size: 26px;
     line-height: 39px;
     font-weight: 700;
@@ -116,7 +116,7 @@
     margin-bottom: 0;
   }
 
-  .advantages--three-view-action {
+  .advantages--three-view {
     width: 240px;
     margin-left: 0;
     padding-top: 55px;
@@ -133,14 +133,14 @@
     grid-row-end: 4;
   }
 
-  .advantages--two-position-action {
+  .advantages--two-position {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
   }
 
-  .advantages--five-position-action {
+  .advantages--five-position {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -159,7 +159,7 @@
     }
   }
 
-  .advantages__key-description--three-view-action {
+  .advantages__key-description--three-view {
     padding-right: 34px;
     padding-left: 34px;
     margin-top: 12px;
@@ -168,7 +168,7 @@
     color: #ffffff;
   }
 
-  .advantages--four-position-action {
+  .advantages--four-position {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -221,7 +221,7 @@
     justify-content: center;
   }
 
-  .advantages__value-wrapper--three-view-action {
+  .advantages__value-wrapper--three-view {
     align-items: center;
     margin-right: 0;
     justify-content: flex-start;
@@ -249,7 +249,7 @@
     margin-bottom: 0;
   }
 
-  .advantages--three-view-action {
+  .advantages--three-view {
     margin-bottom: 0;
     width: 442px;
     padding-bottom: 0;
@@ -270,21 +270,21 @@
     row-gap: 28px;
   }
 
-  .advantages--five-position-action {
+  .advantages--five-position {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
   }
 
-  .advantages--four-position-action {
+  .advantages--four-position {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
   }
 
-  .advantages__key-description--three-view-action {
+  .advantages__key-description--three-view {
     padding-right: 129px;
     padding-left: 133px;
     margin-top: 12px;
@@ -323,7 +323,7 @@
     margin-top: -20px;
   }
 
-  .advantages__key-title--three-view-action {
+  .advantages__key-title--three-view {
     font-size: 22px;
     line-height: 33px;
     font-weight: 700;
@@ -348,7 +348,7 @@
     margin-left: 10%;
   }
 
-  .advantages--three-view-action {
+  .advantages--three-view {
     margin-left: 47%;
   }
 }
@@ -417,19 +417,19 @@
 
   .advantages__key-description--view-action {
     padding-right: 46px;
-    padding-left: 47px;
-    margin-top: 1px;
+    padding-left: 46px;
+    margin-top: 0;
   }
 
-  .advantages__key-description--five-view-action {
+  .advantages__key-description--five-view {
     padding-right: 46px;
     padding-left: 47px;
     margin-top: 1px;
   }
 
-  .advantages__key-description--four-view-action,
-  .advantages__key-description--five-view-action {
-    margin-top: 2px;
+  .advantages__key-description--four-view,
+  .advantages__key-description--five-view {
+    margin-top: 3px;
   }
 
   .advantages__value-simulators {
@@ -440,7 +440,7 @@
     margin-top: -20px;
   }
 
-  .advantages__key-title--three-view-action {
+  .advantages__key-title--three-view {
     font-size: 22px;
     line-height: 33px;
     font-weight: 700;
@@ -448,7 +448,7 @@
     margin-top: -23px;
   }
 
-  .advantages__key-description--three-view-action {
+  .advantages__key-description--three-view {
     font-weight: 400;
     color: #ffffff;
     padding-right: 65px;
@@ -465,7 +465,7 @@
     margin-bottom: 35px;
   }
 
-  .advantages--three-view-action {
+  .advantages--three-view {
     background-color: #1c3374;
     display: flex;
     flex-direction: column;
