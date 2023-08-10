@@ -67,7 +67,7 @@
         <div class="gym__video-wrapper-decoration"> <span class="visually-hidden">Маска затемнения</span>
           <div class="gym__video-wrapper"><span class="visually-hidden">Фоновое фото тренажерного зала</span></div>
         </div>
-        <a class="gym__video-player-button" data-frame-load="test" href="#no_scroll">
+        <a class="gym__video-player-button" data-frame-load="test" href="#no_scroll" aria-label="buttonVideo">
           <svg class="gym__video-player-button-decoration-ring" width="73" height="73" viewBox="0 0 73 73" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <circle class="gym__video-player-button-decoration-ring-stroke" cx="36.5" cy="36.5" r="35.5"
@@ -86,7 +86,7 @@
             </svg>
           </div>
         </a>
-        <iframe class="gym__video-iframe" data-frame-group="test"
+        <iframe class="gym__video-iframe" data-frame-group="test" title="Video"
           data-frame-src="//www.youtube.com/embed/9TZXsZItgdw?autoplay=1"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
@@ -582,8 +582,8 @@
           <div class="faq__tabs-content" data-tabs="content">
             <ul class="faq__tabs-list" data-tabs="element" data-accordion="parent">
               <li class="faq__tabs-item is-active" data-accordion="element">
-                <h4 class="faq__tabs-item-title">Как стать членом фитнес-центра?</h4>
-                <button class="faq__tabs-item-toggle" data-accordion="button">
+                <h3 class="faq__tabs-item-title">Как стать членом фитнес-центра?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open" data-accordion="button">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -599,8 +599,8 @@
                 </p>
               </li>
               <li class="faq__tabs-item" data-accordion="element">
-                <h4 class="faq__tabs-item-title">Где можно посмотреть расписание?</h4>
-                <button class="faq__tabs-item-toggle" data-accordion="button">
+                <h3 class="faq__tabs-item-title">Где можно посмотреть расписание?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open" data-accordion="button">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -616,16 +616,16 @@
                 </p>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Есть кулеры в центре? Предоставляются полотенца?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Есть кулеры в центре? Предоставляются полотенца?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Сколько тренеров работает в клубе и какова их квалификация?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Сколько тренеров работает в клубе и какова их квалификация?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -634,8 +634,8 @@
             </ul>
             <ul class="faq__tabs-list" data-tabs="element" data-accordion="parent">
               <li class="faq__tabs-item is-active" data-accordion="element">
-                <h4 class="faq__tabs-item-title">Занятия с тренером входят в абонемент?</h4>
-                <button class="faq__tabs-item-toggle" data-accordion="button">
+                <h3 class="faq__tabs-item-title">Занятия с тренером входят в абонемент?</h3>
+                <button class="faq__tabs-item-toggle" data-accordion="button" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -651,24 +651,24 @@
                 </p>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Можно ли заморозить абонемент?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Можно ли заморозить абонемент?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Есть ли лимит по посещениям тренажерного зала и групповых занятий?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Есть ли лимит по посещениям тренажерного зала и групповых занятий?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Что такое семейный доступ и доступ для друзей?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Что такое семейный доступ и доступ для друзей?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -677,8 +677,8 @@
             </ul>
             <ul class="faq__tabs-list" data-tabs="element" data-accordion="parent">
               <li class="faq__tabs-item is-active" data-accordion="element">
-                <h4 class="faq__tabs-item-title">Предлагает ли клуб услуги по консультированию по вопросам питания?</h4>
-                <button class="faq__tabs-item-toggle" data-accordion="button">
+                <h3 class="faq__tabs-item-title">Предлагает ли клуб услуги по консультированию по вопросам питания?</h3>
+                <button class="faq__tabs-item-toggle"  type="button" aria-label="open" data-accordion="button">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -693,24 +693,24 @@
                 </p>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Проводятся ли в клубе какие-либо мероприятия или соревнования?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Проводятся ли в клубе какие-либо мероприятия или соревнования?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Можно ли приобрести в центре спортивное питание?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Можно ли приобрести в центре спортивное питание?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Есть ли в центре детская комната?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Есть ли в центре детская комната?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -719,8 +719,8 @@
             </ul>
             <ul class="faq__tabs-list" data-tabs="element" data-accordion="parent">
               <li class="faq__tabs-item" data-accordion="element">
-                <h4 class="faq__tabs-item-title">Есть в фитнес-центре дресс-код?</h4>
-                <button class="faq__tabs-item-toggle" data-accordion="button">
+                <h3 class="faq__tabs-item-title">Есть в фитнес-центре дресс-код?</h3>
+                <button class="faq__tabs-item-toggle"  type="button" aria-label="open" data-accordion="button">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -738,24 +738,24 @@
                 </p>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Можно ли приводить с собой детей на тренировки?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Можно ли приводить с собой детей на тренировки?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Какие дополнительные правила посещения центра?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Какие дополнительные правила посещения центра?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
                 </button>
               </li>
               <li class="faq__tabs-item">
-                <h4 class="faq__tabs-item-title">Нужна ли медицинская справка для посещения залов и бассейна?</h4>
-                <button class="faq__tabs-item-toggle">
+                <h3 class="faq__tabs-item-title">Нужна ли медицинская справка для посещения залов и бассейна?</h3>
+                <button class="faq__tabs-item-toggle" type="button" aria-label="open">
                   <svg class="faq__tabs-item-toggle-plus" width="12" height="12">
                     <use xlink:href="img/sprite/sprite.svg#faq-plus"></use>
                   </svg>
@@ -934,21 +934,21 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" aria-label="vkontakte">
             <svg class="footer__social-icon" width="15" height="15">
               <use xlink:href="img/sprite/sprite.svg#social-vk"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" aria-label="odnoklassniki">
             <svg class="footer__social-icon" width="10" height="17">
               <use xlink:href="img/sprite/sprite.svg#social-odnoklassniki"></use>
             </svg>
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#">
+          <a class="footer__social-link" href="#" aria-label="reddit">
             <svg class="footer__social-icon" width="15" height="15">
               <use xlink:href="img/sprite/sprite.svg#social-reddit"></use>
             </svg>
