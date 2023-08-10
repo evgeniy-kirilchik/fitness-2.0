@@ -69,7 +69,7 @@
   }
 
   .tabs__element-item-button:active {
-    opacity: 0.6;
+    opacity: 1;
   }
 
   .tabs__control {
@@ -82,7 +82,7 @@
     border: none;
     cursor: pointer;
     padding: 11px 2px 20px;
-    opacity: 0.3;
+    opacity: 0.5;
 
     &.is-active {
       opacity: 1;
@@ -271,7 +271,7 @@
     border: none;
     cursor: pointer;
     padding: 11px 2px 20px;
-    opacity: 0.3;
+    opacity: 0.5;
 
     &.is-active {
       opacity: 1;
@@ -455,7 +455,7 @@
     border: none;
     cursor: pointer;
     padding: 11px 2px 20px;
-    opacity: 0.3;
+    opacity: 0.5;
 
     &.is-active {
       opacity: 1;
