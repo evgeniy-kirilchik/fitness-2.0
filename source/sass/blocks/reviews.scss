@@ -255,7 +255,6 @@
 
   .reviews__container-for-toggle {
     position: relative;
-    width: 100%;
   }
 
   .reviews__title {
@@ -346,5 +345,23 @@
   .reviews__slide-container {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  .reviews {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .reviews__container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .reviews__slider-container {
+    width: 226px;
+    margin: 0 auto;
   }
 }

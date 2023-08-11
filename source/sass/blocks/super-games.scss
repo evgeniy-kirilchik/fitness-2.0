@@ -400,6 +400,7 @@
     align-items: center;
     justify-content: center;
     margin: 30px auto 0;
+    flex-wrap: wrap;
   }
 
   .super-games__background-image {
@@ -477,16 +478,18 @@
     width: 90%;
   }
 
-  .super-games__content {
+  .super-games__data-time {
     width: 202px;
+    margin: 0 auto;
   }
-}
 
-@media screen and (min-width: 644px) and (max-width: 767px) {
-  .super-games {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .super-games__button-wrapper {
+    width: 100%;
+  }
+
+  .super-games__background-image {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
   }
 }

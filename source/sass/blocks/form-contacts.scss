@@ -596,6 +596,14 @@
   .form-contacts__contacts {
     width: 90%;
   }
+
+  .form-contacts__form-container form {
+    width: 90%;
+  }
+
+  .form-contacts__form-button {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 466px) and (max-width: 767px) {

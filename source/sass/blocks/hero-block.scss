@@ -185,19 +185,8 @@
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .hero-block {
-    display: block;
-  }
-
-  .hero-block__services-list {
-    bottom: 33px;
-  }
-
-  .hero-block__title {
-    padding-left: 36%;
-    padding-right: 5%;
-  }
-
-  .hero-block__badge {
-    margin-left: 40%;
+    margin: 0 auto;
+    width: 290px;
+    margin-top: 72px;
   }
 }

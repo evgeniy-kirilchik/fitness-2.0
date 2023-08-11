@@ -385,7 +385,7 @@
     font-size: 58px;
     line-height: 44px;
     font-weight: 700;
-    background: linear-gradient(154deg, #d10a42 35%, #0041ca 49%);
+    background: linear-gradient(154deg, #d10a42 38%, #0041ca 63%, #d10a42 91%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -478,6 +478,6 @@
 
 @media screen and (min-width: 321px) and (max-width: 767px) {
   .advantages__container {
-    width: 90%;
+    width: 100%;
   }
 }
