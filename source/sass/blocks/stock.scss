@@ -588,41 +588,32 @@
     width: 90%;
   }
 
-  .stock__year-content {
-    width: 190px;
+  .stock__year-content-link {
+    width: 79px;
+    margin: 0 auto;
   }
 
-  .stock__item--month {
-    width: 196px;
+  .stock__year-content-link::before {
+    left: 0;
   }
 
-  .stock__item--discount {
-    width: 168px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 644px) {
-  .stock__item--month {
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 644px) and (max-width: 767px) {
-  .stock__year {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .stock__item-link {
+    width: 68px;
+    margin: 0 auto;
   }
 
-  .stock__adaptive-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .stock__item-link::before {
+    left: 0;
   }
 
-  .stock__item--month {
-    margin-bottom: 0;
+  .stock__item--discount .stock__item-link {
+    &::before {
+      left: 0;
+    }
+  }
+
+  .stock__year-image {
+    width: 100%;
+    background-size: cover;
   }
 }

@@ -64,32 +64,34 @@
       <div class="gym__description-image"><span class="visually-hidden">Фоновое фото тренажерного
           зала</span></div>
       <div class="gym__video-container">
-        <div class="gym__video-wrapper-decoration"> <span class="visually-hidden">Маска затемнения</span>
-          <div class="gym__video-wrapper"><span class="visually-hidden">Фоновое фото тренажерного зала</span></div>
-        </div>
-        <a class="gym__video-player-button" data-frame-load="test" href="#no_scroll" aria-label="buttonVideo">
-          <svg class="gym__video-player-button-decoration-ring" width="73" height="73" viewBox="0 0 73 73" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <circle class="gym__video-player-button-decoration-ring-stroke" cx="36.5" cy="36.5" r="35.5"
-              stroke="url(#paint0_linear_1_895)" stroke-opacity="0.2" stroke-width="2" />
-            <defs>
-              <linearGradient id="paint0_linear_1_895" x1="14.435" y1="2.1949e-05" x2="77.2232" y2="7.77042"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#ED0233" />
-                <stop offset="1" stop-color="#003EB7" />
-              </linearGradient>
-            </defs>
-          </svg>
-          <div class="gym__video-player-button-decoration-circle">
-            <svg class="gym__video-player-button-svg" width="12" height="12">
-              <use xlink:href="img/sprite/sprite.svg#player-button"></use>
-            </svg>
+          <div class="gym__video-wrapper-decoration"> <span class="visually-hidden">Маска затемнения</span>
+            <div class="gym__video-image"><span class="visually-hidden">Фоновое фото тренажерного зала</span></div>
           </div>
-        </a>
-        <iframe class="gym__video-iframe" data-frame-group="test" title="Video"
-          data-frame-src="//www.youtube.com/embed/9TZXsZItgdw?autoplay=1"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
+          <div class="gym__video-button-wrapper">
+            <a class="gym__video-player-button" data-frame-load="test" href="#no_scroll" aria-label="buttonVideo">
+              <svg class="gym__video-player-button-decoration-ring" width="73" height="73" viewBox="0 0 73 73" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle class="gym__video-player-button-decoration-ring-stroke" cx="36.5" cy="36.5" r="35.5"
+                  stroke="url(#paint0_linear_1_895)" stroke-opacity="0.2" stroke-width="2" />
+                <defs>
+                  <linearGradient id="paint0_linear_1_895" x1="14.435" y1="2.1949e-05" x2="77.2232" y2="7.77042"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#ED0233" />
+                    <stop offset="1" stop-color="#003EB7" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="gym__video-player-button-decoration-circle">
+                <svg class="gym__video-player-button-svg" width="12" height="12">
+                  <use xlink:href="img/sprite/sprite.svg#player-button"></use>
+                </svg>
+              </div>
+            </a>
+            <iframe class="gym__video-iframe" data-frame-group="test" title="Video"
+            data-frame-src="//www.youtube.com/embed/9TZXsZItgdw?autoplay=1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+          </div>
       </div>
     </section>
     <section class="abonements" id="abonements">
@@ -102,12 +104,12 @@
             <button class="tabs__control" type="button" data-tabs="control">12 месяцев</button>
           </div>
           <div class="tabs__content" data-tabs="content">
-            <ul class="tabs__element-list tabs__element-list--current" data-tabs="element">
+            <ul class="tabs__element-list" data-tabs="element">
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
-                <span class="tabs__element-item-decoration-price">5000</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">5000</span>
                   <span class="tabs__element-item-price">5000</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -120,8 +122,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Дневной</p>
                 <span class="tabs__element-item-info">с 8:00 до 17:00</span>
-                <span class="tabs__element-item-decoration-price">1700</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">1700</span>
                   <span class="tabs__element-item-price">1700</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -134,8 +136,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
-                <span class="tabs__element-item-decoration-price">2700</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">2700</span>
                   <span class="tabs__element-item-price">2700</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -146,13 +148,12 @@
                 </div>
               </li>
             </ul>
-            <ul class="tabs__element-list tabs__element-list--two-current-view" data-tabs="element">
+            <ul class="tabs__element-list" data-tabs="element">
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">20000</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">20000</span>
                   <span class="tabs__element-item-price">20000</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -165,9 +166,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Дневной</p>
                 <span class="tabs__element-item-info">с 8:00 до 17:00</span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">13700</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">13700</span>
                   <span class="tabs__element-item-price">13700</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -180,9 +180,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">16200</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">16200</span>
                   <span class="tabs__element-item-price">16200</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -193,13 +192,12 @@
                 </div>
               </li>
             </ul>
-            <ul class="tabs__element-list tabs__element-list--three-current-view" data-tabs="element">
+            <ul class="tabs__element-list" data-tabs="element">
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">С тренером</p>
                 <span class="tabs__element-item-info">12 занятий</span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">35000</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">35000</span>
                   <span class="tabs__element-item-price">35000</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -212,9 +210,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Дневной</p>
                 <span class="tabs__element-item-info">с 8:00 до 17:00</span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">27700</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">27700</span>
                   <span class="tabs__element-item-price">27700</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -227,9 +224,8 @@
               <li class="tabs__element-item" tabindex="0">
                 <p class="tabs__element-item-title">Полный день</p>
                 <span class="tabs__element-item-info">с 8:00 до 22:00 </span>
-                <span
-                  class="tabs__element-item-decoration-price tabs__element-item-decoration-price--position-action">30200</span>
                 <div class="tabs__element-item-price-wrapper">
+                  <span class="tabs__element-item-decoration-price">30200</span>
                   <span class="tabs__element-item-price">30200</span>
                   <svg class="tabs__element-item-price-sign" width="24" height="33">
                     <use xlink:href="img/sprite/sprite.svg#rouble"></use>
@@ -276,7 +272,8 @@
       <div class="super-games__background-image"><span class="visually-hidden">Фоновая картинка</span></div>
     </section>
     <section class="trainers">
-      <h2 class="trainers__title">Тренеры</h2>
+      <div class="trainers__container">
+        <h2 class="trainers__title">Тренеры</h2>
       <button class="trainers__slider-button trainers__slider-button-prev swiper-button-prev" type="button">
         <svg class="trainers__slider-button-svg" width="10" height="19">
           <use xlink:href="img/sprite/sprite.svg#trainer-slaider-prev"></use>
@@ -476,6 +473,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
     <section class="advantages">
@@ -767,93 +765,95 @@
       </div>
     </section>
     <section class="reviews">
-      <div class="reviews__container-for-toggle">
-        <h2 class="reviews__title">Отзывы</h2>
-        <button class="reviews__slider-button reviews__slider-button-prev swiper-button-prev" type="button">
-          <svg class="reviews__slider-button-svg" width="10" height="19">
-            <use xlink:href="img/sprite/sprite.svg#trainer-slaider-prev"></use>
-          </svg>
-        </button>
-        <button class="reviews__slider-button reviews__slider-button-next swiper-button-next" type="button">
-          <svg class="reviews__slider-button-svg" width="10" height="19">
-            <use xlink:href="img/sprite/sprite.svg#trainer-slaider-next"></use>
-          </svg>
-        </button>
-        <div class="reviews__slider-container swiper">
-          <div class="reviews__slide-container swiper-wrapper">
-            <div class="reviews__slide swiper-slide">
-              <div class="reviews__slide-user-container">
-                <div class="reviews__slide-user-image">
-                  <picture>
-                    <source type="image/webp" media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source type="image/webp" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
-                    <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
-                      srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
-                      alt="Фото клиента.">
-                  </picture>
+      <div class="reviews__container">
+        <div class="reviews__container-for-toggle">
+          <h2 class="reviews__title">Отзывы</h2>
+          <button class="reviews__slider-button reviews__slider-button-prev swiper-button-prev" type="button">
+            <svg class="reviews__slider-button-svg" width="10" height="19">
+              <use xlink:href="img/sprite/sprite.svg#trainer-slaider-prev"></use>
+            </svg>
+          </button>
+          <button class="reviews__slider-button reviews__slider-button-next swiper-button-next" type="button">
+            <svg class="reviews__slider-button-svg" width="10" height="19">
+              <use xlink:href="img/sprite/sprite.svg#trainer-slaider-next"></use>
+            </svg>
+          </button>
+          <div class="reviews__slider-container swiper">
+            <div class="reviews__slide-container swiper-wrapper">
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__slide-user-container">
+                  <div class="reviews__slide-user-image">
+                    <picture>
+                      <source type="image/webp" media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source type="image/webp" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
+                      <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
+                        srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
+                        alt="Фото клиента.">
+                    </picture>
+                  </div>
+                  <span class="reviews__slide-user-name">Анна Орлова</span>
                 </div>
-                <span class="reviews__slide-user-name">Анна Орлова</span>
-              </div>
-              <div class="reviews__slide-user-review">
-                <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
-                  Нравится, что в клубе всегда чисто,
-                  тренажеры обновляют, персонал дружелюбный.
-                  Зал просторный, даже в вечернее время нет очередей»
-                </p>
-              </div>
-            </div>
-            <div class="reviews__slide swiper-slide">
-              <div class="reviews__slide-user-container">
-                <div class="reviews__slide-user-image">
-                  <picture>
-                    <source type="image/webp" media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source type="image/webp" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
-                    <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
-                      srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
-                      alt="Фото клиента.">
-                  </picture>
+                <div class="reviews__slide-user-review">
+                  <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
+                    Нравится, что в клубе всегда чисто,
+                    тренажеры обновляют, персонал дружелюбный.
+                    Зал просторный, даже в вечернее время нет очередей»
+                  </p>
                 </div>
-                <span class="reviews__slide-user-name">Анна Орлова</span>
               </div>
-              <div class="reviews__slide-user-review">
-                <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
-                  Нравится, что в клубе всегда чисто,
-                  тренажеры обновляют, персонал дружелюбный.
-                  Зал просторный, даже в вечернее время нет очередей»
-                </p>
-              </div>
-            </div>
-            <div class="reviews__slide swiper-slide">
-              <div class="reviews__slide-user-container">
-                <div class="reviews__slide-user-image">
-                  <picture>
-                    <source type="image/webp" media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source type="image/webp" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
-                    <source media="(min-width:768px)" width="80" height="80"
-                      srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
-                    <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
-                      srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
-                      alt="Фото клиента.">
-                  </picture>
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__slide-user-container">
+                  <div class="reviews__slide-user-image">
+                    <picture>
+                      <source type="image/webp" media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source type="image/webp" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
+                      <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
+                        srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
+                        alt="Фото клиента.">
+                    </picture>
+                  </div>
+                  <span class="reviews__slide-user-name">Анна Орлова</span>
                 </div>
-                <span class="reviews__slide-user-name">Анна Орлова</span>
+                <div class="reviews__slide-user-review">
+                  <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
+                    Нравится, что в клубе всегда чисто,
+                    тренажеры обновляют, персонал дружелюбный.
+                    Зал просторный, даже в вечернее время нет очередей»
+                  </p>
+                </div>
               </div>
-              <div class="reviews__slide-user-review">
-                <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
-                  Нравится, что в клубе всегда чисто,
-                  тренажеры обновляют, персонал дружелюбный.
-                  Зал просторный, даже в вечернее время нет очередей»
-                </p>
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__slide-user-container">
+                  <div class="reviews__slide-user-image">
+                    <picture>
+                      <source type="image/webp" media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source type="image/webp" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.webp 1x, img/main/reviews-user-image2x.webp 2x">
+                      <source media="(min-width:768px)" width="80" height="80"
+                        srcset="img/main/reviews-user-image1x.jpg  1x, img/main/reviews-user-image2x.jpg 2x">
+                      <img width="68" height="68" src="img/main/reviews-user-image1x.jpg"
+                        srcset="img/main/reviews-user-image1x.jpg 1x, img/main/reviews-user-image2x.jpg  2x"
+                        alt="Фото клиента.">
+                    </picture>
+                  </div>
+                  <span class="reviews__slide-user-name">Анна Орлова</span>
+                </div>
+                <div class="reviews__slide-user-review">
+                  <p class="reviews__slide-user-review-content">«Хожу в Supergym уже больше года.
+                    Нравится, что в клубе всегда чисто,
+                    тренажеры обновляют, персонал дружелюбный.
+                    Зал просторный, даже в вечернее время нет очередей»
+                  </p>
+                </div>
               </div>
             </div>
           </div>
