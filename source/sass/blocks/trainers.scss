@@ -335,6 +335,24 @@
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .trainers {
+    width: 100%;
+    margin-bottom: 94px;
+  }
+
+  .trainers__container {
+    width: 74%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .trainers__slider-container {
+    width: 566px;
+    margin: 0 auto;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
   .trainers {
@@ -494,7 +512,7 @@
   }
 
   .trainers__container {
-    width: 70%;
+    width: 74%;
     margin: 0 auto;
     position: relative;
   }

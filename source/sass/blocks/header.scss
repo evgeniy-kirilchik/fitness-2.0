@@ -92,7 +92,6 @@
     width: 678px;
     margin: 0 auto;
     margin-top: 34px;
-    position: relative;
   }
 
   .header__wrapper {
@@ -151,14 +150,9 @@
   }
 }
 
-
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .header__container {
-    width: 90%;
-  }
-
-  .header__button-wrapper {
-    margin-bottom: 80px;
+    width: 88%;
   }
 }
 
@@ -234,6 +228,6 @@
   .header__button-wrapper {
     margin: 0 auto;
     margin-bottom: 80px;
-    width: 100%;
+    width: 98%;
   }
 }

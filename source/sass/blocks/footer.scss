@@ -336,6 +336,7 @@
     font-weight: 600;
     font-style: normal;
     color: #ffffff;
+    position: absolute;
   }
 
   .footer__social-link {
@@ -354,6 +355,10 @@
     justify-content: space-between;
     width: 97px;
   }
+
+  .footer__nav-list--column-one-view {
+    margin-top: 39px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -367,6 +372,7 @@
   .footer__container {
     margin-top: 45px;
     margin-bottom: 51px;
+    position: relative;
   }
 
   .footer__social-list {
@@ -385,9 +391,14 @@
     width: 90%;
   }
 
-  .footer__nav-list {
+  .footer__nav {
     width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+  }
+
+  .footer__nav-list {
+    &:not(:first-child) {
+      margin-right: 60px;
+    }
   }
 }

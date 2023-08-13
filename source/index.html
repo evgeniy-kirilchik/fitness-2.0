@@ -23,14 +23,19 @@
         <a class="header__tel" href="tel:88005555555">8-800-555-55-55</a>
       </div>
       <div class="hero-block">
-        <ul class="hero-block__services-list">
-          <li class="hero-block__services-item">Тренажёрный зал</li>
-          <li class="hero-block__services-item">Групповые занятия</li>
-          <li class="hero-block__services-item">Кардио-зона</li>
-        </ul>
-        <div class="hero-block__title-wrapper">
-          <span class="hero-block__badge">омск</span>
-          <h2 class="hero-block__title">фитнес центр</h2>
+        <div class="hero-block__content-container">
+          <div class="hero-block__title-wrapper">
+            <ul class="hero-block__services-list">
+              <li class="hero-block__services-item">Тренажёрный зал</li>
+              <li class="hero-block__services-item">Групповые занятия</li>
+              <li class="hero-block__services-item">Кардио-зона</li>
+            </ul>
+            <span class="hero-block__badge">омск</span>
+            <h2 class="hero-block__title">фитнес центр</h2>
+          </div>
+          <div class="header__button-wrapper">
+            <a class="header__button" href="#abonements">Купить абонемент</a>
+          </div>
         </div>
         <picture>
           <source type="image/webp" media="(min-width:1200px)" width="500" height="556"
@@ -42,9 +47,6 @@
           <img class="hero-block__image" width="324" height="390" src="img/header/hero-image1x.jpg"
             srcset="img/header/hero-image1x.jpg 1x, img/header/hero-image2x.jpg 2x" alt="Картинка херо блока.">
         </picture>
-      </div>
-      <div class="header__button-wrapper">
-        <a class="header__button" href="#abonements">Купить абонемент</a>
       </div>
     </div>
   </header>
@@ -238,9 +240,9 @@
             </ul>
           </div>
         </div>
-        <div class="abonements__decoration-overflow-wrapper">
-          <div class="abonements__decoration-wrapper"><span class="visually-hidden">Фоновая декорация</span></div>
-        </div>
+      </div>
+      <div class="abonements__decoration-overflow-wrapper">
+        <div class="abonements__decoration-wrapper"><span class="visually-hidden">Фоновая декорация</span></div>
       </div>
     </section>
     <section class="super-games">
@@ -913,10 +915,9 @@
   </main>
   <footer class="footer">
     <div class="footer__container">
+      <a class="footer__logo" href="#">SUPERGYM</a>
       <nav class="footer__nav">
-        <ul class="footer__nav-list">
-          <li class="footer__nav-list-item"><a
-              class="footer__nav-link footer__logo" href="#">SUPERGYM</a></li>
+        <ul class="footer__nav-list footer__nav-list--column-one-view">
           <li class="footer__nav-list-item"><a
               class="footer__nav-link footer__nav-link--two-view" href="#">Услуги</a></li>
           <li class="footer__nav-list-item"><a
