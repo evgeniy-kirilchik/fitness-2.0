@@ -422,27 +422,17 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
-  .form-contacts__contacts {
-    width: 90%;
+  .form-contacts__form-container form {
+    width: 65%;
+    margin: 0 auto;
   }
 
-  .form-contacts__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .form-contacts__form-button {
+    width: 94%;
   }
 
-  .form-contacts__item {
-    &:not(:last-child) {
-      margin-right: 0;
-    }
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
-  .form-contacts__contacts::before {
-    display: none;
+  .form-contacts__form-item {
+    width: 42%;
   }
 }
 
@@ -606,15 +596,8 @@
   }
 }
 
-@media screen and (min-width: 466px) and (max-width: 767px) {
-  .form-contacts__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .form-contacts__item {
-    margin-right: 20px;
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .form-contacts__form-item {
+    width: 65%;
   }
 }

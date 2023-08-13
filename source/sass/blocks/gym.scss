@@ -308,13 +308,35 @@
   }
 
   .gym__description-image {
-    width: 98%;
-    background-size: 100%;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .gym__video-wrapper-decoration {
+    position: static;
+  }
+
+  .gym__video-player-button-decoration-ring {
+    top: -76px;
+    left: -17px;
+  }
+
+  .gym__video-player-button-decoration-circle {
+    left: -7px;
+    bottom: 13px;
   }
 
   .gym__video-container {
-    margin-left: 15%;
+    width: 266px;
+    margin: 0 auto;
+    margin-top: -83px;
+  }
+
+  .gym__video-iframe {
+    top: -254px;
+    left: -95px;
   }
 }
 

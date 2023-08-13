@@ -309,13 +309,33 @@
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .super-games {
-    width: 90%;
-    justify-content: space-around;
+    width: 88%;
+    justify-content: center;
   }
 
   .super-games__content {
-    width: 30%;
-    padding-right: 5%;
+    width: 53%;
+  }
+
+  .super-games__background-image {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .super-games__data-time {
+    width: 202px;
+    margin: 0 auto;
+  }
+
+  .super-games__content-badge {
+    text-align: center;
+  }
+
+  .super-games__button-wrapper {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 28px;
   }
 }
 

@@ -54,7 +54,6 @@
   }
 
   .abonements__container {
-    position: relative;
     width: 768px;
     margin: 0 auto;
   }
@@ -85,24 +84,17 @@
   }
 
   .abonements__decoration-overflow-wrapper {
-    position: absolute;
-    top: 1382px;
-    left: 449px;
     overflow: hidden;
     width: 318px;
     height: 384px;
+    margin-left: auto;
+    margin-top: -178px;
   }
 }
 
-
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .abonements__container {
-    width: 90%;
-  }
-
-  .abonements__decoration-overflow-wrapper {
-    width: 40%;
-    margin-left: 14%;
+    width: 57%;
   }
 }
 
