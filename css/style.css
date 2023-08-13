@@ -3468,8 +3468,8 @@ body main {
 
   .hero-block__services-list {
     position: absolute;
-    left: 1px;
-    bottom: 56px;
+    left: 0;
+    bottom: 26px;
   }
 
   .hero-block__services-item {
@@ -3499,6 +3499,10 @@ body main {
     color: #ffffff;
     text-align: right;
     margin: 10px 6px 23px 0;
+  }
+
+  .hero-block__title-wrapper {
+    position: relative;
   }
 
   .gym {
@@ -4339,6 +4343,7 @@ body main {
     font-weight: 600;
     font-style: normal;
     color: #ffffff;
+    position: absolute;
   }
 
   .footer__social-link {
@@ -4371,6 +4376,10 @@ body main {
     width: 97px;
   }
 
+  .footer__nav-list--column-one-view {
+    margin-top: 39px;
+  }
+
   .footer__nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4387,6 +4396,7 @@ body main {
   .footer__container {
     margin-top: 45px;
     margin-bottom: 51px;
+    position: relative;
   }
 
   .footer__social-list {
@@ -5051,7 +5061,6 @@ body main {
     width: 678px;
     margin: 0 auto;
     margin-top: 34px;
-    position: relative;
   }
 
   .header__wrapper {
@@ -5183,6 +5192,10 @@ body main {
     left: 1px;
   }
 
+  .hero-block__content-container {
+    position: relative;
+  }
+
   .gym {
     width: 678px;
     margin: 0 auto;
@@ -5309,7 +5322,6 @@ body main {
   }
 
   .abonements__container {
-    position: relative;
     width: 768px;
     margin: 0 auto;
   }
@@ -5334,12 +5346,11 @@ body main {
   }
 
   .abonements__decoration-overflow-wrapper {
-    position: absolute;
-    top: 1382px;
-    left: 449px;
     overflow: hidden;
     width: 318px;
     height: 384px;
+    margin-left: auto;
+    margin-top: -178px;
   }
 
   .tabs {
@@ -5363,11 +5374,11 @@ body main {
 
   .tabs__controls::before {
     content: "";
-    width: 332px;
+    width: 330px;
     left: 56px;
     height: 2px;
     position: absolute;
-    background: #787878;
+    background: #bcbaba;
     top: 46px;
     opacity: 0.5;
   }
@@ -5383,11 +5394,22 @@ body main {
     cursor: pointer;
     padding: 11px 2px 20px;
     opacity: 0.5;
+    position: relative;
   }
 
   .tabs__control.is-active {
     opacity: 1;
     pointer-events: none;
+  }
+
+  .tabs__control.is-active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #d10a42;
+    left: 0;
+    bottom: 10px;
   }
 
   .tabs__control:not(:last-child) {
@@ -5487,12 +5509,13 @@ body main {
   .tabs__element-item-decoration-price {
     font-size: 100px;
     line-height: 150px;
-    top: 135px;
-    left: 120px;
+    top: -51px;
+    left: -17px;
     font-weight: 700;
     color: #e8e8e8;
     opacity: 0.5;
     position: absolute;
+    z-index: -2;
   }
 
   .tabs__element-item-decoration-price--current {
@@ -6035,7 +6058,7 @@ body main {
   .advantages__value {
     font-size: 58px;
     line-height: 44px;
-    background: linear-gradient(154deg, #d10a42 28%, #0041ca 62%);
+    background: linear-gradient(154deg, #d10a42 36%, #0041ca 78%, #d10a42 151%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -6912,26 +6935,36 @@ body main {
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
   .header__container {
-    width: 90%;
+    width: 88%;
+  }
+
+  .hero-block {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 19px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .header__button-wrapper {
-    margin-bottom: 80px;
-  }
-
-  .hero-block__badge {
-    margin-left: 76%;
+    width: 50%;
   }
 
   .hero-block img {
-    width: 88%;
-    height: 88%;
-    margin-left: 12%;
-    background-color: #000150;
+    width: 324px;
   }
 
-  .hero-block__title {
-    padding-left: 40%;
+  .hero-block__title-wrapper {
+    width: 354px;
+    margin: 0 auto;
+    margin-top: 53px;
+    margin-bottom: 202px;
+    position: relative;
+  }
+
+  .hero-block__services-list {
+    bottom: 21px;
   }
 
   .gym__description {
@@ -6943,33 +6976,125 @@ body main {
   }
 
   .gym__description-image {
-    width: 98%;
-    background-size: 100%;
+    width: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .gym__video-wrapper-decoration {
+    position: static;
+  }
+
+  .gym__video-player-button-decoration-ring {
+    top: -76px;
+    left: -17px;
+  }
+
+  .gym__video-player-button-decoration-circle {
+    left: -7px;
+    bottom: 13px;
   }
 
   .gym__video-container {
-    margin-left: 15%;
+    width: 266px;
+    margin: 0 auto;
+    margin-top: -83px;
+  }
+
+  .gym__video-iframe {
+    top: -254px;
+    left: -95px;
   }
 
   .abonements__container {
-    width: 90%;
+    width: 57%;
   }
 
-  .abonements__decoration-overflow-wrapper {
-    width: 40%;
-    margin-left: 14%;
+  .tabs {
+    width: 100%;
+  }
+
+  .tabs__controls {
+    width: 76%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .tabs__controls::before {
+    width: 100%;
+    left: 0;
+    top: 46px;
+  }
+
+  .tabs__element-list {
+    width: 100%;
+  }
+
+  .tabs__element-item {
+    width: 100%;
+  }
+
+  .tabs__element-item:hover::after {
+    width: 97%;
+  }
+
+  .tabs__element-item:hover .tabs__element-item-button-wrapper {
+    width: 70%;
+  }
+
+  .tabs__element-item-button-wrapper {
+    width: 70%;
   }
 
   .super-games {
-    width: 90%;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    width: 88%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .super-games__content {
-    width: 30%;
-    padding-right: 5%;
+    width: 53%;
+  }
+
+  .super-games__background-image {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .super-games__data-time {
+    width: 202px;
+    margin: 0 auto;
+  }
+
+  .super-games__content-badge {
+    text-align: center;
+  }
+
+  .super-games__button-wrapper {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 28px;
+  }
+
+  .trainers {
+    width: 100%;
+    margin-bottom: 94px;
+  }
+
+  .trainers__container {
+    width: 74%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .trainers__slider-container {
+    width: 566px;
+    margin: 0 auto;
   }
 
   .advantages__container {
@@ -6977,23 +7102,28 @@ body main {
   }
 
   .advantages__list {
-    text-align: center;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-    grid-template-columns: 50% 50%;
-    -ms-grid-rows: 20% 60% 20%;
-    grid-template-rows: 20% 60% 20%;
-    -webkit-column-gap: 20%;
-    -moz-column-gap: 20%;
-    column-gap: 20%;
-    width: 70%;
+    -ms-grid-columns: 45% 47%;
+    grid-template-columns: 45% 47%;
+    -ms-grid-rows: 21% 47% 21%;
+    grid-template-rows: 21% 47% 21%;
+    -webkit-column-gap: 8%;
+    -moz-column-gap: 8%;
+    column-gap: 8%;
+    row-gap: 6%;
+    width: 100%;
     margin: 0;
-    margin-left: 10%;
+  }
+
+  .advantages__item {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .advantages--three-view {
-    margin-left: 47%;
+    padding-bottom: 133px;
+    margin-left: 132px;
+    width: 140%;
   }
 
   .footer__container {
@@ -7004,73 +7134,46 @@ body main {
     width: 90%;
   }
 
-  .stock__year {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .stock__adaptive-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-
-  .stock__item--month {
-    margin-bottom: 0;
+  .stock__item {
+    width: 35%;
   }
 
   .stock__year-image {
-    width: 320px;
-  }
-
-  .stock__year-content {
-    width: 280px;
+    width: 100%;
+    background-size: cover;
   }
 
   .faq__container {
     width: 90%;
   }
 
-  .form-contacts__contacts {
+  .reviews {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .reviews__container {
     width: 90%;
+    margin: 0 auto;
+    position: relative;
   }
 
-  .form-contacts__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  .reviews__slider-container {
+    width: 566px;
+    margin: 0 auto;
   }
 
-  .form-contacts__item:not(:last-child) {
-    margin-right: 0;
+  .form-contacts__form-container form {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .form-contacts__form-button {
+    width: 94%;
+  }
+
+  .form-contacts__form-item {
+    width: 42%;
   }
 }
 
@@ -7082,13 +7185,23 @@ body main {
   .header__button-wrapper {
     margin: 0 auto;
     margin-bottom: 80px;
-    width: 100%;
+    width: 98%;
   }
 
   .hero-block {
+    width: 100%;
     margin: 0 auto;
-    width: 290px;
     margin-top: 72px;
+  }
+
+  .hero-block__content-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-block__title-wrapper {
+    width: 290px;
+    margin: 0 auto;
   }
 
   .gym__description {
@@ -7187,7 +7300,7 @@ body main {
   }
 
   .trainers__container {
-    width: 70%;
+    width: 74%;
     margin: 0 auto;
     position: relative;
   }
@@ -7205,12 +7318,15 @@ body main {
     width: 90%;
   }
 
-  .footer__nav-list {
+  .footer__nav {
     width: 100%;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer__nav-list:not(:first-child) {
+    margin-right: 60px;
   }
 
   .stock__container {
@@ -7299,35 +7415,20 @@ body main {
   }
 }
 
+@media screen and (min-width: 948px) and (max-width: 1199px) {
+  .stock__item--month .stock__item-description {
+    margin-bottom: 72px;
+  }
+}
+
 @media screen and (min-width: 400px) and (max-width: 767px) {
   .faq__tabs-item-description {
     padding-right: 10%;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
-  .form-contacts__contacts::before {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 466px) and (max-width: 767px) {
-  .form-contacts__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  .form-contacts__item {
-    margin-right: 20px;
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .form-contacts__form-item {
+    width: 65%;
   }
 }
