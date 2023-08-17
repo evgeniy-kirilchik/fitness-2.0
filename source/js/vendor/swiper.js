@@ -13,6 +13,13 @@ const swiper = new Swiper('.trainers__slider-container', {
       initialSlide:2,
     },
 
+    630: {
+      slidesPerView: 2,
+      width:482,
+      spaceBetween: 30,
+      initialSlide:2,
+    },
+
     768: {
       slidesPerView: 2,
       width:566,
@@ -20,7 +27,14 @@ const swiper = new Swiper('.trainers__slider-container', {
       initialSlide:2,
     },
 
-    1200: {
+    1109: {
+      slidesPerView: 3,
+      width:864,
+      spaceBetween: 30,
+      initialSlide:2,
+    },
+
+    1319: {
       slidesPerView: 4,
       width:1160,
       spaceBetween: 40,
