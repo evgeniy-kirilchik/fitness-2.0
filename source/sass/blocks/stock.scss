@@ -211,9 +211,38 @@
   }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .stock__container {
+    width: 85%;
+  }
+
+  .stock__year {
+    margin-right: 40px;
+    width: 49%;
+  }
+
+  .stock__adaptive-list {
+    width: 49%;
+  }
+
+  .stock__item--month {
+    width: 83%;
+  }
+
+  .stock__item--discount {
+    width: 89.7%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1318px) {
+  .stock__year-content-description {
+    margin-bottom: 163px;
+  }
+}
+
 @media screen and (min-width: $vp-768) and (max-width: 1199px) {
   .stock__title {
-    font-size: 42px;
+    font-size: 43px;
     line-height: 50px;
     font-family: $alumni-sans-font;
     font-weight: 600;

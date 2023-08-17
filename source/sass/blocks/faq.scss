@@ -176,12 +176,17 @@
   }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1365px) {
+  .faq__container {
+    width: 85%;
+  }
+}
 
 @media screen and (min-width: $vp-768) and (max-width: 1199px) {
   .faq__container-title {
     margin: 0;
     font-size: 45px;
-    margin-bottom: 53px;
+    margin-bottom: 55px;
     font-family: $alumni-sans-font;
     font-weight: 600;
     text-align: center;
@@ -341,7 +346,7 @@
     font-weight: 600;
     text-align: center;
     margin: 0;
-    margin-bottom: 36px;
+    margin-bottom: 35px;
   }
 
   .faq__tabs-item-title {
@@ -356,7 +361,7 @@
   .faq {
     background-color: #f8f9fc;
     margin-bottom: 74px;
-    padding-top: 77px;
+    padding-top: 78px;
   }
 
   .faq__tabs-item-toggle-minus {
